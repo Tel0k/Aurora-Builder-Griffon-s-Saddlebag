@@ -9,8 +9,8 @@
 	</info>
 	<files>	
    		<!-- Book 1 -->
-		<file name="Griffon-s-Saddlebag-Book-1.index" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Book-1/Griffon-s-Saddlebag-Book-1.index" />
+		<file name="Griffon-s-Saddlebag-Book-1.index" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag-Book-1.index" />
 		<!-- Book 2 -->
-		<file name="Griffon-s-Saddlebag-Book-2.index" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Book-1/Griffon-s-Saddlebag-Book-2.index" />
+		<file name="Griffon-s-Saddlebag-Book-2.index" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag-Book-2.index" />
 	</files>
 </index>
