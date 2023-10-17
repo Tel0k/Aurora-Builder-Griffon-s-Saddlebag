@@ -157,7 +157,7 @@
 	</element>
 	<element name="Avian Circlet" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_AVIAN_CIRCLET" >
 		<description>
-			<p>This ornate silver tiara grants you power over certain flying creatures. You can use an action to cast animal messenger or speak with animals at will using the circlet. Any creature af￾fected by these spells must be a beast and have a flying speed.</p>
+			<p>This ornate silver tiara grants you power over certain flying creatures. You can use an action to cast animal messenger or speak with animals at will using the circlet. Any creature affected by these spells must be a beast and have a flying speed.</p>
 			<p class="indent">In addition, you can touch a willing beast with a flying speed. For 1 minute, you can see through the creature’s eyes, sharing any of its special visual senses for the duration. You are blinded to your own surroundings while you share its vision in this way. You can end this effect early using an action to return to your normal senses. Once this property has been used, it can’t be used again until this next dawn.</p>
 		</description>	
 		<setters>
