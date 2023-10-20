@@ -1,1 +1,352 @@
-
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<info>
+		<name>Book 1: Magic Items B</name>
+		<description>The second published work</description>                             
+		<update version="0.0.1">
+			<file name="book-1-items-b.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Book-1/book-1-items-b.xml" />
+		</update>
+	</info>
+	<element name="Bag of Sundrops" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_BAG_OF_SUNDROPS" >
+		<description>
+			<p>This small, colorful bag is filled with 1d6 + 4 golden, marble-like orbs called sundrops that glow softly when held. As an action, you can throw a sundrop at a point or object you can see within 30 feet. When you do, the orb explodes into a dazzling pillar of light that lasts until the start of your next turn. The pillar is a 5-foot-radius, 40-foot-high cylinder of bright light centered on the point where the sundrop shattered. The light is sunlight.</p>
+			<p class="indent">A <i>dispel magic</i> spell targeting the light ends the effect early.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="5">5 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+	<element name="Band of Mirrored Essence" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_" >
+		<description>
+			<p></p>
+			<p class="indent"></p>
+			<p class="indent"></p>
+			<p class="indent"></p>
+		</description>
+		<setters>
+			<set ></set>
+		</setters>
+	</element>
+	<element name="Bands of the Found and Lost" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_" >
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set ></set>
+		</setters>
+	</element>
+	<element name="Bard-in-a-Box" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_" >
+		<description>
+			<p></p>
+			<p class="indent"></p>
+			<p class="indent"></p>
+		</description>
+		<setters>
+			<set ></set>
+		</setters>
+	</element>
+	<element name="Barge Helm" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_" >
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set ></set>
+		</setters>
+	</element>
+	<element name="Barricade Shield" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_" >
+		<description>
+			<p></p>
+			<p class="indent"></p>
+			<p class="indent"></p>
+		</description>
+		<setters>
+			<set ></set>
+		</setters>
+	</element>
+	<element name="Basco’s Handy Bangle" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_" >
+		<description>
+			<p></p>
+			<p class="indent"></p>
+		</description>
+		<setters>
+			<set ></set>
+		</setters>
+	</element>
+	<element name="Basilisk Dagger" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_" >
+		<description>
+			<p></p>
+			<p class="indent"></p>
+		</description>
+		<setters>
+			<set ></set>
+		</setters>
+	</element>
+	<element name="Bath Potion" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_" >
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set ></set>
+		</setters>
+	</element>
+	<element name="Baton of Many Sizes" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_" >
+		<description>
+			<p></p>
+			<p class="indent"></p>
+		</description>
+		<setters>
+			<set ></set>
+		</setters>
+	</element>
+	<element name="Battle Tax" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_" >
+		<description>
+			<p></p>
+			<p class="indent"></p>
+		</description>
+		<setters>
+			<set ></set>
+		</setters>
+	</element>
+	<element name="Battlebrew Maul" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_" >
+		<description>
+			<p></p>
+			<p class="indent"></p>
+			<p class="indent"></p>
+		</description>
+		<setters>
+			<set ></set>
+		</setters>
+	</element>
+	<element name="Battlechef Buckler" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_" >
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set ></set>
+		</setters>
+	</element>
+	<element name="Battlechef’s Splendid
+Saucepan" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_" >
+		<description>
+			<p></p>
+			<p class="indent"></p>
+			<p class="indent"></p>
+		</description>
+		<setters>
+			<set ></set>
+		</setters>
+	</element>
+	<element name="Battlement Bow" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_" >
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set ></set>
+		</setters>
+	</element>
+	<element name="Belt of the Raid Leader" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_" >
+		<description>
+			<p></p>
+			<p class="indent"></p>
+		</description>
+		<setters>
+			<set ></set>
+		</setters>
+	</element>
+	<element name="Bird of a Feather" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_" >
+		<description>
+			<p></p>
+			<p class="indent"></p>
+			<p class="indent"></p>
+		</description>
+		<setters>
+			<set ></set>
+		</setters>
+	</element>
+	<element name="Blizzard Sphere" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_" >
+		<description>
+			<p></p>
+			<p class="indent"></p>
+		</description>
+		<setters>
+			<set ></set>
+		</setters>
+	</element>
+	<element name="Blood Pact Pendants" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_" >
+		<description>
+			<p></p>
+			<p class="indent"></p>
+		</description>
+		<setters>
+			<set ></set>
+		</setters>
+	</element>
+	<element name="Bloodmage Dagger" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_" >
+		<description>
+			<p></p>
+			<p class="indent"></p>
+			<p class="indent"></p>
+		</description>
+		<setters>
+			<set ></set>
+		</setters>
+	</element>
+	<element name="Bloodscryer Oculus" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_" >
+		<description>
+			<p></p>
+			<p class="indent"></p>
+		</description>
+		<setters>
+			<set ></set>
+		</setters>
+	</element>
+	<element name="Bolt" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_" >
+		<description>
+			<p></p>
+			<p class="indent"></p>
+		</description>
+		<setters>
+			<set ></set>
+		</setters>
+	</element>
+	<element name="Boots of Dendallen" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_" >
+		<description>
+			<p></p>
+			<p class="indent"></p>
+			<p class="indent"></p>
+			<p class="indent"></p>
+		</description>
+		<setters>
+			<set ></set>
+		</setters>
+	</element>
+	<element name="Boots of the Cloud Jumper" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_" >
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set ></set>
+		</setters>
+	</element>
+	<element name="Borboss’ Joyous Wand of Color" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_" >
+		<description>
+			<p></p>
+			<p class="indent"></p>
+		</description>
+		<setters>
+			<set ></set>
+		</setters>
+	</element>
+	<element name="Boreal Pendant" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_" >
+		<description>
+			<p></p>
+			<p class="indent"></p>
+		</description>
+		<setters>
+			<set ></set>
+		</setters>
+	</element>
+	<element name="Bottled Abyss" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_" >
+		<description>
+			<p></p>
+			<p class="indent"></p>
+		</description>
+		<setters>
+			<set ></set>
+		</setters>
+	</element>
+	<element name="Bounty Hunter Enforcer" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_" >
+		<description>
+			<p></p>
+			<p class="indent"></p>
+			<p class="indent"></p>
+		</description>
+		<setters>
+			<set ></set>
+		</setters>
+	</element>
+	<element name="Bow of Mind Thievery" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_" >
+		<description>
+			<p></p>
+			<p class="indent"></p>
+		</description>
+		<setters>
+			<set ></set>
+		</setters>
+	</element>
+	<element name="Braided Quarterstaf" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_" >
+		<description>
+			<p></p>
+			<p class="indent"></p>
+		</description>
+		<setters>
+			<set ></set>
+		</setters>
+	</element>
+	<element name="Brambleheart Quiver" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_" >
+		<description>
+			<p>This wooden quiver can carry your arrows as well as provide some of its own. The quiver has 4 grown arrows and regrows 1d3 + 1 picked arrows daily at dawn. The grown arrows are thorned and remain attached to the quiver until picked for use (no action required). While you’re attuned to the quiver, you gain a +2 bonus to attack and damage rolls made with these magic arrows. A grown arrow is no longer magical after 1 minute has passed since it was first picked from the quiver.</p>
+			<p class="indent">When you fire and hit a target or point with one of these magic arrows, you can use a bonus action on that same turn to speak the quiver’s command word. When you do, that arrow transforms into a thick field of thorns to recreate the effects of the spike growth spell, centered on its location. This effect does not require concentration and lasts until the start of your next turn. If the arrow was lodged in a target when you use this property, that target also takes 2d4 piercing damage.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a ranger">true</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+		<rules>
+			<stat name="ac:armored:enhancement" value="1" bonus="enhancement" />
+		</rules>
+	</element>
+	<element name="Breastplate of the Morning Light" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_" >
+		<description>
+			<p>You have a +1 bonus to your AC. You can use an action on your turn to channel the armor’s magic to cause it emit a flash of blinding, radiant light. When you do, all other creatures within 30 feet of you are forced to make a DC 15 Constitution saving throw. On a failure, a creature is blinded until the end of its next turn. Undead creatures have disadvantage on the saving throw and take 2d8 radiant damage on a failure, or half as much on a success. Once this property of the armor has been used, it can’t be used again until the following dawn.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Armor</set>
+			<set name="type" addition="breastplate">Armor</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="attunement" addition="by a cleric or paladin">true</set>
+			<set name="armor">Breastplate</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<stat name="ac:armored:enhancement" value="1" bonus="enhancement" />
+		</rules>
+	</element>
+	<element name="Brooch of Many Sizes" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_" >
+		<description>
+			<p>This metal brooch features a rotatable dial and can be used to secure a cape or adorn a piece of clothing. While wearing the brooch, you can use an action to cast the <i>enlarge/reduce</i> spell, targeting only yourself, by turning the dial toward either the larger or smaller figure adorning the sides of the brooch. Once this property of the brooch has been used, it can’t be used again until the following dawn.</p>
+			<p class="indent">While under the effects of this spell, you can use a bonus action to overload the brooch by forcibly twisting the dial beyond its normal limits. When you do, your size changes by an additional category: growing either a second size larger if you had cast the enlarge spell or a second size smaller if you had cast the reduce spell. Your size can’t be larger than Huge or smaller than Tiny by overloading the brooch, and your damage and weight are increased or decreased as if you were affected by a second instance of the <i>enlarge/reduce</i> spell.</p>
+			<p class="indent">When you return to your original size after overloading the brooch, you can’t move or take actions until after your next turn. Once the brooch has been overloaded, it can’t be used again until 7 days have passed.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">neck</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+	<element name="Bug Smashers" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_BUG_SMASHERS" >
+		<description>
+			<p>This grotesque pair of gloves are made using the barbed exo-skeleton and harvested remains of a giant centipede. When you roll a 20 on an unarmed attack roll using these knuckles, the target takes an extra 2d6 poison damage and must succeed on a DC 13 Constitution saving throw or be poisoned until the start of your next turn. Unarmed attacks with these gloves deal either bludgeoning or piercing damage (your choice).</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">hands</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+</elements>
+	
