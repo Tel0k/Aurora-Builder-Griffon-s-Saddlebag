@@ -129,8 +129,7 @@
 			<set ></set>
 		</setters>
 	</element>
-	<element name="Battlechef’s Splendid
-Saucepan" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_" >
+	<element name="Battlechef’s Splendid Saucepan" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_" >
 		<description>
 			<p></p>
 			<p class="indent"></p>
