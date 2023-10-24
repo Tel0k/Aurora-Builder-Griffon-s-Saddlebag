@@ -8,8 +8,8 @@
 		</update>
 	</info>
 	<files>
-		<!-- Book 2 
-		<file name="source.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Book-2/source.xml" />
+		<!-- Book 2 -->
+		<file name="source.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Book-2/source.xml" /> <!--
 		<file name="book-2-items-a.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Book-2/book-2-items-a.xml" />
 		<file name="book-2-items-b.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Book-2/book-2-items-b.xml" />
 		<file name="book-2-items-c.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Book-2/book-2-items-c.xml" />
