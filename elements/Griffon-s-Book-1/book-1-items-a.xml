@@ -3,7 +3,7 @@
 	<info>
 		<name>Book 1: Magic Items A</name>
 		<description>The second published work</description>                             
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="book-1-items-a.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Book-1/book-1-items-a.xml" />
 		</update>
 	</info>
@@ -109,18 +109,100 @@
 		</setters>
 	</element>
 	<!-- needs 6 variants -->
-	<element name="Astral Bracelet" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_ASTRAL_BRACELET" >
+	<element name="Astral Bracelet of Energy" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_ASTRAL_BRACELET_OF_ENERGY" >
 		<description>
-			<p>This golden badge is usually given to wizards who either excel at or who have mastered abjuration magic as a symbol of their accomplishments. While wearing this badge, you always have the shield spell prepared if you know it, and it doesn’t count against the number of spells you can have prepared. In addition, whenever you cast the shield spell, you can take another reaction before the start of your next turn. This second reaction can’t be used to cast the shield spell again.</p>
+			<p>An astral bracelet is a powerful magical bangle that allows its wearer to see, commune, or otherwise manifest things using powers beyond the Material Plane. The metal and glyphs of each bracelet are related to the kind of power that it holds. You can pull the bracelet off and hold it in the palm of your hand as an action. When you do, the bracelet unfurls to reveal the four inner rings collapsed within it, transforming the bracelet into an astronomical sphere. While the bracelet is transformed into the astronomical sphere, its inner rings slowly spin on their own.</p>
+			<p class="indent">The bracelet has 10 charges and regains 2d4 + 2 expended charges daily at dawn. If you expend the sphere’s last charge, its spinning rings magically fold up again into the wearable bracelet. You can fold the rings back into place early using an action.</p>
+			<p class="indent"><b><i>Spells.</i></b> Each kind of astral bracelet has a different list of spells that can be cast from it. If a spell cast in this way normally requires a component worth at least 100 gp, that component is still required when casting the spell. While holding the sphere, you can expend 1 or more of its charges to cast the following spells from it, using your spellcasting ability modifier and spell save DC:</p>
+			<p class="indent"><b><i>Astral Bracelet of Energy Spells.</i></b> <i>dispel magic</i> (3 charges), <i>floating disk</i> (1 charge), <i>globe of invulnerability</i> (6 charges), <i>hallucinatory terrain</i> (4 charges), <i>hypnotic pattern</i> (3 charges), <i>protection from energy</i> (3 charges), or <i>resilient sphere</i> (4 charges).</p>
 		</description>	
 		<setters>
-			<set name="keywords">spellbook, arcane focus, wizard</set>
 			<set name="category">Wondrous Items</set>
 			<set name="cost" currency="gp">0</set>
-			<set name="weight" lb="5">5 lb.</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a sorcerer or wizard">true</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+	</element>
+	<element name="Astral Bracelet of Heaven" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_ASTRAL_BRACELET_OF_HEAVEN" >
+		<description>
+			<p>An astral bracelet is a powerful magical bangle that allows its wearer to see, commune, or otherwise manifest things using powers beyond the Material Plane. The metal and glyphs of each bracelet are related to the kind of power that it holds. You can pull the bracelet off and hold it in the palm of your hand as an action. When you do, the bracelet unfurls to reveal the four inner rings collapsed within it, transforming the bracelet into an astronomical sphere. While the bracelet is transformed into the astronomical sphere, its inner rings slowly spin on their own.</p>
+			<p class="indent">The bracelet has 10 charges and regains 2d4 + 2 expended charges daily at dawn. If you expend the sphere’s last charge, its spinning rings magically fold up again into the wearable bracelet. You can fold the rings back into place early using an action.</p>
+			<p class="indent"><b><i>Spells.</i></b> Each kind of astral bracelet has a different list of spells that can be cast from it. If a spell cast in this way normally requires a component worth at least 100 gp, that component is still required when casting the spell. While holding the sphere, you can expend 1 or more of its charges to cast the following spells from it, using your spellcasting ability modifier and spell save DC:</p>
+			<p class="indent"><b><i>Astral Bracelet of Heavens Spells.</i></b>  <i>detect evil and good</i> (1 charge), <i>dispel evil and good</i> (5 charges), <i>divination</i> (4 charges), <i>magic circle</i> (3 charges), <i>protection from evil and good</i> (1 charge), <i>spirit guardians</i> (3 charges), or <i>warding bond</i> (2 charges). </p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a cleric or paladin">true</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+	</element>
+	<element name="Astral Bracelet of Hells" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_ASTRAL_BRACELET_OF_HELLS" >
+		<description>
+			<p>An astral bracelet is a powerful magical bangle that allows its wearer to see, commune, or otherwise manifest things using powers beyond the Material Plane. The metal and glyphs of each bracelet are related to the kind of power that it holds. You can pull the bracelet off and hold it in the palm of your hand as an action. When you do, the bracelet unfurls to reveal the four inner rings collapsed within it, transforming the bracelet into an astronomical sphere. While the bracelet is transformed into the astronomical sphere, its inner rings slowly spin on their own.</p>
+			<p class="indent">The bracelet has 10 charges and regains 2d4 + 2 expended charges daily at dawn. If you expend the sphere’s last charge, its spinning rings magically fold up again into the wearable bracelet. You can fold the rings back into place early using an action.</p>
+			<p class="indent"><b><i>Spells.</i></b> Each kind of astral bracelet has a different list of spells that can be cast from it. If a spell cast in this way normally requires a component worth at least 100 gp, that component is still required when casting the spell. While holding the sphere, you can expend 1 or more of its charges to cast the following spells from it, using your spellcasting ability modifier and spell save DC:</p>
+			<p class="indent"><b><i>Astral Bracelet of Hells Spells.</i></b> <i>detect evil and good</i> (1 charge), <i>dispel evil and good</i> (5 charges), <i>fire shield</i> (4 charges), <i>flaming sphere</i> (2 charges), <i>hellish rebuke</i> (1 charge), <i>magic circle</i> (3 charges), or <i>protection from evil and good</i> (1 charge). </p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a cleric, warlock, or wizard)">true</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+	</element>
+	<element name="Astral Bracelet of Knowledge" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_ASTRAL_BRACELET_OF_KNOWLEDGE" >
+		<description>
+			<p>An astral bracelet is a powerful magical bangle that allows its wearer to see, commune, or otherwise manifest things using powers beyond the Material Plane. The metal and glyphs of each bracelet are related to the kind of power that it holds. You can pull the bracelet off and hold it in the palm of your hand as an action. When you do, the bracelet unfurls to reveal the four inner rings collapsed within it, transforming the bracelet into an astronomical sphere. While the bracelet is transformed into the astronomical sphere, its inner rings slowly spin on their own.</p>
+			<p class="indent">The bracelet has 10 charges and regains 2d4 + 2 expended charges daily at dawn. If you expend the sphere’s last charge, its spinning rings magically fold up again into the wearable bracelet. You can fold the rings back into place early using an action.</p>
+			<p class="indent"><b><i>Spells.</i></b> Each kind of astral bracelet has a different list of spells that can be cast from it. If a spell cast in this way normally requires a component worth at least 100 gp, that component is still required when casting the spell. While holding the sphere, you can expend 1 or more of its charges to cast the following spells from it, using your spellcasting ability modifier and spell save DC:</p>
+			<p class="indent"><b><i>Astral Bracelet of Knowledge Spells.</i></b> <i>comprehend languages</i> (1 charge), <i>detect magic</i> (1 charge), <i>dispel magic</i> (3 charges), <i>identify</i> (1 charge), <i>legend lore</i> (5 charges), <i>locate creature</i> (4 charges), <i>locate object</i> (2 charges), or <i>sending</i> (3 charges). </p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a bard, cleric, druid, ranger, or wizard">true</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+	</element>
+	<element name="Astral Bracelet of Planebending" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_ASTRAL_BRACELET_OF_PLANEBENDING" >
+		<description>
+			<p>An astral bracelet is a powerful magical bangle that allows its wearer to see, commune, or otherwise manifest things using powers beyond the Material Plane. The metal and glyphs of each bracelet are related to the kind of power that it holds. You can pull the bracelet off and hold it in the palm of your hand as an action. When you do, the bracelet unfurls to reveal the four inner rings collapsed within it, transforming the bracelet into an astronomical sphere. While the bracelet is transformed into the astronomical sphere, its inner rings slowly spin on their own.</p>
+			<p class="indent">The bracelet has 10 charges and regains 2d4 + 2 expended charges daily at dawn. If you expend the sphere’s last charge, its spinning rings magically fold up again into the wearable bracelet. You can fold the rings back into place early using an action.</p>
+			<p class="indent"><b><i>Spells.</i></b> Each kind of astral bracelet has a different list of spells that can be cast from it. If a spell cast in this way normally requires a component worth at least 100 gp, that component is still required when casting the spell. While holding the sphere, you can expend 1 or more of its charges to cast the following spells from it, using your spellcasting ability modifier and spell save DC:</p>
+			<p class="indent"><b><i>Astral Bracelet of Planebending Spells.</i></b> <i>banishment</i> (4 charges), <i>dimension door</i> (4 charges), <i>find familiar</i> (1 charge), <i>misty step</i> (2 charges), <i>plane shift</i> (7 charges), <i>rope trick (2 charges), or <i>sending (3 charges). </p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a sorcerer, warlock, or wizard">true</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+	</element>
+	<element name="Astral Bracelet of Omniscience " type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_ASTRAL_BRACELET_OF_OMNISCIENCE" >
+		<description>
+			<p>An astral bracelet is a powerful magical bangle that allows its wearer to see, commune, or otherwise manifest things using powers beyond the Material Plane. The metal and glyphs of each bracelet are related to the kind of power that it holds. You can pull the bracelet off and hold it in the palm of your hand as an action. When you do, the bracelet unfurls to reveal the four inner rings collapsed within it, transforming the bracelet into an astronomical sphere. While the bracelet is transformed into the astronomical sphere, its inner rings slowly spin on their own.</p>
+			<p class="indent">The bracelet has 10 charges and regains 2d4 + 2 expended charges daily at dawn. If you expend the sphere’s last charge, its spinning rings magically fold up again into the wearable bracelet. You can fold the rings back into place early using an action.</p>
+			<p class="indent"><b><i>Spells.</i></b> Each kind of astral bracelet has a different list of spells that can be cast from it. If a spell cast in this way normally requires a component worth at least 100 gp, that component is still required when casting the spell. While holding the sphere, you can expend 1 or more of its charges to cast the following spells from it, using your spellcasting ability modifier and spell save DC:</p>
+			<p class="indent"><b><i>Astral Bracelet of Omniscience Spells.</i></b> <i>arcane eye</i> (4 charges), <i>detect magic</i> (1 charge), <i>detect thoughts</i> (2 charges), <i>scrying</i> (5 charges), <i>see invisibility</i> (2 charges), <i>sending</i> (3 charges), or <i>telepathic bond</i> (5 charges). </p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
 			<set name="type">Wondrous Item</set>
 			<set name="attunement" addition="by a wizard">true</set>
-			<set name="rarity">Uncommon</set>
+			<set name="rarity">Very Rare</set>
 		</setters>
 	</element>
 	<!-- -->
