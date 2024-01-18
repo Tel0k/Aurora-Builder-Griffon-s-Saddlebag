@@ -2,8 +2,8 @@
 <elements>
 	<info>
 		<name>Book 1: Magic Items B</name>
-		<description>The second published work</description>                             
-		<update version="0.0.2">
+		<description>The first published work</description>                             
+		<update version="0.0.3">
 			<file name="book-1-items-b.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Book-1/book-1-items-b.xml" />
 		</update>
 	</info>
