@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<info>
+		<name>Book 1: Magic Items E</name>
+		<description>The first published work</description>                             
+		<update version="0.0.1">
+			<file name="book-1-items-e.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Book-1/book-1-items-e.xml" />
+		</update>
+	</info>
+    <element name="Eaglereign" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_EAGLEREIGN" >
+		<description>
+			<p>This thick glove is ornamented with eagle feathers and fitted with an enchanted silk lining. You can use the glove to cast the <i>find familiar</i> spell as an action instead of its normal casting time. When you do, the familiar takes the form of an eagle. The familiar disappears if you are no longer attuned to the glove. Once this property has been used, it can't be used again until the following dawn.</p>
+			<p class="indent">You can focus on the glove for 1 hour to summon a giant eagle that magically appears in an empty space within 30 feet of you. The giant eagle is considered to be a fey creature and disappears after 12 hours, when it drops to 0 hit points, or if you dismiss it as an action. Once the eagle disappears, it can't be summoned again until 2 days have passed.</p>
+			<p class="indent">The giant eagle is friendly to you and your companions. Roll initiative for the giant eagle, which has its own turns. It obeys any verbal commands that you issue (no action required). If you don't issue any commands, it defends itself from hostile creatures, but otherwise takes no action.</p>
+			<p class="indent">The giant eagle has a carrying capacity of 480 pounds and can fly at up to 8 miles an hour. It must rest 1 hour for every 3 hours it flies, and it can't fly for more than 9 hours.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+    </element>
+    <element name="Ear Cuff of the Vampire Bat" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_EAR_CUFF_OFTHE_VAMPIRE_BAT" >
+		<description>
+			<p>While wearing this ceramic bat ear cuff, you can mentally command the cuff (no action required) to enhance your hearing when you make a Wisdom (Perception) check to listen. When you do, the bat's eyes flash with a red glow as its ceramic fangs bite down on your ear. You take 1d4 + 1 necrotic damage from the bite and immediately gain a bonus to your listening Wisdom (Perception) check equal to the amount of necrotic damage you took in this way. This damage ignores resistance and immunity. You can decide to use this ability after you roll the d20, but before the GM determines the outcome.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+    </element>
+    <element name="Edible Book of Recipes" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_EDIBLE_BOOK_OF_RECIPES" >
+		<description>
+			<p>This tome of cooking recipes is enchanted to turn sheets of fine paper into delectable meals. You can write a simple recipe on 1 of the book's pages over the course of 1 minute. As you do, the paper becomes aromatic, smelling like the cuisine you're writing. You can eat the sheet of paper as an action and find that it has the taste, texture, and smell of the food described on its page. The sheet of paper takes the place of a meal.</p>
+			<p class="indent">If you add a more complex recipe to the book that takes at least 10 minutes to write — potentially using sensory language, descriptions of fine ingredients, or illustrations of the dish — eating the delicious sheet of paper provides enough nourishment to sustain a creature for 1 day. A creature that eats from the book using one of these complex recipes gains and has their hit point maximum increase by 1d10 + their proficiency bonus until they finish a long rest. In addition, if the creature is diseased or poisoned, it can reattempt the saving throw to end it. A creature can only gain the benefits of a complex recipe once every 24 hours.</p>
+			<p class="indent">In addition, you can use this book as a spellcasting focus when casting the <i>create food and water</i> spell, should you know it. When you do, the food and drink you create can be aromatic and flavorful: recreating recipes of your choice from the book.</p>
+			<p class="indent">The book can hold up to 50 pages. A book found as treasure usually has 3d10 + 10 blank pages as well as 1d10 filled pages containing complex recipes.</p>
+			<p class="indent">When all the pages are removed from the book or you attempt to rebind it early, roll a d20. On a 1, the tome bursts into flame and leaves the air in a 60-foot radius smelling like wine and fine cooking. The smell remains for 30 days. After 1 minute, the book's tattered remains transform into a bountiful meal, conjuring a <i>heroes' feast</i> as if cast by the spell. The book is then destroyed. On any roll other than a 1, the book can be rebound using fine paper costing no less than 5 gp per page.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+    </element>
+    <element name="Eldritch Scarf" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_ELDRITCH_SCARF" >
+		<description>
+			<p>This dark scarf moves slowly on its own and is always wrinkled. The scarf hides an extradimensional space within its folds that can only be reached while you wear it. The space holds 60 pounds of material, not exceeding a volume of 6 cubic feet. The scarf always weighs 1 pound, regardless of its contents. When you place an object in this space (no action required), your hand vanishes into the scarf's loose folds.</p>
+			<p class="indent">You can't retrieve items placed within the scarf with your hands. Instead, you can use a bonus action to mentally control the scarf, causing its frayed, hand-like ends to reach within the space and retrieve a stored item. The hands can carry up to 10 pounds and drop any object weighing more than that on the ground at your feet.</p>
+			<p class="indent">Ironing or otherwise flattening the scarf causes the items stored inside to be squeezed out, spilling forth unharmed from the ends of the scarf. If the scarf is destroyed, its contents are lost forever. A living creature can't be placed inside the scarf.</p>
+			<p class="indent">In addition, while wearing the scarf, you can use an action to mentally control it, using the scarf's frayed hands instead of your own to manipulate a simple object, such as open an unlocked door, stow or retrieve an item from an open container, or pour the contents out of a vial within 5 feet of you. The hands can't attack or activate magic items.</p>
+			<p class="indent">Placing the scarf inside an extradimensional space created by a <i>bag of holding</i>, <i>portable hole</i>, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate is sucked through it and deposited in a random location on the Astral Plane. The gate then closes. The gate is one-way only and can't be reopened.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="rarity">Rare</set>
+		</setters>
+    </element>
+    <element name="Enchantment Breaker" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_ENCHANTMENT_BREAKER" >
+		<description>
+			<p>This ring's tiny chains rotate slowly around your finger while worn. Whenever you are affected by a spell that restores hit points such as <i>cure wounds</i> or <i>healing word</i>, you can use your reaction to reattempt the saving throw against an enchantment spell that's currently affecting you.</p>
+			<p class="indent"><b><i>Shatter Enchantment.</i></b> When you're targeted by an enemy enchantment spell or fail a saving throw against one, you can use your reaction to weaken the enchantment's grip on you and other allies within 10 feet of you: allowing you and nearby allies to roll the enchantment's saving throw with advantage. Once you use this feature, it can't be used again until 1d4 days have passed.</p>
+		</description>	
+		<setters>
+			<set name="category">Rings</set>
+			<set name="slot">ring</set>
+			<set name="type">Ring</set>
+			<set name="rarity">Rare</set>
+		</setters>
+    </element>
+    <element name="Essence of Rage" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_ESSENCE_OF_RAGE" >
+		<description>
+			<p>This swirling potion tastes like iron and bitter raisins. When you drink this potion, you enter a rage that lasts for 1 minute or until you're knocked unconscious. This rage grants you the same effects as the barbarian's class feature at 1st level with the following additional properties:</p>
+			<ul>
+				<li>If you end your turn without having attacked a hostile creature or taken damage since your last turn, your rage does not end, but you take 1d4 psychic damage instead.</li>
+				<li>You can enter this rage even if you're wearing heavy armor.</li>
+			</ul>
+			<p class="indent">In addition, when you use your action to drink this potion, you can make one weapon attack as a bonus action.</p>
+		</description>	
+		<setters>
+			<set name="category">Potions</set>
+			<set name="weight" lb="0.5">½ lb.</set>
+			<set name="type">Potion</set>
+			<set name="rarity">Rare</set>
+			<set name="stackable">true</set>
+		</setters>
+    </element>
+    <element name="Ether Spear" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_ETHER_SPEAR" >
+		<description>
+			<p>This spear can slip through the Ethereal Plane to reach its destination. You gain a +2 bonus to attack and damage rolls made with this magic weapon, which deals force damage instead of piercing. When you take the Attack action with the spear, you can choose a point you can see within 20 feet of you. The tip of the spear vanishes and reappears at that point, allowing you to make melee attacks with the spear against a creature in or adjacent to that space until the end of your turn. You ignore half cover with these attacks and treat three-quarters cover as if it were half cover.</p>
+			<p class="indent">You can use a bonus action to see 60 feet into the Ethereal Plane for 1 minute. Once this property of the spear has been used, it can't be used again until the following dawn.</p>
+		</description>	
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="spear">Weapon</set>
+			<set name="weapon">Spear</set>
+			<set name="enhancement">2</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+    </element>
+    <element name="Everice Box" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_EVERICE_BOX" >
+		<description>
+			<p>This large wooden box weighs 25 pounds and is 3 feet long and both 2 feet deep and tall. It has rugged ropes on its left and right sides as well as on the top of its lid. The left and right sides of the box are covered by enchanted slabs of stone that magically keep the contents on the inside of the box at a consistent 40 degrees Fahrenheit. The box can hold up to 10 gallons of liquid, 24 rations, or a Small or smaller creature. A creature can use its action to make a DC 10 Strength check, freeing itself or another creature within its reach from the box on a success.</p>
+			<p class="indent">While the box's lid is closed and its latch is shut, you can use an action to speak the box's command word to shrink it and its contents down to a more portable size. The weight of the box and its contents is halved while it's reduced in this way and measures a mere 1 foot long by 8 inches deep and tall. You can speak the box's command word again to return it to its normal size. Opening the latch, whether by choice or by force from the inside, immediately returns the box and its contents to its full size and weight. A living creature can't be reduced in size in this way and forces the lid and latch to open if the box becomes too small for it.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="weight" lb="25">25 lb.</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+    </element>
+    <element name="Everlasting Sugarbomb" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_EVERLASTING_SUGARBOMB" >
+		<description>
+			<p>This large sugarbomb is roughly two inches in diameter. Its flavors are a mix of bitter, salty, savory, spicy, sour, and sweet, but also refreshes you as it's slowly eaten. The sugarbomb is solid and slowly dissolves in your mouth, changing in flavor each time you reach a new layer. An everlasting sugarbomb provides enough nourishment to sustain a creature for 1 day after 1 minute of letting it dissolve in your mouth. The sugarbomb fully dissolves after 30 uses. You can bite through to the center of the everlasting sugarbomb following a successful DC 25 Strength or Constitution check (your choice). If you succeed, make a DC 16 Constitution saving throw. On a failure, you're poisoned for 1 minute and suffer from painful nausea.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Common</set>
+		</setters>
+    </element>
+    <element name="Eye of Dendallen" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_EYE_OF_DENDALLEN" >
+		<description>
+			<p>While you're attuned to this item, you can cast the <i>see invisibility</i> spell at will.</p>
+			<p class="indent"><b><i>Curse.</i></b> When you attune to the <i>eye of Dendallen</i>, you're suddenly overcome with the urge to see what it sees. Make a DC 20 Wisdom saving throw. On a success, you resist the curse and are aware of its effects but are no longer attuned to the item. On a failure, you forcefully tear out one of your own eyes, taking 4d10 necrotic damage, and allow the <i>eye of Dendallen</i> to crawl into its now vacant socket. If you're already missing an eye, you simply let the eye crawl into the socket without taking the necrotic damage.</p>
+			<p class="indent">You can see normally through the <i>eye of Dendallen</i> while it's in your socket. In addition, you have darkvision out to a range of 60 feet. If you already had darkvision, the eye increases its range by 30 feet. As a bonus action, you can concentrate on looking through the eye to peer through magical darkness in this way for 1 minute. Once this property of the eye has been used, it can't be used again until the following dusk. </p>
+			<p class="indent"><b><i>Dendallen familiar.</i></b> The eye also doubles as a gruesome familiar. As an action, you can command the eye to crawl out of your eye socket and move independently of you. Use the abilities described in the <i>find familiar</i> spell when commanding the <i>eye of Dendallen</i>. The eye is undead, has 5 hit points, an AC of 12, a walking and climbing speed of 20 feet, does not require air to breathe, has darkvision out to a range of 60 feet, and has a +6 bonus to Dexterity (Stealth) checks. If the eye is slain or you dismiss it, it reappears inside your open eye socket with a sickly sound. The eyeball appears pitch black if it's slain and loses this feature as well as its benefits to your vision until the following dusk.</p>
+			<p class="indent">In addition, you can cast the <i>dream</i> spell (save DC 16) using the mantle, using yourself as the messenger within the dream. Once this property of the mantle has been used, it can't be used again until 7 days have passed.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<select type="Companion" name="Dendallen familiar" supports="ID_TGSB_B1_COMPANION_DENDALLEN_FAMILIAR" />
+			<grant type="Vision" id="ID_VISION_LESSER_DARKVISION" />
+			<stat name="darkvision:range" value="30" bonus="base" />
+			<stat name="darkvision:range" value="30" bonus="dendallen eye" />
+		</rules>
+    </element>
+    <!-- -->
+    <element name="Dendallen familiar" type="Companion" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_COMPANION_DENDALLEN_FAMILIAR">
+		<requirements>ID_TGSB_B1_MAGIC_ITEM_EYE_OF_DENDALLEN</requirements>
+		<description>
+			<p>The eye also doubles as a gruesome familiar. As an action, you can command the eye to crawl out of your eye socket and move independently of you. Use the abilities described in the <i>find familiar</i> spell when commanding the <i>eye of Dendallen</i>.</p>
+        </description>
+		<setters>
+			<set name="strength">2</set>
+			<set name="dexterity">14</set>
+			<set name="constitution">8</set>
+			<set name="intelligence">1</set>
+			<set name="wisdom">10</set>
+			<set name="charisma">2</set>
+			<set name="ac">12</set>
+			<set name="hp">5</set>
+			<set name="speed">20ft., climb 20ft.</set>
+			<set name="languages">—</set>
+			<set name="senses">darkvision 60ft.</set>
+			<set name="type">Undead</set>
+			<set name="size">Tiny</set>
+			<set name="alignment">unaligned</set>
+			<set name="challenge">0</set>
+			<set name="proficiency">2</set>
+		</setters>
+		<rules>
+			<stat name="companion:ac" value="12" />
+			<stat name="companion:hp:max" value="5" bonus="base" />
+			<stat name="companion:speed" value="20" bonus="base" />
+			<stat name="companion:speed:climb" value="20" bonus="base" />
+		</rules>
+	</element>
+    <!-- -->
+    <element name="Eye of the Bookwurm" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_EYE_OFTHE_BOOKWURM" >
+		<description>
+			<p>This small, glass sphere is enchanted with weak divination magics to help you find specific words or phrases in writing. It has a stylized iris etched into the glass.</p>
+			<p class="indent">You can use a bonus action to speak the eye's command word aloud, followed by the word or phrase you're searching for. The word or phrase magically appears and floats within the sphere. By holding the eye in a free hand, your vision becomes magically enhanced to subconsciously highlight the word or phrase you searched for in a green light wherever you see it. Once you've used the eye's ability for the first time, you can change the word or phrase as many times as you like for the next hour, after which the item can't be used again until the following dawn.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommonommon</set>
+		</setters>
+    </element>
+
+
+</elements>

@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<info>
+		<name>Book 1: Magic Items A</name>
+		<description>The first published work</description>                             
+		<update version="0.0.4">
+			<file name="book-1-items-a.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Book-1/book-1-items-a.xml" />
+		</update>
+	</info>
+	<element name="Abjurer's Gilder" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_ABJURERS_GILDER" >
+		<description>
+			<p>This golden badge is usually given to wizards who either excel at or who have mastered abjuration magic as a symbol of their accomplishments. While wearing this badge, you always have the shield spell prepared if you know it, and it doesn't count against the number of spells you can have prepared. In addition, whenever you cast the shield spell, you can take another reaction before the start of your next turn. This second reaction can't be used to cast the shield spell again.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a wizard">true</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+	<element name="Acidlight Arrow" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_ACIDLIGHT_ARROW" >
+		<description>
+			<p>This ammunition is covered in an alchemical concoction that ignites upon impact, casting bright light in the space of the target it hits and dim light in a 5-foot radius for 1 minute. A creature struck by the ammunition takes 1d4 acid damage at the start of each of its turns and has disadvantage on any Dexterity (Stealth) checks it makes while the ammunition remains lit. The ammunition remains lodged in a target it hits until a creature uses an action to remove and snuff out the ammunition. If the target is invisible, it's revealed while the ammunition is lodged within it. The ammunition is destroyed by the lit solution, preventing it from being recovered once fired.</p>
+		</description>	
+		<setters>
+			<set name="keywords">arrow, bolt</set>
+			<set name="category">Ammunition</set>
+			<set name="type" addition="arrow or bolt">Weapon</set>
+			<set name="rarity">Rare</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Aegis of Radiance" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_AEGIS_OF_RADIANCE" >
+		<description>
+			<p>This shield emits a faint, holy glow when wielded and recognizes your devotion to a higher power. When you attune to this shield, the emblem adorning its face changes to one that represents your chosen deity, allowing you to use the shield as a holy symbol. You gain a +1 bonus to your AC while wielding this shield in addition to the shield's normal bonus to AC.</p>
+			<p class="indent">While wielding the shield, you can speak its command word as a bonus action to cause it to shatter into countless fragments of pure light. The pieces of light protect you as if you were wielding the shield, leaving your hands free. The light surrounds you for 1 minute, until you dismiss the effect as a bonus action, or until you fall unconscious or die, at which point the shield rematerializes on the ground at your feet or into your hand if you have one free. If your holy symbol is emblazoned or attached to the shield, it floats prominently amidst the shards of light and continues to function as a spellcasting focus. Undead creatures have disadvantage on attack rolls made against you while you're surrounded by the light in this way. The surrounding shards of light cast bright light in a 20 foot radius and dim light for another 20 feet. Once this property has been used, it can't be used again until the following dawn.</p>
+		</description>	
+		<setters>
+			<set name="keywords">holy symbol, cleric</set>
+			<set name="category">Magic Armor</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="shield">Armor</set>
+			<set name="attunement" addition="by a cleric">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+	<element name="Amulet of Equilibrium" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_AMULET_OF_EQUILIBRIUM" >
+		<description>
+			<p>This spiraling pendant is made of three magic-sensitive panes of colorful crystal. Each piece of crystal is attuned to a different arcane element. If you can cast spells, you can use the amulet as a spellcasting focus while you're attuned to it.</p>
+			<p class="indent">The amulet has 4 charges and regains 2 expended charges daily at dawn. When you deal cold, fire, or lightning damage to a single creature while wearing the amulet, you can expend any number of its charges to reroll that many of the cold, fire, or lightning damage dice. You must use the new rolls.</p>
+			<p class="indent">Whenever you take cold, fire, or lightning damage from a hostile creature, the amulet regains 1 charge.</p>
+		</description>	
+		<setters>
+			<set name="keywords">necklace</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="slot">neck</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+	<element name="Arcane Mirror" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_ARCANE_MIRROR" >
+		<description>
+			<p>This mirror-like shield is enchanted with abjuration magic that can reflect spells back at their source. While holding the shield, you can use it as a reaction when hit by an attack to cast the shield spell from it. Once this property has been used, it can't be used again until you finish a short or long rest.</p>
+			<p class="indent">The shield has 10 charges and regains 1d6 + 4 expended charges each day at dawn. When you succeed on a saving throw to resist the effects of a spell that targets only you or are missed by a spell attack, you can use your reaction to learn the level of the spell. As part of your reaction, you can expend a number of the shield's charges equal to the level of the spell (up to 6th level) to reflect that spell back at its source. You can't reflect a spell of 7th level or higher. When you reflect a spell in this way, the caster of the spell must make a DC 16 Dexterity saving throw. On a failed save, the target takes 1d8 radiant damage for each expended charge as a bolt of reflected arcane energy hits them. On a successful save, the damage is halved. If you reflect a spell in this way that would cause you to take half damage on a successful save, you take no damage instead.</p>
+		</description>	
+		<setters>
+			<set name="keywords">shield</set>
+			<set name="category">Magic Armor</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="shield">Armor</set>
+			<set name="attunement" >true</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+	</element>
+	<element name="Arcanist's Bowstaf" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_ARCANISTS_BOWSTAFF" >
+		<description>
+			<p>When you attune to this quarterstaff, it remains solid in your grip but feels pliable within your mind. You can choose to use your Intelligence modifier for the attack and damage rolls made with this weapon instead of Strength. You must use the same modifier for both rolls.</p>
+			<p class="indent">When you make an attack with this magic weapon, you can choose to make the attack at range. When you do, you use your mind to telekinetically curve the quarterstaff into the form of a longbow. The bow is magically strung with an arcane energy that arcs between the rings on either end of the weapon. A glowing, magical arrow is formed whenever the arcing energy is drawn back. The arrow disappears after it hits a target. When you make a ranged attack with the quarterstaff in this way, the weapon is treated as if it were a magical longbow. This longbow can only use the ammunition that it generates and does not have the heavy property. While holding this weapon, you're proficient with this longbow when using it in this way</p>
+			<p class="indent">You gain a +2 bonus to attack and damage rolls made with this magic weapon.</p>
+			<p class="indent">In addition, this quarterstaff has 8 charges and regains 1d6 + 2 expended charges daily at dawn. When you take the Attack action with this weapon, you can expend 1 of its charges to cast the magic missile spell from the quarterstaff as a bonus action, instead of its normal casting time. When you do, the missiles are fired from either the bow or the quarterstaff's embossed faces.</p>
+		</description>	
+		<setters>
+			<set name="keywords">quarterstaff</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="quarterstaff">Weapon</set>
+			<set name="enhancement">2</set>
+			<set name="attunement" addition="by a creature with an Intelligence of 17 or higher">true</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+	</element>
+	<element name="Architect's Disdain" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_ARCHITECTS_DISDAIN" >
+		<description>
+			<p>This adamantine war pick is specially designed to tear down walls. You gain a +2 bonus to attack and damage rolls made with this magic weapon. Whenever the war pick hits an object or structure, the hit is a critical hit. In addition, if you hit a magically created object or structure, such as a wall of ice, with the war pick, you can choose to dispel the wall or object as if by the dispel magic spell (6th-level version). The effect fails if the spell or magical effect that created the object or structure was cast using a 7th-level spell slot or higher. Once the war pick has dispelled a structure in this way, this property can't be used again until the next dawn.</p>
+		</description>	
+		<setters>
+			<set name="keywords">war pick</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="war pick">Weapon</set>
+			<set name="enhancement">2</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+	</element>
+	<!-- needs 6 variants -->
+	<element name="Astral Bracelet of Energy" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_ASTRAL_BRACELET_OF_ENERGY" >
+		<description>
+			<p>An astral bracelet is a powerful magical bangle that allows its wearer to see, commune, or otherwise manifest things using powers beyond the Material Plane. The metal and glyphs of each bracelet are related to the kind of power that it holds. You can pull the bracelet off and hold it in the palm of your hand as an action. When you do, the bracelet unfurls to reveal the four inner rings collapsed within it, transforming the bracelet into an astronomical sphere. While the bracelet is transformed into the astronomical sphere, its inner rings slowly spin on their own.</p>
+			<p class="indent">The bracelet has 10 charges and regains 2d4 + 2 expended charges daily at dawn. If you expend the sphere's last charge, its spinning rings magically fold up again into the wearable bracelet. You can fold the rings back into place early using an action.</p>
+			<p class="indent"><b><i>Spells.</i></b> Each kind of astral bracelet has a different list of spells that can be cast from it. If a spell cast in this way normally requires a component worth at least 100 gp, that component is still required when casting the spell. While holding the sphere, you can expend 1 or more of its charges to cast the following spells from it, using your spellcasting ability modifier and spell save DC:</p>
+			<p class="indent"><b><i>Astral Bracelet of Energy Spells.</i></b> <i>dispel magic</i> (3 charges), <i>floating disk</i> (1 charge), <i>globe of invulnerability</i> (6 charges), <i>hallucinatory terrain</i> (4 charges), <i>hypnotic pattern</i> (3 charges), <i>protection from energy</i> (3 charges), or <i>resilient sphere</i> (4 charges).</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a sorcerer or wizard">true</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+	</element>
+	<element name="Astral Bracelet of Heaven" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_ASTRAL_BRACELET_OF_HEAVEN" >
+		<description>
+			<p>An astral bracelet is a powerful magical bangle that allows its wearer to see, commune, or otherwise manifest things using powers beyond the Material Plane. The metal and glyphs of each bracelet are related to the kind of power that it holds. You can pull the bracelet off and hold it in the palm of your hand as an action. When you do, the bracelet unfurls to reveal the four inner rings collapsed within it, transforming the bracelet into an astronomical sphere. While the bracelet is transformed into the astronomical sphere, its inner rings slowly spin on their own.</p>
+			<p class="indent">The bracelet has 10 charges and regains 2d4 + 2 expended charges daily at dawn. If you expend the sphere's last charge, its spinning rings magically fold up again into the wearable bracelet. You can fold the rings back into place early using an action.</p>
+			<p class="indent"><b><i>Spells.</i></b> Each kind of astral bracelet has a different list of spells that can be cast from it. If a spell cast in this way normally requires a component worth at least 100 gp, that component is still required when casting the spell. While holding the sphere, you can expend 1 or more of its charges to cast the following spells from it, using your spellcasting ability modifier and spell save DC:</p>
+			<p class="indent"><b><i>Astral Bracelet of Heavens Spells.</i></b>  <i>detect evil and good</i> (1 charge), <i>dispel evil and good</i> (5 charges), <i>divination</i> (4 charges), <i>magic circle</i> (3 charges), <i>protection from evil and good</i> (1 charge), <i>spirit guardians</i> (3 charges), or <i>warding bond</i> (2 charges). </p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a cleric or paladin">true</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+	</element>
+	<element name="Astral Bracelet of Hells" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_ASTRAL_BRACELET_OF_HELLS" >
+		<description>
+			<p>An astral bracelet is a powerful magical bangle that allows its wearer to see, commune, or otherwise manifest things using powers beyond the Material Plane. The metal and glyphs of each bracelet are related to the kind of power that it holds. You can pull the bracelet off and hold it in the palm of your hand as an action. When you do, the bracelet unfurls to reveal the four inner rings collapsed within it, transforming the bracelet into an astronomical sphere. While the bracelet is transformed into the astronomical sphere, its inner rings slowly spin on their own.</p>
+			<p class="indent">The bracelet has 10 charges and regains 2d4 + 2 expended charges daily at dawn. If you expend the sphere's last charge, its spinning rings magically fold up again into the wearable bracelet. You can fold the rings back into place early using an action.</p>
+			<p class="indent"><b><i>Spells.</i></b> Each kind of astral bracelet has a different list of spells that can be cast from it. If a spell cast in this way normally requires a component worth at least 100 gp, that component is still required when casting the spell. While holding the sphere, you can expend 1 or more of its charges to cast the following spells from it, using your spellcasting ability modifier and spell save DC:</p>
+			<p class="indent"><b><i>Astral Bracelet of Hells Spells.</i></b> <i>detect evil and good</i> (1 charge), <i>dispel evil and good</i> (5 charges), <i>fire shield</i> (4 charges), <i>flaming sphere</i> (2 charges), <i>hellish rebuke</i> (1 charge), <i>magic circle</i> (3 charges), or <i>protection from evil and good</i> (1 charge). </p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a cleric, warlock, or wizard)">true</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+	</element>
+	<element name="Astral Bracelet of Knowledge" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_ASTRAL_BRACELET_OF_KNOWLEDGE" >
+		<description>
+			<p>An astral bracelet is a powerful magical bangle that allows its wearer to see, commune, or otherwise manifest things using powers beyond the Material Plane. The metal and glyphs of each bracelet are related to the kind of power that it holds. You can pull the bracelet off and hold it in the palm of your hand as an action. When you do, the bracelet unfurls to reveal the four inner rings collapsed within it, transforming the bracelet into an astronomical sphere. While the bracelet is transformed into the astronomical sphere, its inner rings slowly spin on their own.</p>
+			<p class="indent">The bracelet has 10 charges and regains 2d4 + 2 expended charges daily at dawn. If you expend the sphere's last charge, its spinning rings magically fold up again into the wearable bracelet. You can fold the rings back into place early using an action.</p>
+			<p class="indent"><b><i>Spells.</i></b> Each kind of astral bracelet has a different list of spells that can be cast from it. If a spell cast in this way normally requires a component worth at least 100 gp, that component is still required when casting the spell. While holding the sphere, you can expend 1 or more of its charges to cast the following spells from it, using your spellcasting ability modifier and spell save DC:</p>
+			<p class="indent"><b><i>Astral Bracelet of Knowledge Spells.</i></b> <i>comprehend languages</i> (1 charge), <i>detect magic</i> (1 charge), <i>dispel magic</i> (3 charges), <i>identify</i> (1 charge), <i>legend lore</i> (5 charges), <i>locate creature</i> (4 charges), <i>locate object</i> (2 charges), or <i>sending</i> (3 charges). </p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a bard, cleric, druid, ranger, or wizard">true</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+	</element>
+	<element name="Astral Bracelet of Planebending" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_ASTRAL_BRACELET_OF_PLANEBENDING" >
+		<description>
+			<p>An astral bracelet is a powerful magical bangle that allows its wearer to see, commune, or otherwise manifest things using powers beyond the Material Plane. The metal and glyphs of each bracelet are related to the kind of power that it holds. You can pull the bracelet off and hold it in the palm of your hand as an action. When you do, the bracelet unfurls to reveal the four inner rings collapsed within it, transforming the bracelet into an astronomical sphere. While the bracelet is transformed into the astronomical sphere, its inner rings slowly spin on their own.</p>
+			<p class="indent">The bracelet has 10 charges and regains 2d4 + 2 expended charges daily at dawn. If you expend the sphere's last charge, its spinning rings magically fold up again into the wearable bracelet. You can fold the rings back into place early using an action.</p>
+			<p class="indent"><b><i>Spells.</i></b> Each kind of astral bracelet has a different list of spells that can be cast from it. If a spell cast in this way normally requires a component worth at least 100 gp, that component is still required when casting the spell. While holding the sphere, you can expend 1 or more of its charges to cast the following spells from it, using your spellcasting ability modifier and spell save DC:</p>
+			<p class="indent"><b><i>Astral Bracelet of Planebending Spells.</i></b> <i>banishment</i> (4 charges), <i>dimension door</i> (4 charges), <i>find familiar</i> (1 charge), <i>misty step</i> (2 charges), <i>plane shift</i> (7 charges), <i>rope trick</i> (2 charges), or <i>sending</i> (3 charges). </p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a sorcerer, warlock, or wizard">true</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+	</element>
+	<element name="Astral Bracelet of Omniscience " type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_ASTRAL_BRACELET_OF_OMNISCIENCE" >
+		<description>
+			<p>An astral bracelet is a powerful magical bangle that allows its wearer to see, commune, or otherwise manifest things using powers beyond the Material Plane. The metal and glyphs of each bracelet are related to the kind of power that it holds. You can pull the bracelet off and hold it in the palm of your hand as an action. When you do, the bracelet unfurls to reveal the four inner rings collapsed within it, transforming the bracelet into an astronomical sphere. While the bracelet is transformed into the astronomical sphere, its inner rings slowly spin on their own.</p>
+			<p class="indent">The bracelet has 10 charges and regains 2d4 + 2 expended charges daily at dawn. If you expend the sphere's last charge, its spinning rings magically fold up again into the wearable bracelet. You can fold the rings back into place early using an action.</p>
+			<p class="indent"><b><i>Spells.</i></b> Each kind of astral bracelet has a different list of spells that can be cast from it. If a spell cast in this way normally requires a component worth at least 100 gp, that component is still required when casting the spell. While holding the sphere, you can expend 1 or more of its charges to cast the following spells from it, using your spellcasting ability modifier and spell save DC:</p>
+			<p class="indent"><b><i>Astral Bracelet of Omniscience Spells.</i></b> <i>arcane eye</i> (4 charges), <i>detect magic</i> (1 charge), <i>detect thoughts</i> (2 charges), <i>scrying</i> (5 charges), <i>see invisibility</i> (2 charges), <i>sending</i> (3 charges), or <i>telepathic bond</i> (5 charges). </p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a wizard">true</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+	</element>
+	<!-- -->
+	<element name="Astral Sea Piercer" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_ASTRAL_SEA_PIERCER" >
+		<description>
+			<p>This golden war pick was forged in the depths of the Astral Plane and leaves a faint trail of extraplanar energy behind it when swung. You gain a +3 bonus to attack and damage rolls made with this magic weapon, and targets hit by it take an extra 1d4 force damage from the attack. In addition, while you're in the Astral Plane, you always know the direction of the nearest portal to another plane of existence.</p>
+			<p class="indent"><b><i>Portal.</i></b> This weapon has 4 charges and regains 1d3 + 1 expended charges each day at dawn. As a bonus action, you can expend 1 of its charges to slam the war pick into any flat, solid surface at least 5 feet across in any direction. When you do, you create a small planar rift. The rift fades after 1 minute. If you expend another charge in this way while there's a rift within 300 feet of you, the two rifts tear open to form a portal between them. The portal lasts until the end of your next turn or until you close it early (no action required). When the portal closes, the rifts fade. Medium and smaller creatures and objects can travel or interact freely through the portal while it's open, carrying with them any momentum they had through to the other side.</p>
+			<p class="indent">Both rifts must be placed on the same plane of existence, and if you create a second rift more than 300 feet away from the first, the first one fades. Rifts can be entered from any direction to travel through a portal. When you enter a rift in this way, you reappear 5 feet in front of the other rift.</p>
+			<p class="indent">In addition, you can expend 1 of the war pick's charges when you hit a Small or larger creature with it. When you do, that creature takes an extra 1d8 force damage as a rift appears on its body. Rifts that appear on a creature in this way are attached to the creature and move with it until a portal is opened. When a portal opens between two rifts and at least one of the rifts is attached to a creature, the attached creature or creatures must succeed on a DC 17 Charisma saving throw or be immediately shunted through the portal to the other rift's location. Large and larger creatures automatically succeed on this saving throw.</p>
+		</description>	
+		<setters>
+			<set name="keywords">war pick</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="war pick">Weapon</set>
+			<set name="enhancement">3</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Legendary</set>
+		</setters>
+	</element>
+	<element name="Aurum and Argentum" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_AURUM_ARGENTUM" >
+		<description>
+			<p>This gold and silver set of daggers seem ordinary when used on their own, but become magical when used together. You gain a +1 bonus to attack and damage rolls made with these daggers while you hold one of them in each hand. When you engage in two-weapon fighting using these daggers, you can add your ability modifier to the damage of the second attack.</p>
+			<p class="indent">In addition, if you hit the same target with both daggers in the same round, it takes an extra 1d4 piercing damage from the second attack and can't use its reaction until the end of your turn.</p>
+		</description>	
+		<setters>
+			<set name="keywords">dagger</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="dagger">Weapon</set>
+			<set name="enhancement">1</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+	<element name="Avian Circlet" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_AVIAN_CIRCLET" >
+		<description>
+			<p>This ornate silver tiara grants you power over certain flying creatures. You can use an action to cast animal messenger or speak with animals at will using the circlet. Any creature affected by these spells must be a beast and have a flying speed.</p>
+			<p class="indent">In addition, you can touch a willing beast with a flying speed. For 1 minute, you can see through the creature's eyes, sharing any of its special visual senses for the duration. You are blinded to your own surroundings while you share its vision in this way. You can end this effect early using an action to return to your normal senses. Once this property has been used, it can't be used again until this next dawn.</p>
+		</description>	
+		<setters>
+			<set name="keywords">circlet</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+	<element name="Axe Beak Tomahawk" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_AXE_BEAK_TOMAHAWK" >
+		<description>
+			<p>This magic handaxe is made from the remains of a slain axe beak. The first time you hit a creature that has a flying speed on each of your turns with this axe, that creature must make a DC 13 Strength saving throw. Each time that a creature fails this saving throw, that creature's flying speed is reduced by 15 feet for 1 minute.</p>
+		</description>	
+		<setters>
+			<set name="keywords">handaxe</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="handaxe">Weapon</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+</elements>

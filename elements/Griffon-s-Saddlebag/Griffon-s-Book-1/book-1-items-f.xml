@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<info>
+		<name>Book 1: Magic Items E</name>
+		<description>The first published work</description>                             
+		<update version="0.0.1">
+			<file name="book-1-items-e.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Book-1/book-1-items-e.xml" />
+		</update>
+	</info>
+    <element name="Fable's End" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_FABLES_END" >
+		<description>
+			<p>You gain a +1 bonus to attack and damage rolls made with this magic weapon. Whenever you roll a 20 on an attack roll with <i>fable's end</i> against a Large or smaller creature, it must succeed on a DC 15 Charisma saving throw or be banished to its native or other plane of existence. At the end of its next turn, the target reappears in the space it left or in the nearest unoccupied space if that space is occupied. You banish and score a critical hit against fey creatures on a roll of 19 or 20 with this weapon. Fey creatures have disadvantage on the saving throw. When a creature is banished in this way, the weapon's center emits a brilliant magenta flash of light.</p>
+		</description>	
+		<setters>
+			<set name="keywords">mace</set>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="mace">Weapon</set>
+			<set name="enhancement">1</set>
+			<set name="attunement">true</set>
+			<set name="weapon">Mace</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+    </element>
+    <element name="Fanfare Ammunition" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_FANFARE_AMMUNITION" >
+		<description>
+			<p>A favorite among tricksters, this ammunition is intended to distract rather than wound. When you make a ranged attack with this ammunition and hit a target, the attack deals no damage, and the ammunition vanishes and is destroyed on impact. In its place, a noise of your choice erupts from the point of impact, such as the sound of books falling, a dropped coin, or the breaking of glass. You decide the noise and its volume when you fire the ammunition. The sound can be as quiet as a whisper or as loud as a scream. A creature can determine that the sound is an illusion with a successful DC 10 Intelligence (Investigation) check.</p>
+		</description>	
+		<setters>
+			<set name="keywords">arrow</set>
+			<set name="category">Ammunition</set>
+			<set name="type" addition="an arrow or bolt">Weapon</set>
+			<set name="rarity">Common</set>
+		</setters>
+    </element>
+    <element name="Ferryman's Take" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_FERRYMANS_TAKE" >
+		<description>
+			<p>These tarnished copper coins are always found in pairs and bear the portrait of a horned man on one side (heads) and a rowboat on the other (tails).</p>
+			<p class="indent">You can place the coins over the eyes of a dead, unconscious, or willing humanoid creature as an action. When you do, the coins create an effect based on which side is facing up. You can remove one or both of them from the creature's eyes as an action to end their effects early. If the coins aren't facing the same direction, they have no effect on the creature they're placed on.</p>
+			<p class="indent"><b><i>Heads.</i></b> While the coins are heads up over the eyes of an unconscious creature, that creature is stable. If placed over the eyes of a conscious creature, it enters a physical and mental state indistinguishable from death and gains immunity to psychic damage while doing so. The creature remains in that state for 1 hour or until the coins are removed. Once a living creature leaves this state, it can't enter it again in this way for 24 hours.</p>
+			<p class="indent"><b><i>Tails.</i></b> While the coins are tails up over the eyes of a dead creature, that creature is under the effects of the <i>gentle repose</i> spell. Its body can't be detected through magical means, and the soul of the creature can't be contacted.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Rare</set>
+		</setters>
+    </element>
+    <element name="Festerwood Buckler" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_FESTERWOOD_BUCKLER" >
+		<description>
+			<p>This festerwood shield is riddled with amber pustules that glow with a low, yellow light. While holding this magic shield, the pustules emit bright light in a 5-foot radius and dim light for another 5 feet. In addition, while you're holding the shield, you can use your reaction when a creature that you can see within 5 feet of you misses you with an attack to bash that creature with the shield. When you do, that creature must succeed on a DC 13 Dexterity saving throw or take 1d4 + 1 acid damage.</p>
+		</description>	
+		<setters>
+			<set name="keywords">shield</set>
+			<set name="category">Magic Armor</set>
+			<set name="type" addition="shield">Armor</set>
+			<set name="armor">ID_INTERNAL_ARMOR_GROUP_SHIELD</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+    </element>
+    <element name="Festerwood Claymore" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_FESTERWOOD_CLAYMORE" >
+		<description>
+			<p>This heavy, dark wood is incredibly strong and forms part of the symbiotic relationship it shares with destructive beetles that live inside. You gain a +1 bonus to attack and damage rolls made with this magic weapon. When you roll a 20 on an attack roll made with this weapon against a creature, some of the sword's beetles leave the weapon and latch onto the target. The beetles bite and hinder the creature for its next 1d4 turns. While affected by the beetles in this way, the creature takes 1d6 piercing damage at the start of each of its turns and its movement speed is halved. A creature can use an action to swat away and remove the beetles to end the effect early. If the target is a plant creature or magical plant, this property deals the maximum damage to it on each of its turns and lasts for 4 turns unless ended early by a creature.</p>
+		</description>	
+		<setters>
+			<set name="keywords">greatsword</set>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="greatsword">Weapon</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">Greatsword</set>
+			<set name="rarity">Rare</set>
+		</setters>
+    </element>
+    <element name="Festerwood Fungal Stave" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_FESTERWOOD_FUNGAL_STAVE" >
+		<description>
+			<p>This fungal staff has 25 charges and regains 1d10 + 15 expended charges daily at dusk. While holding the staff, you can use an action to expend 1 or more of its charges to cause clusters of noxious mushrooms to magically appear in a number of unoccupied spaces equal to the number of charges you expend. The spaces must be on solid ground within 60 feet of you. Each space becomes difficult terrain for the duration of the effect. When a creature moves into or within a space or area covered by these mushrooms, that creature takes 2d4 poison damage for every 5 feet it travels. The mushrooms live for 1 minute or until you dismiss them as a bonus action.</p>
+			<p class="indent">In addition, while holding the staff, you can use a bonus action to expend 1 or more of its charges to cast one of the following spells from it, regardless of the spell's normal casting time, using your spell save DC: <i>cloudkill</i> (5 charges), <i>fog cloud</i> (1 charge), <i>insect plague</i> (5 charges), or <i>stinking cloud</i> (3 charges). A spell cast in this way ends at the end of your next turn and must target a point adjacent to a space occupied by your mushrooms. When cast from the staff, these spells do not require concentration.</p>
+			<p class="indent">If you expend the last charge from the staff, roll a d20. On a 1, the staff begins to overgrow, destroying the staff and forc￾ing you to drop it in an unoccupied space adjacent to you. A hostile violet fungus grows in its place.</p>
+		</description>	
+		<setters>
+			<set name="category">Staffs</set>
+			<set name="weight" lb="4">4 lb.</set>
+			<set name="type">Staff</set>
+			<set name="attunement" addition="by a cleric, druid, or sorcerer">true</set>
+			<set name="rarity">Very Rare</set>
+			<set name="slot">onehand</set>
+			<set name="weapon">Quarterstaff</set>
+		</setters>
+    </element>
+    <element name="Festerwood Logger" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_FESTERWOOD_LOGGER" >
+		<description>
+			<p>This magic axe is a favorite among lumberjacks. The axe is made entirely of the magically hardened festerwood and sharpened to a menacing edge. The weapon's glimmering yel￾low pustules leech acid with each attack, causing any target hit by it to take an extra 1d4 acid damage. This acid damage is maximized if the target is a plant creature, a nonmagical plant, or an object made of wood.</p>
+		</description>	
+		<setters>
+			<set name="keywords">handaxe</set>
+			<set name="category">Magic Weapons</set>
+			<set name="enhancement">2</set>
+			<set name="type" addition="handaxe">Weapon</set>
+			<set name="weapon">Handaxe</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+    </element>
+    <element name="Festerwood Masher" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_FESTERWOOD_MASHER" >
+		<description>
+			<p>This festerwood hammer has amber pustules on its end that have enriched the wood with its corrosive properties. You gain a +2 bonus to attack and damage rolls made with this magic weapon</p>
+			<p class="indent">In addition, this hammer has 3 charges and regains all expended charges daily at dusk. When you hit a creature or object with the hammer, you can expend 1 of its charges to magically release some of the corrosive acid. When you do, if the target is Large or smaller, that target takes a cumulative -1 penalty to its AC that lasts for 1 minute. If the target is Huge or Gargantuan, it takes this penalty after you expend either 2 or 3 charges in this way, respectively. This hammer deals an extra 1d4 acid damage to any target it hits for each -1 penalty to AC it has in this way</p>
+		</description>	
+		<setters>
+			<set name="keywords">maul, warhammer</set>
+			<set name="category">Magic Weapons</set>
+			<set name="enhancement">2</set>
+			<set name="type" addition="maul or warhammer">Weapon</set>
+			<set name="weapon">ID_WOTC_PHB_WEAPON_MAUL||ID_WOTC_PHB_WEAPON_WARHAMMER</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+    </element>
+    <element name="Festerwood Vizard" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_FESTERWOOD_VIZARD" >
+		<description>
+			<p>This dark wooden mask is strangely insect-like and magi￾cally conforms to fit your face. While wearing the mask, you gain blindsight out to a range of 10 feet. You can put on and remove the mask using an action.</p>
+			<p class="indent">In addition, you can summon a swarm of insects (beetles) that fly out of the mask's mouth and obey your verbal commands as an action. You can command the swarm to move and make an attack as part of the action to summon them and then again on each of your following turns as a bonus action. If the swarm goes 10 minutes without attacking a creature, they dissipate harmlessly to seek food elsewhere. Once this property has been used, it can't be used again until the next dusk.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="slot">head</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<grant type="Vision" id="ID_VISION_BLINDSIGHT" />
+			<stat name="blindsight:range" value="10" bonus="base" />
+		</rules>
+    </element>
+    <element name="Festerwood's Light" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_FESTERWOODS_LIGHT" >
+		<description>
+			<p>This festerwood rapier's blade is inlaid with scrapings from the Lightspore, the radiant mushroom growing at the center of the Festerwood. You gain a +1 bonus to attack and damage rolls made with this magic weapon. In addition, while you're attuned to this rapier, you have advantage on ability checks made to find locations within the Festerwood and are immune to disease. While holding the sword, the blade sheds bright light in a 10-foot radius and dim light for another 10 feet.</p>
+			<p class="indent">You can use an action to raise the blade overhead and speak its command word. When you do, all creatures other than you within 30 feet of you are dusted with a sudden wave of magical spores. A friendly creature affected by the spores is suddenly invigorated, allowing it to immediately use its reaction to either make one weapon attack or move up to half its speed without provoking opportunity attacks. A hostile creature affected by the spores must succeed on a DC 17 Constitution saving throw or be incapacitated until the end of your next turn. Once this property has been used, it can't be used again until the next dusk.</p>
+			<p class="indent">The rapier has 5 charges for the following properties. The weapon regains 1d3 + 2 expended charges daily at dusk.</p>
+			<p class="indent"><b><i>Spore Cleansing.</i></b> As an action, you can touch a willing creature with the rapier and expend 1 of its charges to remove 1 Spore Counter from that creature.</p>
+			<p class="indent"><b><i>Spells.</i></b> While holding this rapier, you can use an action to expend 1 of its charges to cast one of the following spells from it (save DC 17, spell attack bonus +9): <i>charm person</i> (4th-level version), <i>compulsion</i>, <i>confusion</i>, <i>contagion</i>, <i>faerie fire</i>, <i>locate animals and plants</i>, or <i>moonbeam</i> (4th-level version). In addition, you can use an action to cast the <i>dancing lights</i> spell at will while holding the rapier.</p>
+		</description>	
+		<setters>
+			<set name="keywords">rapier</set>
+			<set name="category">Magic Weapons</set>
+			<set name="enhancement">1</set>
+			<set name="type" addition="rapier">Weapon</set>
+			<set name="weapon">Rapier</set>
+			<set name="rarity">Legendary</set>
+			<set name="attunement">true</set>
+		</setters>
+    </element>
+    <element name="Fife of Dragonsong" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_FIFE_OF_DRAGONSONG" >
+		<description>
+			<p>This magical fife can be played as an instrument or wielded as a deadly weapon. You are proficient with the <i>fife of dragonsong</i> as both an instrument and blowgun while you're attuned to it. You gain a +1 bonus to attack and damage rolls made with this magic weapon, and any target hit by it takes an extra 1d6 thunder damage from the attack.</p>
+			<p class="indent"><b><i>Dragonsong.</i></b> As an action, you can expend one of your uses of Bardic Inspiration to play a powerful note that repels foes and empowers allies. The note is audible out to 100 feet. Hostile creatures within a 15-foot cone must make a DC 15 Constitution saving throw. On a failed save, a creature takes 2d6 thunder damage and is pushed 10 feet away from you. On a successful save, a creature takes half as much damage and isn't pushed.</p>
+			<p class="indent">An ally within the cone that can hear the note is bolstered by it instead. A friendly creature affected by the note has its speed increased by 10 feet until the end of its next turn and gains 2d6 temporary hit points that last for 10 minutes.</p>
+		</description>	
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="blowgun">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="weapon">Blowgun</set>
+			<set name="rarity">Rare</set>
+		</setters>
+    </element>
+    <element name="Fire Dervish Cloak" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_FIRE_DERVISH_CLOAK" >
+		<description>
+			<p>This breathable cloak sounds like a crackling fire as it billows behind you and can create a small, fiery cyclone around you as you twirl in it. The cloak has 5 charges and regains all expended charges daily at dawn. Once on your turn, you can expend 1, 2, or 3 charges from the cloak by forfeiting 10, 20, or 30 feet of your movement speed for that turn, respectively, in order to spin in place instead. When you do, each creature within 5 feet of you must succeed on a DC 15 Dexterity saving throw or take 1d8 fire damage for each charge you expend in this way</p>
+			<p class="indent">If a creature takes fire damage from the cloak, that creature can't make opportunity attacks against you until the end of your turn.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="slot">shoulders</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+    </element>
+    <element name="Fire Fire!" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_FIRE_FIRE" >
+		<description>
+			<p>This hollow metal crossbow was created by a team of kobolds and contains an enchanted ember at its core. The crossbow has 3 charges. While the crossbow has at least 1 charge, the inner ember burns brightly when you hold the weapon. While it burns, the crossbow emits bright light in a 20-foot radius and dim light for an additional 20 feet, and any nonmagical bolt fired from the crossbow catches fire and deals an extra 1d6 fire damage to any target it hits.</p>
+			<p class="indent">You can expend 1 of the crossbow's charges as an action to cause the ember to spew forth devastating flames, sending out a wave of fire in a 30-foot cone. Each creature within the cone must make a DC 15 Dexterity saving throw. A creature takes 4d6 fire damage on a failed save, or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren't being worn or carried.</p>
+			<p class="indent">The crossbow regains 1d3 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the magical ember inside the crossbow dies, and the weapon becomes a nonmagical crossbow.</p>
+		</description>	
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="crossbow, light">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="weapon">Crossbow, Light</set>
+			<set name="rarity">Rare</set>
+		</setters>
+    </element>
+    <element name="Fire Wand of the Unbroken Circle" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_FIRE_WAND_OFTHE_UNBROKEN_CIRCLE" >
+		<description>
+			<p>This wooden wand is carved out of ash and is always faintly warm to the touch. Whenever you grip the wand's handle and later look at your palm, it's strangely covered in a fine layer of charcoal. This wand has 7 charges. While holding the wand, you can expend 1 or more of its charges to cast either the <i>flame blade</i> spell (2 charges) or <i>produce flame</i> cantrip (no charges, or 1 charge to cast at 5th level) from it, using a spell attack bonus of +5. When you cast the <i>flame blade</i> spell using this wand, the sword's fiery blade appears above the wand's haft instead of in a free hand.</p>
+			<p class="indent">Whenever you would fail a Constitution saving throw to maintain concentration on a <i>flame blade</i> spell cast in this way, you can expend 1 charge as a reaction in order to succeed on the saving throw instead. You can only use your reaction in this way if you're holding the wand.</p>
+			<p class="indent">The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.</p>
+		</description>	
+		<setters>
+			<set name="category">Wands</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="type">Wand</set>
+			<set name="attunement" addition="by a druid">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+    </element>
+    <element name="Firecracker Crystals" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_FIRECRACKER_CRYSTALS" >
+		<description>
+			<p>These multicolored crystals are usually purchased in small bags at festivals and holiday events. As an action, you can throw 1 of these 1-inch crystals against a solid surface within 20 feet of you to crack it apart. When a crystal breaks, it releases the magic inside. The magic ends at the end of your turn and is entirely sensory.</p>
+			<p class="indent">A bag of the small crystals comes with 10 (1d4 + 8) crystals inside. Roll a number of d8s equal to the number of crystals in the bag and record each number rolled. Use these numbers to determine the kinds of crystals found in the bag using the table below:</p>
+			<h5>title</h5>
+			<table>
+				<thead>
+					<tr><td class="col-10">d8</td><td>Color</td><td>Result</td></tr>
+				</thead>
+				<tr><td>1</td><td>Red</td><td>Releases a harmless 5-foot tall flame.</td></tr>
+				<tr><td>2</td><td>Orange</td><td>Releases a small flash of bright light in a 5 foot radius and dim light for another 5 feet, followed by the smell of spices and citrus.</td></tr>
+				<tr><td>3</td><td>Yellow</td><td>Releases small spiraling motes of energy that fizz and fly about in a 5-foot radius.</td></tr>
+				<tr><td>4</td><td>Green</td><td>Releases a cloud of bright, verdant smoke that fills a 5-foot sphere and smells both foul and sickly sweet.</td></tr>
+				<tr><td>5</td><td>Blue</td><td>Releases a series of comically large bubbles that float outward from the point of impact in a 5-foot radius.</td></tr>
+				<tr><td>6</td><td>Purple</td><td>Releases the sound of music. The song is random, and plays only enough to make it recognizable as music.</td></tr>
+				<tr><td>7</td><td>White</td><td>Releases a dazzling display of sparkling glitter in a 5-foot radius from the point of impact.</td></tr>
+				<tr><td>8</td><td>Black</td><td>Releases a mystery effect. Roll on the table again when using this crystal to determine its effect. If you roll an 8, roll the d8 again.</td></tr>
+			</table>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Common</set>
+		</setters>
+    </element>
+    <element name="Fireweaver Gloves" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_FIREWEAVER_GLOVES" >
+		<description>
+			<p>While wearing these fine golden gloves, you can use an action to cast the <i>produce flame</i> cantrip (spell attack bonus +5) from it. You can hold this and other small nonmagical flames (such as a torch or candle) as if they were tangible objects, and can sculpt them like clay. Once sculpted, a flame retains its form for 1 minute before returning to normal. A nonmagical flame carried in this way burns for 1 hour before dying. If you drop or throw a nonmagical flame, it immediately burns out.</p>
+			<p class="indent">When you cast <i>produce flame</i> using the gloves, the spell's duration is 1 hour, instead of 10 minutes, and it casts bright light in a 20-foot radius and dim light for an additional 20 feet. In addition, you can place the spell's conjured flame on the ground at your feet (no action required). When you do, the flame continues to burn harmlessly for up to 1 minute before going out. While you're within 5 feet of the placed flame, you can use an action to pick it back up.</p>
+			<p class="indent">In addition, when you take fire damage while wearing these gloves, you can use your reaction to reduce the damage by 1d8 + 2, provided that you have a free hand.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="slot">hands</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+    </element>
+    <element name="Flesh of Dendallen" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_FLESH_OF_DENDALLEN" >
+		<description>
+			<p>This patchwork shirt is made of enchanted pieces of stitched-together flesh. This shirt has 6 charges and regains 1d4 + 2 expended charges daily at dusk. While wearing this shirt, you can use a bonus action to expend 1 of its charges to cast <i>false life</i>, regardless of its usual casting time. In addition, while you have less than half your hit points left, you regain hit points equal to 1d4 + your Constitution modifier (minimum of 1) at the beginning of each of your turns. You do not regain health if you are unconscious or have taken fire or radiant damage since the beginning of your last turn.</p>
+			<p class="indent"><b><i>Curse.</i></b> When you attune to the shirt and wear it, you're forced to make a DC 20 Strength saving throw as the fleshy fabric begins to bubble and hiss as it fuses to your skin. On a success, you're able to safely remove the clothing before you attune to the item, but are aware of the curse's effects. On a failure, the shirt attaches to your flesh and destroys any nonmagical clothing covered by it. Magical items worn beneath it rise to the surface as the fleshy shirt seeps through them to attach to your skin. While wearing it, you are considered to be undead in addition to any other creature type you already are and are vulnerable to radiant damage.</p>
+			<p class="indent">Once you are attuned to the shirt, you cannot remove it unless you are targeted by the <i>remove curse</i> spell or similar magic. When you remove it, you take 4d10 necrotic damage as the shirt is peeled from your skin.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+    </element>
+    <element name="Force Gauntlet" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_FORCE_GAUNTLET" >
+		<description>
+			<p>This jeweled gauntlet has 5 charges and regains 1d4 + 1 expended charges daily at dawn. When you make a melee attack with a hand that's wearing this gauntlet, you can choose to expend 1 of its charges as part of the attack. If it hits, the target takes an extra 2d6 force damage from the attack and must make a DC 15 Strength saving throw. On a failure, the target is pushed 10 feet away from you. On a success, you're pushed 10 feet away from it instead. Targets two or more sizes larger than you automatically succeed on the saving throw.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+    </element>
+    <element name="Forgemaster's Might" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_FORGEMASTERS_MIGHT" >
+		<description>
+			<p>This monumental maul or warhammer requires a Strength of 17 or higher to wield. You gain a +2 bonus to attack and damage rolls made with this magic weapon.</p>
+			<p class="indent">You can use a bonus action to speak the hammer's command phrase, “light the forge” and cause flames to curl up and heat the hammer's anvil head. These flames shed bright light in a 20-foot radius and dim light for an additional 20 feet. While the hammer is lit, it deals an additional 1d8 fire damage to any target it hits and ignores resistance to fire damage. The flames last until you use a bonus action to speak the command word “quench,” or until you drop or stow the hammer.</p>
+			<p class="indent">Smith's Blessing. You can use the hammer to cast either the <i>creation</i> or <i>fabricate</i> spell using an action instead of its usual casting time. <i>Creation</i> is cast as a 6th level spell when cast in this way, and its conjured materials can be used as materials for the <i>fabricate</i> spell, although the materials still have a limited duration. Once the hammer has been used to cast a spell in this way, it can't be used to cast that spell again until the following dawn.</p>
+			<p class="indent">In addition, you know the <i>mending</i> cantrip if you don't already know it while you're attuned to the hammer. <i>Mending's</i> usual size restriction is increased to 5 feet in any dimension for you when you use it to repair metal. Ability checks you make using smith's tools to make or repair an item are made with advantage when you use the hammer's head as the anvil.</p>
+			<p class="indent"><b><i>Iron Raze.</i></b> The hammer deals an additional 2d8 bludgeoning damage to constructs and structures hit by it.</p>
+		</description>	
+		<setters>
+			<set name="keywords">maul, warhammer</set>
+			<set name="category">Magic Weapons</set>
+			<set name="enhancement">1</set>
+			<set name="type" addition="maul or warhammer">Weapon</set>
+			<set name="weapon">ID_WOTC_PHB_WEAPON_MAUL||ID_WOTC_PHB_WEAPON_WARHAMMER</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+    </element>
+    <element name="Fortune's Fivepence" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_FORTUNES_FIVEPENCE" >
+		<description>
+			<p>This electrum coin has a smiling human woman's face on one side (heads) and a scowling fiendish woman's face on the other (tails). While you're within 30 feet of the coin, you can summon it to either your hand or pocket by speaking its command word as a bonus action. Despite its unique appearance, this coin can be spent like a normal coin.</p>
+			<p class="indent"><b><i>Fate Flip.</i></b> This coin has 2 charges. You can attempt to regain expended charges once every 24 hours by flipping a coin. The coin regains all expended charges if it's heads, or 0 if it's tails. When the coin is on your person and your total for an attack roll, ability check, or saving throw is 10 or lower, you can expend 1 of the coin's charges to channel its magic and forge your own luck. When you do, flip a coin. If it's heads, roll a d10 and add it to the total of your roll. If it's tails, you subtract 1d10 from the total instead. The coin loses this property if using it in this way reduces the total of your roll to 0 or lower.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+    </element>
+    <element name="Fourarm Bracers" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_FOURARM_BRACERS" >
+		<description>
+			<p>These bracers can summon another pair of spectral arms below your existing ones. These arms can be summoned as an action and last for up to 1 minute before disappearing. While active, you can use the arms to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial. Each arm can carry up to 10 pounds. The arms stay attached to your torso at all times and cannot be moved to other parts of your body, but can be turned around to face the opposite direction.</p>
+			<p class="indent">In addition, the gems adorning the bracers can amplify the arms' strength for short bursts. The gems have a total of 5 charges and recharge 1d4+1 expended charges each day at dawn. By uttering the bracers' command word using a bonus action and expending 1 charge, you can empower the arms to immediately make two unarmed melee attacks. The arms have a +3 bonus to attack and damage rolls and use your proficiency bonus when making the attacks. Each strike does 1d4 magical bludgeoning damage upon a successful hit.</p>
+			<p class="indent">Alternatively, you can expend 1 charge to double the arms' carrying capacity and increase their duration to 5 minutes instead.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="slot">arms</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+    </element>
+    <element name="Fragment of Elder Starlight" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_FRAGMENT_OF_ELDER_STARLIGHT" >
+		<description>
+			<p>This smooth, egg-shaped crystal is about 6 inches tall, weighs 3 pounds, and sheds bright light out to 20 feet and dim light for an additional 20 feet. The light is sunlight. You can touch the crystal and mentally control its brightness as a bonus action to enlarge, reduce, or snuff out the light's reach up to its maximum range.</p>
+			<p class="indent">While holding the crystal, you can speak its command word as an action to cause it to release a wave of bright light. The wave of light washes over creatures not behind total cover within a 60-foot radius from the crystal. Undead creatures and fiends affected by the wave of bright light must make a DC 16 Constitution saving throw. On a failed save, a creature takes 8d6 radiant damage and is blinded until the end of your next turn. On a success, it takes half as much damage and is not blinded. Friendly living creatures of your choice within the wave of bright light regain 4d6 hit points.</p>
+			<p class="indent">Once this property of the crystal has been used, its light dims and can't be used again until the next dawn. While its light is dimmed in this way, it sheds bright light out to a maximum of 10 feet and dim light for an additional 10 feet.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+    </element>
+    <element name="Frefil's Jolly Oozebean Sugarbombs" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_FREFILS_JOLLY_OOZEBEAN_SUGARBOMBS" >
+		<description>
+			<p>A pack of oozebeans comes with 4 inside it. When you open a pack, roll 4d8 and record each number. Use these numbers to determine the kinds of oozebeans found in the bag using the table below. You can eat an oozebean using a bonus action. Each color has an effect that lasts for 1 minute.</p>
+            <p class="indent">Upset stomach. You can only be under the effects of 1 sugarbomb that has this feature at a time. Eating a sugar￾bomb that has this feature while under the effects of another one causes the effects of the first sugarbomb to immediately end and be replaced by the new one's. This rapid change is difficult to stomach, forcing you to make a DC 13 Constitu￾tion saving throw. On a failed save, you gain the effects of the new sugarbomb, but become poisoned for 1 minute. On a success, you gain the effects of the new sugarbomb and are not poisoned.</p>
+            <table>
+                <thead>
+                    <tr><td class="col-10">d8</td><td>Color</td><td>Effect</td></tr>
+                </thead>
+                <tr><td>1</td><td>White</td><td>You can breathe underwater.</td></tr>
+                <tr><td>2</td><td>Black</td><td>You have resistance to acid damage and can safely eat otherwise inedible and nonpoisonous organic materials.</td></tr>
+                <tr><td>3</td><td>Blue</td><td>Grappling or being grappled deals 1d8 acid damage to the other creature.</td></tr>
+                <tr><td>4</td><td>Gray</td><td>You have advantage on saving throws against being charmed or frightened.</td></tr>
+                <tr><td>5</td><td>Gold</td><td>You gain a climbing speed equal to your move￾ment speed.</td></tr>
+                <tr><td>6</td><td>Red</td><td>You gain 1d8+4 temporary hit points.</td></tr>
+                <tr><td>7</td><td>Green</td><td>You have resistance to poison damage and advantage on ability checks to escape grapples or restraints.</td></tr>
+                <tr><td>8</td><td>Yellow</td><td>You have resistance against lightning damage and immunity against damage from the <i>magic missile</i> spell.</td></tr>
+            </table>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+    </element>
+    <element name="Frefil's Tiny Tasty Tongue Twisty Sugarbombs" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_FREFILS_TINYTASTY_TONGUETWISTY_SUGARBOMBS" >
+		<description>
+			<p>This small bag of marble sized gumballs contains 12 en￾chanted candies. While the color and flavor of each gumball is different, each one's effect is the same. As an action, you can start to chew one of these gumballs to release its magic. For the next 5 minutes while you chew the candy, you understand the literal meaning of any spoken language that you hear. If you speak while chewing the gumball, your accent changes to sound like the creature to whom you're listening: allowing you to sound like a local with minimal effort. The candy's magic and flavor fade 5 minutes after you first start to chew it.</p>
+			<p class="indent"><b><i>Upset stomach.</i></b> You can only be under the effects of 1 sugarbomb that has this feature at a time. Eating a sugarbomb that has this feature while under the effects of another one causes the effects of the first sugarbomb to immediately end and be replaced by the new one's. This rapid change is difficult to stomach, forcing you to make a DC 13 Constitution saving throw. On a failed save, you gain the effects of the new sugarbomb, but become poisoned for 1 minute. On a success, you gain the effects of the new sugarbomb and are not poisoned.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+    </element>
+    <element name="Frost Giant Fork" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_FROST_GIANT_FORK" >
+		<description>
+			<p>This massive utensil comes from the table of a frost giant. Latent jotun magic flows through this make-shift trident and drives your hunger to nearly aggressive levels. You gain a +1 bonus to attack and damage rolls made with this magic weapon. When you hit a creature with a melee attack using the trident, you can immediately make a bite attack against that same creature as a bonus action. Your jaws and teeth are fortified to have the strength of a giant, allowing this bite at￾tack to deal 1d6 piercing damage. You are proficient with this bite attack and use Strength as your ability modifier for it.</p>
+			<p class="indent"><b><i>Curse.</i></b> While you're attuned to this weapon, your hunger is almost insatiable. You're overwhelmingly compelled to eat twice the amount of food you normally would, and incur 1 level of exhaustion if you go a day without eating enough.</p>
+		</description>	
+		<setters>
+			<set name="keywords">trident</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="trident">Weapon</set>
+			<set name="weapon">Trident</set>
+			<set name="enhancement">1</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+    </element>
+    <element name="Frostbitten Buckler" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_FROSTBITTEN_BUCKLER" >
+		<description>
+			<p>This icy shield has 3 charges and regains all of them each day at dawn. When a creature you can see hits you with a melee attack, you can expend 1 of the shield's charges as a reaction to deal 2d4 cold damage to the attacking creature. After the attack, you gain that same amount of cold damage as tempo￾rary hit points that last for up to 1 minute.</p>
+		</description>	
+		<setters>
+			<set name="keywords">shield</set>
+			<set name="category">Magic Armor</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="shield">Armor</set>
+			<set name="armor">ID_INTERNAL_ARMOR_GROUP_SHIELD</set>
+			<set name="attunement" >true</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+    </element>
+    <element name="Frozen Dagger" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_FROZEN_DAGGER" >
+		<description>
+			<p>Attacks made with this dagger deal cold damage instead of piercing. If you roll a 20 on an attack roll made with this magic weapon, the target must succeed on a DC 12 Constitution saving throw or be paralyzed until the end of its next turn, frozen in place and unable to move. If it succeeds, its movement speed is halved until the end of its next turn instead.</p>
+		</description>	
+		<setters>
+			<set name="keywords">dagger</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="dagger">Weapon</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+    </element>
+    <element name="Funeral Marchers" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_FUNERAL_MARCHERS" >
+		<description>
+			<p>While wearing these black leather boots, you can choose to not fall prone when you're reduced to 0 hit points. While you're unconscious and standing in this way, you can walk up to 10 feet on your turn after rolling a death saving throw.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="slot">feet</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+    </element>
+
+ </elements>

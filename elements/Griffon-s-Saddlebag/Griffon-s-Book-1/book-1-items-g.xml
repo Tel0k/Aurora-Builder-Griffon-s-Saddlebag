@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<info>
+		<name>Book 1: Magic Items G</name>
+		<description>The first published work</description>                             
+		<update version="0.0.1">
+			<file name="book-1-items-g.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Book-1/book-1-items-g.xml" />
+		</update>
+	</info>
+	<element name="Galepierce Weapons" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_GALEPIERCE_WEAPONS" >
+		<description>
+			<p>These magic weapons have been tempered to glide through the wind, doubling both their normal and long throwing ranges. Ranged attacks made with these weapons against targets that are protected by fog, high winds, and other air-based hindrances are made without the normal disadvantage that those obstructions would typically cause.</p>
+		</description>	
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="any piercing weapon with the thrown property">Weapon</set>
+			<set name="weapon">(ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE), ID_INTERNAL_DAMAGE_TYPE_PIERCING,  ID_INTERNAL_WEAPON_PROPERTY_THROWN</set>
+			<set name="name-format">Galepierce {{parent}}</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+    </element>
+	<element name="Galvanic Steelsnare" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_GALVANIC_STEELSNARE" >
+		<description>
+			<p>This magic net is made with fine steel chains and has the heavy property. Magic, leaden weights line the edge of the net and send shocking pulses throughout the metal. The net is resistant to slashing damage and has immunity to all other damage types. Regardless of a creature's abilities or magic items, it can't make more than one melee or ranged attack during its turn while it's restrained by the net.</p>
+			<p class="indent">While a creature within 30 feet of you is restrained by the net, you can speak the net's command word as a bonus action to cause it to release a painful wave of electricity, dealing 1d6 lightning damage to the restrained creature. If the net is restraining a creature made of metal or wearing metal armor, it deals 2d6 lightning damage instead. Once this property of the net has been used, it can't be used again until the start of your next turn.</p>
+			<p class="indent">A creature can use its action to make a DC 15 Strength check, freeing itself or another creature within its reach on a success. A Small or smaller creature has disadvantage on the check. Dealing 15 slashing damage to the net (AC 12) also frees the creature without harming it, ending the effect and destroying the net. Once destroyed, the net magically repairs itself over the course of 1d6 + 1 days.</p>
+		</description>	
+		<setters>
+			<set name="keywords">net</set>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="net">Weapon</set>
+			<set name="weapon">Net</set>
+			<set name="rarity">Rare</set>
+		</setters>
+    </element>
+	<element name="Gibberbox" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_GIBBERBOX" >
+		<description>
+			<p>This magic box is made of enamel and bits of bone that stick together with the gummy, red remains of a gibbering mouther. The box weighs 7 pounds and is 1 foot long and 6 inches wide and tall. You can open the box's wooden lid as an action. When you do, the red paste inside the box swirls and forms a toothy mouth that starts incessantly babbling nonsense. Every creature that starts its turn within 20 feet of the box that can hear it must succeed on a DC 10 Wisdom saving throw. On a failed save, a creature can't take reactions until the start of its next turn and rolls a d8 to determine what it does during its turn. On a 1 to 4, the creature does nothing. On a 5 or 6, the creature takes no action or bonus action and uses all its movement to move in a randomly determined direction. On a 7 or 8, the creature makes a melee attack against a randomly determined creature within its reach or does nothing if it can't make such an attack. A creature takes 1d6 piercing damage if it touches the red paste and toothy mouth while the box is opened and blathering in this way.</p>
+			<p class="indent">This effect lasts for 1 minute or until the box's lid is closed again using an action. Once this property of the box has been used, it can't be used again for 24 hours. Opening the lid again while this property is inactive results in a droning, gurgling sound that turns silent after 1 minute of the box be￾ing open. The paste is extremely elastic and can't be removed or separated from the box.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="weight" lb="7">7 lb.</set>
+			<set name="rarity">Rare</set>
+		</setters>
+    </element>
+	<element name="Give and Take" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_GIVE_AND_TAKE" >
+		<description>
+			<p>This pair of mithral (Give) and obsidian (Take) scimitars are connected by a sturdy chain. When you engage in two-weapon fighting using both scimitars, you can add your ability modifier to the damage of the second attack.</p>
+			<p class="indent">The scimitars have a collective 10 charges and regain 1d6 + 4 expended charges daily at midday. When you hit a creature with one of these magic weapons, you can expend 1 of their charges to create an effect based on the blade used in the attack:</p>
+			<p class="indent"><b><i>Give.</i></b> When you hit a creature with Give and expend 1 charge, you and all other creatures within 5 feet of the target (other than the target) gain 2d6 temporary hit points that last for 1 minute.</p>
+			<p class="indent"><b><i>Take.</i></b>Take. When you hit a creature with Take and expend 1 charge, that creature takes 2d6 necrotic damage, and you and all other creatures within 5 feet of the target take half as much necrotic damage.</p>
+		</description>	
+		<setters>
+			<set name="keywords">scimitar</set>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="scimitar">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="weapon">Scimitar</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+    </element>
+	<element name="Glove of the Aegis" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_GLOVE_OFTHE_AEGIS" >
+		<description>
+			<p>This glove holds 5 charges and regains 1d3+2 expended charges each day at dawn. When a target that you can see hits you with an attack, you can use your reaction to expend any number of the glove's charges. You add +2 to your AC for the attack for each charge expended in this way, potentially causing it to miss. You can use this ability after the attack has been made but before any damage has been calculated.</p>
+			<p class="indent">The glove's power cannot be used if you are already wielding a shield.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+    </element>
+	<element name="Glove of the Grim Fandango" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_GLOVE_OFTHE_GRIM_FANDANGO" >
+		<description>
+			<p>You are proficient with all musical instruments while you wear this glove on your dominant hand. In addition, spectral musicians appear behind you to accompany your playing when you play an instrument for at least 1 minute. The musicians are obviously illusory and vanish after you stop playing for 1 minute. While accompanied by the spectral musicians, you have advantage on any Charisma (Performance) check you make.</p>
+			<p class="indent">In addition, your spell save DC for enchantment spells you cast while performing with the spectral musicians increases by 2 when the affected creature or creatures are listening to your performance.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a bard">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+    </element>
+	<element name="Grass Carpet" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_GRASS_CARPET" >
+		<description>
+			<p>This soft roll of turf is magically fertile. Its soil is 1 inch thick and allows plants of all kinds to grow well within it. Each roll of turf is 5 feet wide and 10 feet long. Its grass and soil are self-containing and will not grow beyond the size of the carpet. The carpet is so fertile that plants growing in its soil require only half the normal amount of sunlight and water they would normally need in order to grow.</p>
+			<p class="indent">For every 1 inch of the soil's depth, the carpet provides the same amount of nutrition as normal soil does with 1 foot, allowing plants whose roots are normally 1 foot long to grow with only 1 inch of soil. Folding the carpet over for added depth, or layering multiple carpets on top of one another, increases the soil depth to allow for larger plants to grow on the carpet.</p>
+			<p class="indent">The carpet weighs 30 pounds and takes 1 minute to roll up or out. While rolled up, it has a 1-foot diameter. The carpet can be cut into smaller plots using a magical blade, with each plot measuring at least 1 foot long and wide.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="weight" lb="30">30 lb.</set>
+			<set name="rarity">Common</set>
+		</setters>
+    </element>
+	<element name="Grass Whistle Blade" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_GRASS_WHISTLE_BLADE" >
+		<description>
+			<p>This dagger's blade is actually a large, enchanted blade of grass. As wind passes over the blade, it creates a soft, sweet note that magically begins to lull creatures to sleep. You gain a +2 bonus to attack and damage rolls made with this magic weapon.</p>
+			<p class="indent">This blade has 4 charges and regains 1d4 expended charges daily at dawn. When you hit a creature with a melee attack using this dagger, you can choose to expend 1 of its charges and forgo the attack's damage to attempt to put the crea￾ture to sleep. When you do, you swing the blade in a pattern around the creature that creates a magical lullaby. Roll 10d8; the total is how many hit points of the creature this can affect. If the total number of hit points you roll is greater than the target's remaining hit points, that creature falls unconscious for 1 minute or until it takes damage or another creature uses an action to shake or slap that creature awake. If the target is not put to sleep, it takes 3d8 sychic damage instead.</p>
+			<p class="indent">Undead and creatures immune to being charmed can't be put to sleep by this effect.</p>
+		</description>	
+		<setters>
+			<set name="keywords">dagger</set>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="dagger">Weapon</set>
+			<set name="enhancement">2</set>
+			<set name="attunement">true</set>
+			<set name="weapon">Dagger</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+    </element>
+	<element name="Gravity Goblet" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_GRAVITY_GOBLET" >
+		<description>
+			<p>This glass and silver goblet is enchanted with a harmless, strange magic. A liquid poured in the cup bends gravity in comical ways, often to the surprise and endrenchment of its drinker. When the cup is tilted, as if to drink, the liquid flows in the opposite direction of gravity—sliding up the cup instead of down it. Once the liquid reaches the edge of the cup, it immediately pours down as normal. Swirling the liquid causes it to flow in the opposite direction in which it's rotated. Any solid object other than ice that floats in the liquid is not affected by the cup's magic.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Common</set>
+		</setters>
+    </element>
+	<element name="Greaves of Dendallen" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_GREAVES_OF_DENDALLEN" >
+		<description>
+			<p>While wearing these skeletal greaves, you gain a climbing speed equal to your walking speed and can stand on and move across any liquid surface as if it were solid ground. In addition, you can jump three times the normal distance, though you can't jump farther than your remaining move￾ment would allow.</p>
+			<p class="indent"><b><i>Curse.</i></b> When you first wear the greaves of Dendallen, you feel your legs suddenly ache. Make a DC 20 Constitution saving throw. On a success, you're able to safely remove the greaves but are aware of the curse's effects. On a failure, you take 6d8 necrotic damage as your legs fracture. This damage ignores resistance and immunity. Your legs stay broken but don't hinder your movement so long as you continue to wear the greaves.</p>
+			<p class="indent">You can't remove the greaves until they're targeted by the <i>remove curse</i> spell. When you remove the greaves, your walking speed becomes 0. For every 24 hours that pass after removing the greaves, your walking speed increases by 5 feet, up to your normal maximum amount.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="slot">legs</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+    </element>
+	<element name="Grip of Dendallen" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_GRIP_OF_DENDALLEN" >
+		<description>
+			<p>These black leather and bone chain gloves spread sickness and decay to anything they touch. While wearing the gloves, your unarmed strikes deal necrotic damage, and you can roll a d6 in place of the normal damage of your unarmed strikes. This damage is maximized if you hit a plant or plant creature with the attack.</p>
+			<p class="indent">In addition, while wearing the gloves, you can use an action to cast one of the following spells from them (save DC 16, spell attack bonus +8): <i>blight</i>, <i>contagion</i>, or <i>vampiric touch</i>. Casting <i>blight</i> in this way uses a range of touch, instead of its normal range. Once the gloves have been used to cast a spell, they can't be used to cast that spell again until the next dusk.</p>
+			<p class="indent"><b><i>Curse.</i></b> When you pull these gloves over your hands for the first time, make a DC 16 Wisdom saving throw. On a success, you are aware of the curse's effects and can immediately remove the gloves before they extend it to you. On a failure, the gloves' bone chains pierce your skin and latch onto the bone in your arms. You take 4d6 piercing damage and can't remove the gloves unless you're targeted by the <i>remove curse</i> spell or similar magic. While you wear the gloves, the flesh on your hands slowly rots. The stench can't be contained or masked through magical or nonmagical means. While your hands rot in this way, you make Charisma checks with disadvantage and take 1d6 necrotic damage whenever you finish a long rest.</p>
+			<p class="indent">If you fail the saving throw when first donning the gloves and later remove them, it takes 1d4 days for the effects of the rotting flesh to fade.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="slot">arms</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+    </element>
+	
+
+</elements>

@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<info>
+		<name>Book 1: Magic Items D</name>
+		<description>The first published work</description>                             
+		<update version="0.0.1">
+			<file name="book-1-items-d.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Book-1/book-1-items-d.xml" />
+		</update>
+	</info>
+	<element name="Dagger of the Ogre Mage" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_DAGGER_OF_THE_OGRE_MAGE" >
+		<description>
+			<p>This blade was once used as a dagger by an ogre, but is nevertheless large enough to be a shortsword. You gain a +1 bonus to attack and damage rolls made with this magic weapon</p>
+			<p class="indent">This blade's hilt is hollow and can hold up to 3 cantrip spell scrolls. Cantrip scrolls left within the compartment for 1 minute activate one of the three clear gems adorning its grip. Once activated, you can cast these cantrips at will using your spellcasting modifier. If you don't have a spellcasting modifier, use your Intelligence modifier instead. You have proficiency with these cantrips. Cantrips cast from the blade use the weapon as an arcane focus and allow you to perform any somatic components with the weapon instead of requiring a free hand. Scrolls contained within the sword are not destroyed after using them in this way.</p>
+			<p class="indent">When you cast a cantrip using the sword that deals damage, the sword's damage type changes to match the cantrip's for 1 minute or until you end it early (no action required).</p>
+		</description>	
+		<setters>
+			<set name="keywords">shortsword</set>
+			<set name="category">Magic Weapons</set>
+			<set name="enhancement">1</set>
+			<set name="type" addition="shortsword">Weapon</set>
+			<set name="weapon">Shortsword</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+	<element name="Dark Fathom Armor" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_DARK_FATHOM_ARMOR" >
+		<description>
+			<p>This dark, sea-soaked suit of armor smells of brine and is covered in eldritch runes. You have a +1 bonus to AC and can breathe normally underwater while wearing this armor.</p>
+			<p class="indent">In addition, while wearing this armor, you can use an action to cast the <i>black tentacles</i> spell (save DC 15) from it. When cast in this way, the spell targets a 15-foot square centered on your location that does not follow you when you move. In addition, you do not need to concentrate on the spell and are immune to its effects when cast in this way. Once this property has been used, it can't be used again until the next dusk.</p>
+		</description>	
+		<setters>
+			<set name="keywords">studded leather</set>
+			<set name="category">Magic Armor</set>
+			<set name="enhancement">1</set>
+			<set name="type" addition="studded leather">Armor</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+	</element>
+	<element name="Dead Ringer" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_DEAD_RINGER" >
+		<description>
+			<p>This bronze mask lets out a deep, sonorous ring when struck. When you're reduced to 0 hit points or fail a death saving throw while wearing the mask, the 3 enemy creatures nearest to you within 30 feet must succeed on a DC 15 Wisdom saving throw or take 2d12 necrotic damage. This property has no effect on creatures who aren't missing any hit points or are deafened. If you're healed or stabilized after falling to 0 hit points, the mask can't be used again in this way until the following dusk.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">head</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+	<element name="Death Knell" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_DEATH_KNELL" >
+		<description>
+			<p>This dark metal weapon is grimly ornate. You gain a +2 bonus to attack and damage rolls made with this magic weapon. Once per turn when you reduce a Small or larger creature to 0 hit points with this weapon, a foreboding, gong-like sound emanates from the blade. When this happens, any hostile creature within 15 feet of the target that's missing any of its hit points must make a DC 15 Wisdom saving throw. On a failed save, a creature takes 1d8 psychic damage, or half as much damage on a successful one.</p>
+		</description>	
+		<setters>
+			<set name="keywords">halberd</set>
+			<set name="category">Magic Weapons</set>
+			<set name="enhancement">2</set>
+			<set name="type" addition="halberd">Weapon</set>
+			<set name="weapon">Halberd</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+	<element name="Devil's Detail Eyepatch" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_DEVILS_DETAIL_EYEPATCH" >
+		<description>
+			<p>This well-worn leather eyepatch is enchanted with the illusion of an embroidered eye on the front. While wearing this eyepatch over an eye, whether you’re missing one or not, you can magically see from the patch as if it were a working eye. The embroidered eye adorning the front of the patch swivels and moves as you look around while wearing it.</p>
+			<p class="indent">In addition, while wearing the eyepatch over an eye, you can speak its command word as a bonus action to gain darkvision out to a range of 60 feet for 1 hour. If you already have darkvision, this effect increases its range by 60 feet. While this property is in effect, you can see through magical darkness as if it were nonmagical darkness. Once this property of the eyepatch has been used, it can’t be used again until the next dawn.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">head</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+	<element name="Direstone Dwarven Pick" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_DEATH_KNELL" >
+		<description>
+			<p>This old, weathered war pick is able to effortlessly break and mold stone. You gain a +2 bonus to attack and damage rolls made with this magic weapon. Creatures and objects made of stone that are hit by the war pick take an extra 1d8 piercing damage from the attack. In addition, the weapon has 3 charges and regains 1d3 expended charges daily at dawn. As an action, you can expend 1 of its charges to cast the meld into stone or stone shape spell using the weapon.</p>
+		</description>	
+		<setters>
+			<set name="keywords">war pick</set>
+			<set name="category">Magic Weapons</set>
+			<set name="enhancement">2</set>
+			<set name="type" addition="war pick">Weapon</set>
+			<set name="attunement" addition=" by a dwarf">true</set>
+			<set name="weapon">War Pick</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+	<element name="Discordant Thunderstave" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_DEATH_KNELL" >
+		<description>
+			<p>This thin, hollow quarterstaff has the finesse property and reverberates when it strikes a target. You gain a +1 bonus to attack and damage rolls made with this magic weapon. When you hit a target with this weapon and roll the maximum amount of bludgeoning damage on the weapon’s damage die, the hollow staff shudders and emits a deep, thunderous sound. When that happens, roll the weapon’s damage die again and add it to the total damage of the attack. This extra damage is thunder damage.</p>
+		</description>	
+		<setters>
+			<set name="keywords">quarterstaff</set>
+			<set name="category">Magic Weapons</set>
+			<set name="enhancement">1</set>
+			<set name="type" addition="quarterstaff">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="weapon">Quarterstaff</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+	<element name="Doodle Ring" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_DOODLE_RING" >
+		<description>
+			<p>This magic wooden ring is always covered in splotches of charcoal, ink, or paint, regardless of how well or often it’s cleaned. While wearing the ring on a finger, you can touch that finger to a solid surface and begin to draw. The drawing uses your finger to make marks as if it were a piece of charcoal, ink quill, or paintbrush (your choice). The marks you make can be in any color. Any drawing made by the ring can be easily smudged or washed away without leaving any marks behind. The ring can have up to a total of 5 square feet covered with drawings in this way at any time. Drawing more than that begins to erase the previous marks, and any mark left after 24 hours of being made is magically erased.</p>
+		</description>	
+		<setters>
+			<set name="category">Rings</set>
+			<set name="type">Ring</set>
+			<set name="slot">ring</set>
+			<set name="equippable">true</set>
+			<set name="rarity">Common</set>
+		</setters>
+	</element>
+	<element name="Doomsday Cookie" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_DOOMSDAY_COOKIE" >
+		<description>
+			<p>This black sugarpaste cookie is made using a grim recipe passed down through generations of clerics devoted to gods of death. Inside this hollow cookie is a blank strip of enchanted paper whose writing only appears when you break open the cookie. The paper’s writing vaguely predicts the manner in which you’ll die. When you open this cookie, roll a d20 and use the table below to determine the paper’s prediction.</p>
+			<p class="indent">Once a creature’s fortune has been predicted in this way, all future doomsday cookie papers will predict the same outcome for them. If a creature dies in a way foretold by the cookie (at your GM’s discretion) the cookie’s paper transforms into a scroll of revivify. This scroll can only be used on the creature whose passing it foretold. If the scroll is unused within 1 minute, it crumbles into flour.</p>
+			<p class="indent">Regardless of its grim foretellings, the cookie itself is a delicious snack that is sweet, salty, and smoky.</p>
+			<h5>title</h5>
+			<table>
+				<thead>
+					<tr><td class="col-10">d20</td><td>Prediction</td></tr>
+				</thead>
+				<tr><td>1</td><td>“Your fiery passions burn too hot.”</td></tr>
+				<tr><td>2</td><td>“The light of the full moon casts the deepest shadows.”</td></tr>
+				<tr><td>3</td><td>“Vainglorious you stumble, entranced by your own reflection.”</td></tr>
+				<tr><td>4</td><td>“Great heights bring all who reach them low.”</td></tr>
+				<tr><td>5</td><td>“Betrayal strikes deeper than any blade.”</td></tr>
+				<tr><td>6</td><td>“Hasty hands make for quick lives.”</td></tr>
+				<tr><td>7</td><td>“Look behind you.”</td></tr>
+				<tr><td>8</td><td>“Getting ahead of yourself may separate you both.”</td></tr>
+				<tr><td>9</td><td>“What a fine meal.”</td></tr>
+				<tr><td>10</td><td>“Nature knows no morality.”</td></tr>
+				<tr><td>11</td><td>“The crushing weight of the world is too much.”</td></tr>
+				<tr><td>12</td><td>“Your demise is met with revelry, gnashing jaws, and gluttony.”</td></tr>
+				<tr><td>13</td><td>“Beware the viridian, in color and emotion.”</td></tr>
+				<tr><td>14</td><td>“Mortality is shed as quickly as skin or clothing.”</td></tr>
+				<tr><td>15</td><td>“Hold on to each breath, savor it as your last.”</td></tr>
+				<tr><td>16</td><td>“70 percent of accidents happen in the home.”</td></tr>
+				<tr><td>17</td><td>“Stars die as new ones rise.”</td></tr>
+				<tr><td>18</td><td>“Cold. So cold.”</td></tr>
+				<tr><td>19</td><td>“The stench of failure burns your nostrils.”</td></tr>
+				<tr><td>20</td><td>“Rocks fall. You die.”</td></tr>
+			</table>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+	<element name="Dragon Edge Weapons (Uncommon)" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_DRAGON_EDGE_WEAPONS_UNCOMMON" >
+		<description>
+			<p>This weapon is made from the harvested remains of a fallen dragon. With a properly reclaimed claw or tooth, the resource can be forged into a simple piercing or slashing weapon whose latent draconic powers can appear in battle.</p>
+			<p class="indent">The first time you hit a creature on your turn with this weapon with an attack that you had advantage on, its draconic magic comes forth to deal an extra 1d6 damage of the original dragon’s elemental type.</p>
+			<p class="indent">Weapons made from the claws or teeth of dragons change in rarity and power depending on the original dragon’s age. Young dragons’ bones aren’t as powerful as older ones, and create uncommon weapons.</p>
+		</description>	
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="enhancement">2</set>
+			<set name="type" addition="any slashing or piercing simple weapon">Weapon</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE,(ID_INTERNAL_DAMAGE_TYPE_PIERCING|ID_INTERNAL_DAMAGE_TYPE_SLASHING)</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+	<element name="Dragon Edge Weapons (Rare)" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_DRAGON_EDGE_WEAPONS_RARE" >
+		<description>
+			<p>This weapon is made from the harvested remains of a fallen dragon. With a properly reclaimed claw or tooth, the resource can be forged into a simple piercing or slashing weapon whose latent draconic powers can appear in battle.</p>
+			<p class="indent">The first time you hit a creature on your turn with this weapon with an attack that you had advantage on, its draconic magic comes forth to deal an extra 1d6 damage of the original dragon’s elemental type.</p>
+			<p class="indent">Weapons made from the claws or teeth of dragons change in rarity and power depending on the original dragon’s age. Adult dragons can produce rare weapons with a +1 bonus to attack and damage rolls made with them.</p>
+		</description>	
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="enhancement">2</set>
+			<set name="type" addition="any slashing or piercing simple weapon">Weapon</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE,(ID_INTERNAL_DAMAGE_TYPE_PIERCING|ID_INTERNAL_DAMAGE_TYPE_SLASHING)</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+	<element name="Dragon Edge Weapons (Very Rare)" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_DRAGON_EDGE_WEAPONS_VERYRARE" >
+		<description>
+			<p>This weapon is made from the harvested remains of a fallen dragon. With a properly reclaimed claw or tooth, the resource can be forged into a simple piercing or slashing weapon whose latent draconic powers can appear in battle.</p>
+			<p class="indent">The first time you hit a creature on your turn with this weapon with an attack that you had advantage on, its draconic magic comes forth to deal an extra 1d6 damage of the original dragon’s elemental type.</p>
+			<p class="indent">Weapons made from the claws or teeth of dragons change in rarity and power depending on the original dragon’s age. Ancient dragons can create very rare weapons that have a +2 bonus instead.</p>
+		</description>	
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="enhancement">2</set>
+			<set name="type" addition="any slashing or piercing simple weapon">Weapon</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE,(ID_INTERNAL_DAMAGE_TYPE_PIERCING|ID_INTERNAL_DAMAGE_TYPE_SLASHING)</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+	</element>
+	<element name="Dragon Tamer Lance" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_DRAGON_TAMER_LANCE" >
+		<description>
+			<p>This slender, iridescent lance is covered in an enchanted finish that resembles the hardened scales of many dragons. You gain a +1 bonus to attack and damage rolls made with this magic weapon. While attuned to the weapon, you can understand and speak Draconic.</p>
+			<p class="indent">This lance has 8 charges and regains 1d4 + 4 expended charges each day at dawn. When you hit a target with the lance, you can expend 1 of its charges to deal an extra 3d6 acid, cold, fire, lightning, or poison damage (your choice) to the target. If you expend a charge in this way when you hit a dragon, it must also succeed on a DC 17 Wisdom saving throw or become frightened of you until the beginning of your next turn. For the purpose of this weapon, “dragon” refers to any creature with the dragon type, including dragon turtles and wyverns.</p>
+			<p class="indent">Whenever you expend a charge in this way to deal extra damage, you can choose to expend a 2nd charge and deal an additional 1d6 damage of the same type to the target and prevent it from using its reaction until the start of its next turn.</p>
+			<p class="indent"><b><i>Wyrmling Steed.</i></b> In addition, while holding the lance, you can use an action to cast the <i>find steed</i> spell from it. Once this property has been used, it can’t be used again until the next dawn. When you use the lance to cast this spell, you can choose to summon a dragon wyrmling instead of a normal mount by expending a number of charges equal to its challenge rating (maximum 2). You determine the kind of dragon summoned, although its alignment towards good or evil must be the same as your own. If your alignment is neutral, you can summon a wyrmling of either alignment. The wyrmling counts as one size larger when used as a mount and cannot use its breath weapons.</p>
+			<p class="indent"><b><i>Forceful Impact.</i></b> If you move at least 20 feet straight toward a Medium or smaller target and then make a melee attack with the lance against it while within 5 feet of the target, you make the attack with advantage instead of disadvantage. If you hit, you can immediately roll to attack another target 5 feet directly behind the first, without advantage, as part of the initial attack.</p>
+		</description>	
+		<setters>
+			<set name="keywords">lance</set>
+			<set name="category">Magic Weapons</set>
+			<set name="enhancement">1</set>
+			<set name="type" addition="lance">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="weapon">Lance</set>
+			<set name="rarity">Legendary</set>
+		</setters>
+		<rules>
+			<grant type="Language" id="ID_LANGUAGE_DRACONIC" requirements="!ID_LANGUAGE_DRACONIC" />
+		</rules>
+	</element>
+	<element name="Dragon Turtle Shield" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_DRAGON_TURTLE_SHIELD" >
+		<description>
+			<p>This shield is made from a piece of reclaimed dragon turtle shell. The brass dragon turtle head sculpture adorning its front magically creates and heats a small reservoir of water that replenishes daily at dawn. When you take fire damage while holding this shield, you can use a reaction to speak the shield’s command word. When you do, the water inside it is superheated, reducing the fire damage you take by half. The superheated water is released as a dense cloud of steam that’s centered on your space, heavily obscuring the area in a 45-foot sphere that spreads around corners. The cloud does not move with you and lasts for 1 minute or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it</p>
+			<p class="indent">Once this property has been used, the shield’s reservoir is empty and can’t be used again in this way until the next dawn when it replenishes or until it’s submerged in nonmagical salt water for 1 hour.</p>
+		</description>	
+		<setters>
+			<set name="category">Magic Armor</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="5">5 lb.</set>
+			<set name="type" addition="shield">Armor</set>
+			<set name="armor">ID_INTERNAL_ARMOR_GROUP_SHIELD</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+	<element name="Dragon-Kindled Edge" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_DRAGONKINDLED_EDGE" >
+		<description>
+			<p>This magnificent blade is crafted from the remains of an ancient dragon. You gain a +3 bonus to attack and damage rolls made with this magic weapon. When you hit a dragon with this weapon, the dragon takes an extra 2d6 damage of the weapon’s type. For the purpose of this weapon, “dragon” refers to any creature with the dragon type, including dragon turtles and wyverns. In addition, while you’re attuned to this weapon, you can read and understand Draconic.</p>
+			<p class="indent"><b><i>Kindled Cleave.</i></b> When you’re affected by a hostile dragon’s breath attack, you can use your reaction to hold the blade in front of you. When you do, the sword splits the breath attack and leaves you and any creature in a 30-foot cone behind you unaffected by the attack. Once this features has been used, it can’t be used again until the following dawn.</p>
+			<p class="indent">When you use this feature to split a breath attack in this way, the sword gives off an elemental haze like that of the split breath attack. The haze lasts for up to 1 minute and sheds bright light in a 10-foot radius and dim light for another 10 feet. The first creature hit by an attack from the sword while it has this haze takes an extra 6d6 damage from the attack of the breath attack’s damage type. This extra damage ignores resistances and immunity. </p>
+			<p class="indent"><b><i>Lesser Draconic Resistance.</i></b> If you fail a saving throw by 4 or less, you can choose to succeed on it instead. Once this feature of the sword’s been used, it can’t be used again until the following dawn.</p>
+		</description>	
+		<setters>
+			<set name="keywords">longsword</set>
+			<set name="category">Magic Weapons</set>
+			<set name="enhancement">3</set>
+			<set name="type" addition="longsword">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Legendary</set>
+		</setters>
+		<rules>
+			<grant type="Language" id="ID_LANGUAGE_DRACONIC" requirements="!ID_LANGUAGE_DRACONIC" />
+		</rules>
+	</element>
+	<element name="Dragonkin Weapons (Rare)" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_DRAGONKIN_WEAPONS_RARE" >
+		<description>
+			<p>These weapons are made of a scaly metal that radiates draconic elements. You gain a +1 bonus to attack and damage rolls made with this magic weapon, and it deals an extra 1d6 damage of the same type as your Breath Weapon racial trait. In addition, while attuned to the weapon, you gain a +1 bonus to your breath weapon’s save DC.</p>
+		</description>	
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="enhancement">1</set>
+			<set name="type" addition="any melee">Weapon</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE|ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE|ID_MHP_VSOS_WEAPON_CATEGORY_EXOTIC_MELEE</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<stat name="breath-weapon:dc" value="1" />
+		</rules>
+	</element>
+	<element name="Dragonkin Weapons (Very Rare)" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_DRAGONKIN_WEAPONS_VERY_RARE" >
+		<description>
+			<p>These weapons are made of a scaly metal that radiates draconic elements. You gain a +2 bonus to attack and damage rolls made with this magic weapon, and it deals an extra 1d6 damage of the same type as your Breath Weapon racial trait. In addition, while attuned to the weapon, you gain a +2 bonus to your breath weapon’s save DC.</p>
+		</description>	
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="enhancement">2</set>
+			<set name="type" addition="any melee">Weapon</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE|ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE|ID_MHP_VSOS_WEAPON_CATEGORY_EXOTIC_MELEE</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+		<rules>
+			<stat name="breath-weapon:dc" value="2" />
+		</rules>
+	</element>
+	<element name="Dragonkin Weapons (Legendary)" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_DRAGONKIN_WEAPONS_LEGENDARY" >
+		<description>
+			<p>These weapons are made of a scaly metal that radiates draconic elements. You gain a +3 bonus to attack and damage rolls made with this magic weapon, and it deals an extra 1d6 damage of the same type as your Breath Weapon racial trait. In addition, while attuned to the weapon, you gain a +3 bonus to your breath weapon’s save DC.</p>
+		</description>	
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="enhancement">3</set>
+			<set name="type" addition="any melee">Weapon</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE|ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE|ID_MHP_VSOS_WEAPON_CATEGORY_EXOTIC_MELEE</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Legendary</set>
+		</setters>
+		<rules>
+			<stat name="breath-weapon:dc" value="3" />
+		</rules>
+	</element>
+	<element name="Dragon's Call" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_DRAGONS_CALL" >
+		<description>
+			<p>This ear cuff imparts a deeper understanding of draconic history and language upon its wearer. While wearing the ear cuff, you can understand and speak Draconic. In addition, you gain a +1 bonus to any Charisma, Intelligence, or Wisdom ability check you make that involves dragon-related lore.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+		<rules>
+			<grant type="Language" id="ID_LANGUAGE_DRACONIC" requirements="!ID_LANGUAGE_DRACONIC" />
+		</rules>
+	</element>
+	<element name="Dream Mantle" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_DREAM_MANTLE" >
+		<description>
+			<p>This short purple cape is vaguely iridescent and is difficult to look at from afar. The cape creates illusions of faraway places that are visible only to creatures 30 or more feet away. While wearing this cloak, creatures more than 30 feet away from you have disadvantage on Wisdom (Perception) checks to detect you based on sight and make ranged attacks against you with disadvantage. This property is suppressed while you are incapacitated, restrained, or otherwise unable to move.</p>
+			<p class="indent">In addition, you can cast the <i>dream</i> spell (save DC 16) using the mantle, using yourself as the messenger within the dream. Once this property of the mantle has been used, it can’t be used again until 7 days have passed.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Common</set>
+		</setters>
+	</element>
+	<element name="Druidic Throwing Club" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_DRUIDIC_THROWING_CLUB" >
+		<description>
+			<p>This magic wooden club has the thrown property with a normal range of 20 feet and a long range of 60 feet. You gain a +1 bonus to attack and damage rolls made with this magic weapon. While attuned to the club, you know the <i>shillelagh</i> cantrip if you don't already know it. If <i>shillelagh</i> is cast on the club, the spell doesn't end when the weapon is thrown. The club flies back to your hand immediately after making a ranged attack with it.</p>
+		</description>	
+		<setters>
+			<set name="keywords">club</set>
+			<set name="category">Magic Weapons</set>
+			<set name="enhancement">1</set>
+			<set name="type" addition="club">Weapon</set>
+			<set name="attunement" addition="by a druid or ranger">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+	<element name="Dryadleaf" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_DRYADLEAF" >
+		<description>
+			<p>This magic plant only grows at the base of trees that are often stepped through by dryads. Its leaves continuously shift as if by a breeze. Touching the plant, even gently, causes its leaves to stop their gentle swaying for 1 minute.</p>
+			<p class="indent">Dryadleaf plants only grow up to 4 leaves at a time and are found in the wild with 1d4 matured leaves. Leaves are fully matured once they have a thin yellow rim. You can use an action to eat a mature leaf. When you do, you can speak to beasts and plants for 1 minute as if you shared a language. Once it's been picked, a leaf retains this property for 7 days before it wilts.</p>
+			<p class="indent">You can move the plant to a pot over the course of 1 minute. When you do, make a DC 15 Intelligence (Nature) or Wisdom (Survival) check. On a success, the delicate plant survives the transfer to a new pot. On a failure, the plant is irreversibly damaged and dies.</p>
+			<p class="indent">The plant can survive with surprisingly little air, allowing it to survive in an extradimensional space such as a <i>bag of holding</i> or <i>portable hole</i>. So long as it's watered lightly each day and given a moderate amount of sunlight (weather and environment permitting), the plant grows 1d4 missing mature leaves every 7 days.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Common</set>
+		</setters>
+	</element>
+
+
+</elements>
