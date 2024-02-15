@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<info>
+		<name>Book 1: Magic Items H</name>
+		<description>The first published work</description>                             
+		<update version="0.0.1">
+			<file name="book-1-items-h.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag/Griffon-s-Book-1/book-1-items-h.xml" />
+		</update>
+	</info>
+
+	<element name="Halberd of the Peacock" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_HALBERD_OFTHE_PEACOCK" >
+		<description>
+			<p>You gain a +1 bonus to attack and damage rolls made with this magic weapon. This halberd has been polished to a mirror finish and is adorned with five ornate gemstones dangling beneath its blade that glow with arcane energy. This weapon contains 5 charges, each stored within one of the gems, and regains 1d4+1 expended charges each day at dawn. You can expend 1 charge to cast <i>disguise self</i> or 2 charges to cast either <i>alter self</i>, <i>mirror image</i>, or <i>shatter</i> (save DC 15). The hanging gems lose their glow once their charge has been spent in this way.</p>
+			<p class="indent"><b><i>Curse.</i></b> This halberd is cursed, and becoming attuned to it extends the curse to you. As long as you remain cursed, you are unwilling to part with the halberd, keeping it within reach at all times. You also have disadvantage on attack rolls with weapons other than this one, unless no foe is within 60 feet of you that you can see or hear. Whenever you reduce a creature to 0 hit points using this weapon, you must succeed on a DC 12 Wisdom saving throw or be compelled to admire yourself in the mirror until the start of your next turn: sacrificing any remaining movement, action, bonus action, or reactions you may have had. In addition, you automatically fail any Dexterity saving throw you make while admiring yourself in the mirror in this way.</p>
+		</description>	
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="halberd">Weapon</set>
+			<set name="weapon">Halberd</set>
+			<set name="enhancement">1</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+    </element>
+	<element name="Hand of the Master" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_HAND_OFTHE_MASTER" >
+		<description>
+			<p>This satin glove has no visible seams and can be easily flipped inside-out to wear on either a left or right hand. While attuned to the glove, you can fit it over a hand that is either missing fingers or missing entirely and have it function as a normal body part.</p>
+			<p class="indent">In addition, you can cast the <i>mage hand</i> cantrip at will using the glove. When you do, the spectral hand originates within the glove instead of at a point of your choosing. The glove covers the spectral hand as it carries out your commands, leaving your hand or limb uncovered while it does so. Casting <i>mage hand</i> using the glove doesn’t require any verbal components and doubles both the duration and carrying capacity of the hand.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+    </element>
+	<element name="Harp of Valor" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_HARP_OF_VALOR" >
+		<description>
+			<p>This elegant bow has 10 strings and can also be used as both a harp and spellcasting focus. You are proficient with this harp while attuned to the weapon, and Charisma (Performance) checks made using the harp are made with advantage. You gain a +2 bonus to attack and damage rolls made with this magic weapon. In addition, arrows fired from the bow deal thunder damage instead of piercing.</p>
+			<p class="indent">The bow has 10 charges and regains 1d6 + 4 expended charges daily at dawn. While holding the bow, you can expend 1 to 5 of its charges as an action to cast either the <i>thunderwave</i> or <i>magic missile</i> spell from it at a spell level equal to the number of expended charges, using your spellcasting modifier and spell save DC.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="shortbow">Weapon</set>
+			<set name="weapon">Shortbow</set>
+			<set name="enhancement">2</set>
+			<set name="attunement" addition="by a bard">true</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+    </element>
+	<element name="Hasty Sugarbomb" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_HASTY_SUGARBOMB" >
+		<description>
+			<p>This enchanted sweet can be eaten using an action to in￾crease your movement speed by 5 feet for 1 hour.</p>
+			<p class="indent"><b><i>Upset stomach.</i></b> You can only be under the effects of 1 sugarbomb that has this feature at a time. Eating a sugarbomb that has this feature while under the effects of another one causes the effects of the first sugarbomb to immediately end and be replaced by the new one’s. This rapid change is difficult to stomach, forcing you to make a DC 13 Constitution saving throw. On a failed save, you gain the effects of the new sugarbomb, but become poisoned for 1 minute. On a success, you gain the effects of the new sugarbomb and are not poisoned.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="stackable">true</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+    </element>
+	<element name="Hat Trick" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_HAT_TRICK" >
+		<description>
+			<p>This gaudy purple hat allows the wearer to perform some minor magical feats. The hat has 3 charges and regains 1 expended charge daily at dawn. While holding the hat, you can expend 1 of its charges as an action to cast the <i>find familiar</i> spell from it, pulling the familiar from the hat. The summoned familiar must take the form of either a rabbit or dove, using the statistics for a weasel or owl, respectively. The familiar remains for up to 1 minute, instead of its normal duration, and cannot be used to deliver spells.</p>
+			<p class="indent">In addition, while wearing the hat, you can use an action to cast the <i>prestidigitation</i> spell from it. When cast in this way, the spell can only be used to create harmless, illusory effects.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="slot">head</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+    </element>
+	<element name="Hcor’uk the Colossal’s Portable Handheld Weapon of Walloping" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_HCORUK_THE_COLOSSALS_PORTABLE_HANDELD_WEAPON_OF_WALLOPING" >
+		<description>
+			<p>This flail has the two-handed, heavy, and reach properties. Attacks made with the flail deal an extra 1d8 bludgeoning damage, or 2d8 if the target is a structure. When you roll a 20 on an attack roll made with this magic weapon against a Huge or smaller creature, that creature must succeed on a DC 16 Strength saving throw or be knocked prone.</p>
+			<p class="indent">The rope and boulder that make this weapon are magically attached and can’t be separated. The boulder weighs 200 pounds but is effortless for you to lift once you attune to the weapon.</p>
+		</description>	
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="flail">Weapon</set>
+			<set name="weapon">Flail</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+    </element>
+	<element name="Healing Arrow" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_HEALING_ARROW" >
+		<description>
+			<p>This magic ammunition is made by the elder clerics of nature and hunting deities. An attack made with this ammunition deals no damage to any target hit by it. When you hit a creature other than yourself with this ammunition, that creature regains hit points equal to 2d4 + your Dexterity and Wisdom modifiers (minimum 1). If the target is a friendly creature, you have advantage on the attack. Once it hits a creature, this ammunition dissolves into pure healing magic before it’s destroyed. This ammunition has no effect on undead creatures or constructs.</p>
+		</description>	
+		<setters>
+			<set name="keywords">arrow, bolt</set>
+			<set name="category">Ammunition</set>
+			<set name="type" addition="arrow or bolt">Weapon</set>
+			<set name="rarity">Uncommon</set>
+			<set name="stackable">true</set>
+		</setters>
+    </element>
+	<element name="Heart of the Sleeveless" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_HEART_OFTHE_SLEEVELESS" >
+		<description>
+			<p>This vest is made from a luxurious, silky material that seems to always make the wearer appear more fit. The clothing gently hugs the wearer, redistributing weight and muscle to flatter and accentuate their physique. It seems to deflate sadly once taken off.</p>
+			<p class="indent">While worn, the fabric’s color changes with the wearer’s mood or flash of emotion. Refer to the table below for the vest’s colors when under different emotions. While unworn, the fabric’s color becomes a muted blue.</p>
+			<table>
+				<thead>
+					<tr><td class="col-10">Emotion</td><td>Color</td></tr>
+				</thead>
+				<tr><td>Anger</td><td>Red</td></tr>
+				<tr><td>Anticipation</td><td>Orange</td></tr>
+				<tr><td>Joy</td><td>Yellow</td></tr>
+				<tr><td>Love</td><td>Lime</td></tr>
+				<tr><td>Fear</td><td>Green</td></tr>
+				<tr><td>Sadness</td><td>Blue</td></tr>
+				<tr><td>Disappointment</td><td>Indigo</td></tr>
+				<tr><td>Disgust</td><td>Purple</td></tr>
+				<tr><td>Jealousy</td><td>Black</td></tr>
+				<tr><td>Surprise</td><td>White</td></tr>
+			</table>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Common</set>
+		</setters>
+    </element>
+	<element name="Hellfire Pitchfork" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_HELLFIRE_PITCHFORK" >
+		<description>
+			<p>This menacing, black iron trident is warm to the touch, weighs 10 pounds, and has the heavy property. As a result of its weight, this trident has a normal throwing range of 15 feet and a long range of 45 feet. You gain a +1 bonus to attack and damage rolls made with this magic weapon, and it deals an extra 1d8 radiant damage to any target it hits. While the trident is within 60 feet of you, you can speak its command word as a bonus action to cause it to disappear in a puff of smoke and reappear in one of your open hands. If you speak the trident’s command word immediately after making a ranged attack with it, it erupts in a 5-foot-high pillar of flame, instead of smoke, before it reappears in your hand. Any creature within the same space as the trident when it erupts in this way must succeed on a DC 16 Dexterity saving throw or take 1d8 fire damage.</p>
+		</description>	
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="trident">Weapon</set>
+			<set name="weapon">Trident</set>
+			<set name="enhancement">1</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+    </element>
+	<element name="Helm of Heroes" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_GALEPIERCE_WEAPONS" >
+		<description>
+			<p>These magic weapons have been tempered to glide through the wind, doubling both their normal and long throwing ranges. Ranged attacks made with these weapons against targets that are protected by fog, high winds, and other air-based hindrances are made without the normal disadvantage that those obstructions would typically cause.</p>
+		</description>	
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="any piercing weapon with the thrown property">Weapon</set>
+			<set name="weapon">(ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE), ID_INTERNAL_DAMAGE_TYPE_PIERCING,  ID_INTERNAL_WEAPON_PROPERTY_THROWN</set>
+			<set name="name-format">Galepierce {{parent}}</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+    </element>
+	<element name="Helmsman’s Shelter" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_GALEPIERCE_WEAPONS" >
+		<description>
+			<p>These magic weapons have been tempered to glide through the wind, doubling both their normal and long throwing ranges. Ranged attacks made with these weapons against targets that are protected by fog, high winds, and other air-based hindrances are made without the normal disadvantage that those obstructions would typically cause.</p>
+		</description>	
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="any piercing weapon with the thrown property">Weapon</set>
+			<set name="weapon">(ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE), ID_INTERNAL_DAMAGE_TYPE_PIERCING,  ID_INTERNAL_WEAPON_PROPERTY_THROWN</set>
+			<set name="name-format">Galepierce {{parent}}</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+    </element>
+	<element name="Hexaxe" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_GALEPIERCE_WEAPONS" >
+		<description>
+			<p>These magic weapons have been tempered to glide through the wind, doubling both their normal and long throwing ranges. Ranged attacks made with these weapons against targets that are protected by fog, high winds, and other air-based hindrances are made without the normal disadvantage that those obstructions would typically cause.</p>
+		</description>	
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="any piercing weapon with the thrown property">Weapon</set>
+			<set name="weapon">(ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE), ID_INTERNAL_DAMAGE_TYPE_PIERCING,  ID_INTERNAL_WEAPON_PROPERTY_THROWN</set>
+			<set name="name-format">Galepierce {{parent}}</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+    </element>
+	<element name="Hurricane Lance" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_GALEPIERCE_WEAPONS" >
+		<description>
+			<p>These magic weapons have been tempered to glide through the wind, doubling both their normal and long throwing ranges. Ranged attacks made with these weapons against targets that are protected by fog, high winds, and other air-based hindrances are made without the normal disadvantage that those obstructions would typically cause.</p>
+		</description>	
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="any piercing weapon with the thrown property">Weapon</set>
+			<set name="weapon">(ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE), ID_INTERNAL_DAMAGE_TYPE_PIERCING,  ID_INTERNAL_WEAPON_PROPERTY_THROWN</set>
+			<set name="name-format">Galepierce {{parent}}</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+    </element>
+</elements>

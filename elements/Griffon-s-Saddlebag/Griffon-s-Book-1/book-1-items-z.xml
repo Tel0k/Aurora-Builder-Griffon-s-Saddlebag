@@ -1,0 +1,23 @@
+<elements>
+	<info>
+		<name>Book 1: Magic Items Z</name>
+		<description>The second published work</description>                             
+		<update version="0.0.1">
+			<file name="book-1-items-z.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag/Griffon-s-Book-1/book-1-items-z.xml" />
+		</update>
+	</info>
+	<element name="Zafu of the Wandering Mind" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_ZAFU_OF_THE_WANDERING_MIND" >
+		<description>
+			<p>This soft, elaborately stitched pillow set focuses the intensity of your meditation. It takes 1 minute to settle into a meditation while sitting on the pillows. You can hold a light conversation when meditating, but are otherwise unable to move or take actions while you do. While meditating in this way, you can levitate yourself, including the pillows, up to 5 feet in the air (no action required). You meditate in this way until you decide to end it (no action required), or until you take damage or are no longer on the pillows. While you’re within 100 feet of at least one of the pillows, you can speak their command word as a bonus action to cause them to be shunted into a special pocket dimension. Speaking their command word again as a bonus action returns them softly to an empty space within 5 feet of you. </p>
+			<p class="indent">In addition, this pillow has 3 charges and regains 1d3 expended charges daily at dawn. While meditating on the pillows, you can expend 1 of their charges to cast the <i>arcane eye</i> spell, without breaking your meditation. You lose concentration on this spell when cast in this way if you end your meditation.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a monk">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+</elements>

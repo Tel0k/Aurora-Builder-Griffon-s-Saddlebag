@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<info>
+		<name>Book 1: Magic Items Q</name>
+		<description>The first published work</description>                             
+		<update version="0.0.1">
+			<file name="book-1-items-q.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag/Griffon-s-Book-1/book-1-items-q.xml" />
+		</update>
+	</info>
+
+</elements>

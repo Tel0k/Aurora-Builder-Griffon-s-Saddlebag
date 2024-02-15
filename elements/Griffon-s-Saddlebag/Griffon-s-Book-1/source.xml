@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+			<file name="source.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag/Griffon-s-Book-1/source.xml" />
+		</update>
+	</info>	
+	<element name="The Griffon’s Saddlebag Book 1" type="Source" source="Core" id="ID_TGSB_SOURCE_THE_GRIFFONS_SADDLEBAG_BOOK_1">
+		<description>			
+			<p><strong><em>A collection of magic items and character options for the world's greatest roleplaying game.</em></strong></p>
+		</description>
+		<setters>
+			<set name="abbreviation">TGSB</set>
+			<set name="url">https://www.thegriffonssaddlebag.com/</set>
+			<set name="author" abbreviation="TGSB" url="https://www.thegriffonssaddlebag.com/">The Griffon’s Saddlebag</set>
+			<set name="third-party">true</set>
+			<set name="supplement">true</set>
+			<set name="release">20200925</set>
+		</setters>
+	</element>
+</elements>
