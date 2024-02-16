@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.1">
-			<file name="source.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Book-1/source.xml" />
+			<file name="source.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag/Griffon-s-Book-1/source.xml" />
 		</update>
 	</info>	
 	<element name="The Griffon’s Saddlebag Book 1" type="Source" source="Core" id="ID_TGSB_SOURCE_THE_GRIFFONS_SADDLEBAG_BOOK_1">
