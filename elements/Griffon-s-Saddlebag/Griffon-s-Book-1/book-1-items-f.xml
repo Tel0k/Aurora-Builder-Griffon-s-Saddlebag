@@ -3,7 +3,7 @@
 	<info>
 		<name>Book 1: Magic Items E</name>
 		<description>The first published work</description>                             
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="book-1-items-e.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag/Griffon-s-Book-1/book-1-items-e.xml" />
 		</update>
 	</info>
@@ -74,7 +74,7 @@
 		<description>
 			<p>This fungal staff has 25 charges and regains 1d10 + 15 expended charges daily at dusk. While holding the staff, you can use an action to expend 1 or more of its charges to cause clusters of noxious mushrooms to magically appear in a number of unoccupied spaces equal to the number of charges you expend. The spaces must be on solid ground within 60 feet of you. Each space becomes difficult terrain for the duration of the effect. When a creature moves into or within a space or area covered by these mushrooms, that creature takes 2d4 poison damage for every 5 feet it travels. The mushrooms live for 1 minute or until you dismiss them as a bonus action.</p>
 			<p class="indent">In addition, while holding the staff, you can use a bonus action to expend 1 or more of its charges to cast one of the following spells from it, regardless of the spell's normal casting time, using your spell save DC: <i>cloudkill</i> (5 charges), <i>fog cloud</i> (1 charge), <i>insect plague</i> (5 charges), or <i>stinking cloud</i> (3 charges). A spell cast in this way ends at the end of your next turn and must target a point adjacent to a space occupied by your mushrooms. When cast from the staff, these spells do not require concentration.</p>
-			<p class="indent">If you expend the last charge from the staff, roll a d20. On a 1, the staff begins to overgrow, destroying the staff and forc￾ing you to drop it in an unoccupied space adjacent to you. A hostile violet fungus grows in its place.</p>
+			<p class="indent">If you expend the last charge from the staff, roll a d20. On a 1, the staff begins to overgrow, destroying the staff and forcing you to drop it in an unoccupied space adjacent to you. A hostile violet fungus grows in its place.</p>
 		</description>	
 		<setters>
 			<set name="category">Staffs</set>
