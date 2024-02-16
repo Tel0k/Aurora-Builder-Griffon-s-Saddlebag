@@ -25,7 +25,7 @@
 	<element name="Hand of the Master" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_HAND_OFTHE_MASTER" >
 		<description>
 			<p>This satin glove has no visible seams and can be easily flipped inside-out to wear on either a left or right hand. While attuned to the glove, you can fit it over a hand that is either missing fingers or missing entirely and have it function as a normal body part.</p>
-			<p class="indent">In addition, you can cast the <i>mage hand</i> cantrip at will using the glove. When you do, the spectral hand originates within the glove instead of at a point of your choosing. The glove covers the spectral hand as it carries out your commands, leaving your hand or limb uncovered while it does so. Casting <i>mage hand</i> using the glove doesn’t require any verbal components and doubles both the duration and carrying capacity of the hand.</p>
+			<p class="indent">In addition, you can cast the <i>mage hand</i> cantrip at will using the glove. When you do, the spectral hand originates within the glove instead of at a point of your choosing. The glove covers the spectral hand as it carries out your commands, leaving your hand or limb uncovered while it does so. Casting <i>mage hand</i> using the glove doesn't require any verbal components and doubles both the duration and carrying capacity of the hand.</p>
 		</description>	
 		<setters>
 			<set name="category">Wondrous Items</set>
@@ -50,8 +50,8 @@
     </element>
 	<element name="Hasty Sugarbomb" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_HASTY_SUGARBOMB" >
 		<description>
-			<p>This enchanted sweet can be eaten using an action to in￾crease your movement speed by 5 feet for 1 hour.</p>
-			<p class="indent"><b><i>Upset stomach.</i></b> You can only be under the effects of 1 sugarbomb that has this feature at a time. Eating a sugarbomb that has this feature while under the effects of another one causes the effects of the first sugarbomb to immediately end and be replaced by the new one’s. This rapid change is difficult to stomach, forcing you to make a DC 13 Constitution saving throw. On a failed save, you gain the effects of the new sugarbomb, but become poisoned for 1 minute. On a success, you gain the effects of the new sugarbomb and are not poisoned.</p>
+			<p>This enchanted sweet can be eaten using an action to increase your movement speed by 5 feet for 1 hour.</p>
+			<p class="indent"><b><i>Upset stomach.</i></b> You can only be under the effects of 1 sugarbomb that has this feature at a time. Eating a sugarbomb that has this feature while under the effects of another one causes the effects of the first sugarbomb to immediately end and be replaced by the new one's. This rapid change is difficult to stomach, forcing you to make a DC 13 Constitution saving throw. On a failed save, you gain the effects of the new sugarbomb, but become poisoned for 1 minute. On a success, you gain the effects of the new sugarbomb and are not poisoned.</p>
 		</description>	
 		<setters>
 			<set name="category">Wondrous Items</set>
@@ -72,10 +72,10 @@
 			<set name="rarity">Uncommon</set>
 		</setters>
     </element>
-	<element name="Hcor’uk the Colossal’s Portable Handheld Weapon of Walloping" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_HCORUK_THE_COLOSSALS_PORTABLE_HANDELD_WEAPON_OF_WALLOPING" >
+	<element name="Hcor'uk the Colossal's Portable Handheld Weapon of Walloping" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_HCORUK_THE_COLOSSALS_PORTABLE_HANDELD_WEAPON_OF_WALLOPING" >
 		<description>
 			<p>This flail has the two-handed, heavy, and reach properties. Attacks made with the flail deal an extra 1d8 bludgeoning damage, or 2d8 if the target is a structure. When you roll a 20 on an attack roll made with this magic weapon against a Huge or smaller creature, that creature must succeed on a DC 16 Strength saving throw or be knocked prone.</p>
-			<p class="indent">The rope and boulder that make this weapon are magically attached and can’t be separated. The boulder weighs 200 pounds but is effortless for you to lift once you attune to the weapon.</p>
+			<p class="indent">The rope and boulder that make this weapon are magically attached and can't be separated. The boulder weighs 200 pounds but is effortless for you to lift once you attune to the weapon.</p>
 		</description>	
 		<setters>
 			<set name="category">Magic Weapons</set>
@@ -87,7 +87,7 @@
     </element>
 	<element name="Healing Arrow" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_HEALING_ARROW" >
 		<description>
-			<p>This magic ammunition is made by the elder clerics of nature and hunting deities. An attack made with this ammunition deals no damage to any target hit by it. When you hit a creature other than yourself with this ammunition, that creature regains hit points equal to 2d4 + your Dexterity and Wisdom modifiers (minimum 1). If the target is a friendly creature, you have advantage on the attack. Once it hits a creature, this ammunition dissolves into pure healing magic before it’s destroyed. This ammunition has no effect on undead creatures or constructs.</p>
+			<p>This magic ammunition is made by the elder clerics of nature and hunting deities. An attack made with this ammunition deals no damage to any target hit by it. When you hit a creature other than yourself with this ammunition, that creature regains hit points equal to 2d4 + your Dexterity and Wisdom modifiers (minimum 1). If the target is a friendly creature, you have advantage on the attack. Once it hits a creature, this ammunition dissolves into pure healing magic before it's destroyed. This ammunition has no effect on undead creatures or constructs.</p>
 		</description>	
 		<setters>
 			<set name="keywords">arrow, bolt</set>
@@ -100,7 +100,7 @@
 	<element name="Heart of the Sleeveless" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_HEART_OFTHE_SLEEVELESS" >
 		<description>
 			<p>This vest is made from a luxurious, silky material that seems to always make the wearer appear more fit. The clothing gently hugs the wearer, redistributing weight and muscle to flatter and accentuate their physique. It seems to deflate sadly once taken off.</p>
-			<p class="indent">While worn, the fabric’s color changes with the wearer’s mood or flash of emotion. Refer to the table below for the vest’s colors when under different emotions. While unworn, the fabric’s color becomes a muted blue.</p>
+			<p class="indent">While worn, the fabric's color changes with the wearer's mood or flash of emotion. Refer to the table below for the vest's colors when under different emotions. While unworn, the fabric's color becomes a muted blue.</p>
 			<table>
 				<thead>
 					<tr><td class="col-10">Emotion</td><td>Color</td></tr>
@@ -125,7 +125,7 @@
     </element>
 	<element name="Hellfire Pitchfork" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_HELLFIRE_PITCHFORK" >
 		<description>
-			<p>This menacing, black iron trident is warm to the touch, weighs 10 pounds, and has the heavy property. As a result of its weight, this trident has a normal throwing range of 15 feet and a long range of 45 feet. You gain a +1 bonus to attack and damage rolls made with this magic weapon, and it deals an extra 1d8 radiant damage to any target it hits. While the trident is within 60 feet of you, you can speak its command word as a bonus action to cause it to disappear in a puff of smoke and reappear in one of your open hands. If you speak the trident’s command word immediately after making a ranged attack with it, it erupts in a 5-foot-high pillar of flame, instead of smoke, before it reappears in your hand. Any creature within the same space as the trident when it erupts in this way must succeed on a DC 16 Dexterity saving throw or take 1d8 fire damage.</p>
+			<p>This menacing, black iron trident is warm to the touch, weighs 10 pounds, and has the heavy property. As a result of its weight, this trident has a normal throwing range of 15 feet and a long range of 45 feet. You gain a +1 bonus to attack and damage rolls made with this magic weapon, and it deals an extra 1d8 radiant damage to any target it hits. While the trident is within 60 feet of you, you can speak its command word as a bonus action to cause it to disappear in a puff of smoke and reappear in one of your open hands. If you speak the trident's command word immediately after making a ranged attack with it, it erupts in a 5-foot-high pillar of flame, instead of smoke, before it reappears in your hand. Any creature within the same space as the trident when it erupts in this way must succeed on a DC 16 Dexterity saving throw or take 1d8 fire damage.</p>
 		</description>	
 		<setters>
 			<set name="category">Magic Weapons</set>
@@ -138,7 +138,7 @@
     </element>
 	<element name="Helm of Heroes" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_HELM_OF_HEROES" >
 		<description>
-			<p>You gain a +1 bonus to AC if you’re wearing no armor while wearing this helmet. You can still use a shield and gain this benefit. In addition, while wearing no armor, the helm becomes suffused with glory and glimmers for 1 minute whenever you roll a 20 on an attack roll. While the helm is glimmering in this way, you gain temporary hit points at the start of each of your turns equal to half your level, and friendly creatures within 10 feet of you can’t be frightened.</p>
+			<p>You gain a +1 bonus to AC if you're wearing no armor while wearing this helmet. You can still use a shield and gain this benefit. In addition, while wearing no armor, the helm becomes suffused with glory and glimmers for 1 minute whenever you roll a 20 on an attack roll. While the helm is glimmering in this way, you gain temporary hit points at the start of each of your turns equal to half your level, and friendly creatures within 10 feet of you can't be frightened.</p>
 		</description>	
 		<setters>
 			<set name="category">Wondrous Items</set>
@@ -151,40 +151,52 @@
 			<stat name="ac:misc" value="1" equipped="[armor:none],[shield:any]"/>
 		</rules>
     </element>
-	<element name="Helmsman’s Shelter" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_GALEPIERCE_WEAPONS" >
+	<element name="Helmsman's Shelter" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_HELMSMANS_SHELTER" >
 		<description>
-			<p>These magic weapons have been tempered to glide through the wind, doubling both their normal and long throwing ranges. Ranged attacks made with these weapons against targets that are protected by fog, high winds, and other air-based hindrances are made without the normal disadvantage that those obstructions would typically cause.</p>
+			<p>This magic shield offers a degree of control over the seas. You gain a +1 bonus to your AC while wielding this shield in addition to the shield's normal bonus to AC. While attuned to the shield, you're proficient with water vehicles.</p>
+			<p class="indent">This shield has 5 charges and regains all expended charges daily at dawn. While holding the shield, you can expend 3 of its charges to cast the <i>control water</i> spell (save DC 15) from it. Alternatively, you can use an action to expend 1 of its charges to magically take control of a water vehicle you can see within 300 feet of you that has a rudder. When you do, if that water vehicle has a creature currently controlling its rudder, you must make a Strength (Athletics) check contested by the other creature's Strength (Athletics) check. If you win the contest, you wrestle control away from the creature and can alter the direction of the vehicle by up to 90 degrees. If there is no creature controlling the direction of the water vehicle, you automatically succeed on this contest. You maintain control of this vehicle until the start of your next turn.</p>
+		</description>	
+		<setters>
+			<set name="keywords">shield</set>
+			<set name="category">Magic Armor</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="shield">Armor</set>
+			<set name="enhancement">1</set>
+			<set name="armor">ID_INTERNAL_ARMOR_GROUP_SHIELD</set>
+			<set name="attunement" >true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<stat name="ac:shield" value="1" bonus="enhancement" />
+		</rules>
+    </element>
+	<element name="Hexaxe" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_HEXAXE" >
+		<description>
+			<p>This handaxe amplifies curses bestowed on its enemies. The weapon has 3 charges and regains all expended charges daily at dusk. While you're holding the axe and are forced to make a Constitution saving throw to maintain concentration on a warlock spell, you can use your reaction to expend 1 of the axe's charges to add your Charisma modifier to the total of the saving throw.</p>
+			<p class="indent">You gain a +1 bonus to attack and damage rolls made with this magic weapon against creatures under the effects of a warlock spell you cast that requires concentration.</p>
 		</description>	
 		<setters>
 			<set name="category">Magic Weapons</set>
-			<set name="type" addition="any piercing weapon with the thrown property">Weapon</set>
-			<set name="weapon">(ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE), ID_INTERNAL_DAMAGE_TYPE_PIERCING,  ID_INTERNAL_WEAPON_PROPERTY_THROWN</set>
-			<set name="name-format">Galepierce {{parent}}</set>
+			<set name="type" addition="handaxe">Weapon</set>
+			<set name="weapon">Handaxe</set>
+			<set name="enhancement">1</set>
+			<set name="attunement" addition="by a warlock">true</set>
 			<set name="rarity">Uncommon</set>
 		</setters>
     </element>
-	<element name="Hexaxe" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_GALEPIERCE_WEAPONS" >
+	<element name="Hurricane Lance" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_HURRICANE_LANCE" >
 		<description>
-			<p>These magic weapons have been tempered to glide through the wind, doubling both their normal and long throwing ranges. Ranged attacks made with these weapons against targets that are protected by fog, high winds, and other air-based hindrances are made without the normal disadvantage that those obstructions would typically cause.</p>
+			<p>You gain a +2 bonus to attack and damage rolls made with this magic weapon.</p>
+			<p class="indent">The lance has 4 charges and regains 1d4 expended charges each day at dawn. You can expend 1 charge as an action to surround yourself with a flurry of wind that lasts for 1 minute. While surrounded by this wind, you can take the Disengage action using a bonus action. You can expend a second charge of the weapon (no action required) while surrounded by the wind to extend the effect to any mount you're currently riding. If you dismount or are forced off your mount, the effect fades from it. The effect ends early if you fall unconscious or are no longer wielding the lance.</p>
+			<p class="indent">In addition, you can use the lance to cast the <i>thunderwave</i> spell at 3rd level (save DC 16). Once this property of the lance has been used, it can't be used again until the following dawn.</p>
 		</description>	
 		<setters>
 			<set name="category">Magic Weapons</set>
-			<set name="type" addition="any piercing weapon with the thrown property">Weapon</set>
-			<set name="weapon">(ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE), ID_INTERNAL_DAMAGE_TYPE_PIERCING,  ID_INTERNAL_WEAPON_PROPERTY_THROWN</set>
-			<set name="name-format">Galepierce {{parent}}</set>
-			<set name="rarity">Uncommon</set>
-		</setters>
-    </element>
-	<element name="Hurricane Lance" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_GALEPIERCE_WEAPONS" >
-		<description>
-			<p>These magic weapons have been tempered to glide through the wind, doubling both their normal and long throwing ranges. Ranged attacks made with these weapons against targets that are protected by fog, high winds, and other air-based hindrances are made without the normal disadvantage that those obstructions would typically cause.</p>
-		</description>	
-		<setters>
-			<set name="category">Magic Weapons</set>
-			<set name="type" addition="any piercing weapon with the thrown property">Weapon</set>
-			<set name="weapon">(ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE), ID_INTERNAL_DAMAGE_TYPE_PIERCING,  ID_INTERNAL_WEAPON_PROPERTY_THROWN</set>
-			<set name="name-format">Galepierce {{parent}}</set>
-			<set name="rarity">Uncommon</set>
+			<set name="type" addition="lance">Weapon</set>
+			<set name="weapon">Lance</set>
+			<set name="enhancement">2</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Very Rare</set>
 		</setters>
     </element>
 </elements>
