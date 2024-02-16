@@ -88,7 +88,7 @@
     </element>
     <element name="Festerwood Logger" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_FESTERWOOD_LOGGER" >
 		<description>
-			<p>This magic axe is a favorite among lumberjacks. The axe is made entirely of the magically hardened festerwood and sharpened to a menacing edge. The weapon's glimmering yel￾low pustules leech acid with each attack, causing any target hit by it to take an extra 1d4 acid damage. This acid damage is maximized if the target is a plant creature, a nonmagical plant, or an object made of wood.</p>
+			<p>This magic axe is a favorite among lumberjacks. The axe is made entirely of the magically hardened festerwood and sharpened to a menacing edge. The weapon's glimmering yellow pustules leech acid with each attack, causing any target hit by it to take an extra 1d4 acid damage. This acid damage is maximized if the target is a plant creature, a nonmagical plant, or an object made of wood.</p>
 		</description>	
 		<setters>
 			<set name="keywords">handaxe</set>
@@ -116,7 +116,7 @@
     </element>
     <element name="Festerwood Vizard" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_FESTERWOOD_VIZARD" >
 		<description>
-			<p>This dark wooden mask is strangely insect-like and magi￾cally conforms to fit your face. While wearing the mask, you gain blindsight out to a range of 10 feet. You can put on and remove the mask using an action.</p>
+			<p>This dark wooden mask is strangely insect-like and magically conforms to fit your face. While wearing the mask, you gain blindsight out to a range of 10 feet. You can put on and remove the mask using an action.</p>
 			<p class="indent">In addition, you can summon a swarm of insects (beetles) that fly out of the mask's mouth and obey your verbal commands as an action. You can command the swarm to move and make an attack as part of the action to summon them and then again on each of your following turns as a bonus action. If the swarm goes 10 minutes without attacking a creature, they dissipate harmlessly to seek food elsewhere. Once this property has been used, it can't be used again until the next dusk.</p>
 		</description>	
 		<setters>
@@ -329,7 +329,7 @@
     <element name="Frefil's Jolly Oozebean Sugarbombs" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_FREFILS_JOLLY_OOZEBEAN_SUGARBOMBS" >
 		<description>
 			<p>A pack of oozebeans comes with 4 inside it. When you open a pack, roll 4d8 and record each number. Use these numbers to determine the kinds of oozebeans found in the bag using the table below. You can eat an oozebean using a bonus action. Each color has an effect that lasts for 1 minute.</p>
-            <p class="indent">Upset stomach. You can only be under the effects of 1 sugarbomb that has this feature at a time. Eating a sugar￾bomb that has this feature while under the effects of another one causes the effects of the first sugarbomb to immediately end and be replaced by the new one's. This rapid change is difficult to stomach, forcing you to make a DC 13 Constitu￾tion saving throw. On a failed save, you gain the effects of the new sugarbomb, but become poisoned for 1 minute. On a success, you gain the effects of the new sugarbomb and are not poisoned.</p>
+            <p class="indent">Upset stomach. You can only be under the effects of 1 sugarbomb that has this feature at a time. Eating a sugarbomb that has this feature while under the effects of another one causes the effects of the first sugarbomb to immediately end and be replaced by the new one's. This rapid change is difficult to stomach, forcing you to make a DC 13 Constitution saving throw. On a failed save, you gain the effects of the new sugarbomb, but become poisoned for 1 minute. On a success, you gain the effects of the new sugarbomb and are not poisoned.</p>
             <table>
                 <thead>
                     <tr><td class="col-10">d8</td><td>Color</td><td>Effect</td></tr>
@@ -338,7 +338,7 @@
                 <tr><td>2</td><td>Black</td><td>You have resistance to acid damage and can safely eat otherwise inedible and nonpoisonous organic materials.</td></tr>
                 <tr><td>3</td><td>Blue</td><td>Grappling or being grappled deals 1d8 acid damage to the other creature.</td></tr>
                 <tr><td>4</td><td>Gray</td><td>You have advantage on saving throws against being charmed or frightened.</td></tr>
-                <tr><td>5</td><td>Gold</td><td>You gain a climbing speed equal to your move￾ment speed.</td></tr>
+                <tr><td>5</td><td>Gold</td><td>You gain a climbing speed equal to your movement speed.</td></tr>
                 <tr><td>6</td><td>Red</td><td>You gain 1d8+4 temporary hit points.</td></tr>
                 <tr><td>7</td><td>Green</td><td>You have resistance to poison damage and advantage on ability checks to escape grapples or restraints.</td></tr>
                 <tr><td>8</td><td>Yellow</td><td>You have resistance against lightning damage and immunity against damage from the <i>magic missile</i> spell.</td></tr>
@@ -352,7 +352,7 @@
     </element>
     <element name="Frefil's Tiny Tasty Tongue Twisty Sugarbombs" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_FREFILS_TINYTASTY_TONGUETWISTY_SUGARBOMBS" >
 		<description>
-			<p>This small bag of marble sized gumballs contains 12 en￾chanted candies. While the color and flavor of each gumball is different, each one's effect is the same. As an action, you can start to chew one of these gumballs to release its magic. For the next 5 minutes while you chew the candy, you understand the literal meaning of any spoken language that you hear. If you speak while chewing the gumball, your accent changes to sound like the creature to whom you're listening: allowing you to sound like a local with minimal effort. The candy's magic and flavor fade 5 minutes after you first start to chew it.</p>
+			<p>This small bag of marble sized gumballs contains 12 enchanted candies. While the color and flavor of each gumball is different, each one's effect is the same. As an action, you can start to chew one of these gumballs to release its magic. For the next 5 minutes while you chew the candy, you understand the literal meaning of any spoken language that you hear. If you speak while chewing the gumball, your accent changes to sound like the creature to whom you're listening: allowing you to sound like a local with minimal effort. The candy's magic and flavor fade 5 minutes after you first start to chew it.</p>
 			<p class="indent"><b><i>Upset stomach.</i></b> You can only be under the effects of 1 sugarbomb that has this feature at a time. Eating a sugarbomb that has this feature while under the effects of another one causes the effects of the first sugarbomb to immediately end and be replaced by the new one's. This rapid change is difficult to stomach, forcing you to make a DC 13 Constitution saving throw. On a failed save, you gain the effects of the new sugarbomb, but become poisoned for 1 minute. On a success, you gain the effects of the new sugarbomb and are not poisoned.</p>
 		</description>	
 		<setters>
@@ -363,7 +363,7 @@
     </element>
     <element name="Frost Giant Fork" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_FROST_GIANT_FORK" >
 		<description>
-			<p>This massive utensil comes from the table of a frost giant. Latent jotun magic flows through this make-shift trident and drives your hunger to nearly aggressive levels. You gain a +1 bonus to attack and damage rolls made with this magic weapon. When you hit a creature with a melee attack using the trident, you can immediately make a bite attack against that same creature as a bonus action. Your jaws and teeth are fortified to have the strength of a giant, allowing this bite at￾tack to deal 1d6 piercing damage. You are proficient with this bite attack and use Strength as your ability modifier for it.</p>
+			<p>This massive utensil comes from the table of a frost giant. Latent jotun magic flows through this make-shift trident and drives your hunger to nearly aggressive levels. You gain a +1 bonus to attack and damage rolls made with this magic weapon. When you hit a creature with a melee attack using the trident, you can immediately make a bite attack against that same creature as a bonus action. Your jaws and teeth are fortified to have the strength of a giant, allowing this bite attack to deal 1d6 piercing damage. You are proficient with this bite attack and use Strength as your ability modifier for it.</p>
 			<p class="indent"><b><i>Curse.</i></b> While you're attuned to this weapon, your hunger is almost insatiable. You're overwhelmingly compelled to eat twice the amount of food you normally would, and incur 1 level of exhaustion if you go a day without eating enough.</p>
 		</description>	
 		<setters>
@@ -379,7 +379,7 @@
     </element>
     <element name="Frostbitten Buckler" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_FROSTBITTEN_BUCKLER" >
 		<description>
-			<p>This icy shield has 3 charges and regains all of them each day at dawn. When a creature you can see hits you with a melee attack, you can expend 1 of the shield's charges as a reaction to deal 2d4 cold damage to the attacking creature. After the attack, you gain that same amount of cold damage as tempo￾rary hit points that last for up to 1 minute.</p>
+			<p>This icy shield has 3 charges and regains all of them each day at dawn. When a creature you can see hits you with a melee attack, you can expend 1 of the shield's charges as a reaction to deal 2d4 cold damage to the attacking creature. After the attack, you gain that same amount of cold damage as temporary hit points that last for up to 1 minute.</p>
 		</description>	
 		<setters>
 			<set name="keywords">shield</set>
