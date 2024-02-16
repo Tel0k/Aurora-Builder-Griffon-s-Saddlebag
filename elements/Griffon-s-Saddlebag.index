@@ -3,8 +3,8 @@
 	<info>
 		<name>The Griffon's Saddlebag Books</name>
 		<description>A revised collection of Griffin Macaulay various homebrews put into books.</description>                             
-		<update version="0.0.2">
-			<file name="Griffon-s-Saddlebag.index" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/Griffon-s-Saddlebag.index" />
+		<update version="0.0.4">
+			<file name="Griffon-s-Saddlebag.index" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag.index" />
 		</update>
 	</info>
 	<files>	
