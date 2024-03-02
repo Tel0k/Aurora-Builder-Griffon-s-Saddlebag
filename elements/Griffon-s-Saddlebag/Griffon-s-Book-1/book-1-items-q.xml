@@ -7,5 +7,59 @@
 			<file name="book-1-items-q.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag/Griffon-s-Book-1/book-1-items-q.xml" />
 		</update>
 	</info>
+	
+	<element name="Quagmire Maul" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_QUAGMIRE_MAUL" >
+		<description>
+			<p>This old, withered hammer seemingly belongs in a swamp. Regardless of the conditions the hammer is kept in, it is always damp and smells of bog water. You gain a +2 bonus to attack and damage rolls made with this magic weapon.</p>
+			<p class="indent">This hammer has 10 charges and regains 1d6 + 4 expended charges daily at dawn. As an action, you can expend 1 or more of the hammer's charges to slam it into the ground and transform the area around you into sickly, swamp-like terrain that lasts for 1 minute. When you do, choose a space within 5 feet of you. You create a swamp that fills that space and nearby spaces within 5 feet of it, turning the area into thick muck. This area is considered difficult terrain. For each additional charge expended after the first, the swamp's radius increases by 5 feet. While you're holding the hammer, you can traverse the magical swamp as if it were normal terrain.</p>
+			<p class="indent">If you expend the last charge from the hammer, roll a d20. On a 1, the hammer turns into viscous muck in your hands and is destroyed.</p>
+		</description>	
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="maul">Weapon</set>
+			<set name="weapon">Maul</set>
+			<set name="enhancement">2</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+    </element>
+	<element name="Quake Hammer" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_QUAKE_HAMMER" >
+		<description>
+			<p>You gain a +2 bonus to attack and damage rolls made with this magic weapon.</p>
+			<p class="indent">As an action, you can smash this hammer into the ground to send out intense tremors. Other creatures within 10 feet of the point of impact must succeed on a Dexterity saving throw or suffer 2d6 bludgeoning damage and fall prone. Creatures who succeed on the throw take half as much damage and do not fall prone. You can cause this effect while you hold the hammer or when you throw it, creating the tremors at the point on the ground that the hammer lands.</p>
+			<p class="indent">The save DC for this effect is equal to 8 + your proficiency bonus + your Strength modifier. Once this property has been used, it can't be used again until the following dawn.</p>
+		</description>	
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="light hammer">Weapon</set>
+			<set name="weapon">Light Hammer</set>
+			<set name="enhancement">2</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+    </element>
+	<element name="Quickdraw" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_QUICKDRAW" >
+		<description>
+			<p>This curious contraption is in fact a small, surreptitious hand crossbow that can be worn on a wrist or forearm without requiring a free hand to use it. On the first turn of combat, you can immediately use your reaction to fire the weapon at a creature you can see within range. If you don't fire the crossbow in this way, you can use a bonus action on a subsequent turn to make a single ranged attack with it instead.</p>
+			<p class="indent">In order to use this crossbow, you must also wear two rings on adjacent fingers. One ring carries a thin but flexible string that connects to the firing mechanism of the crossbow. The second ring is equipped with a very small but functional blade that's used to sever the first's string. When the string is severed, the crossbow fires. It takes 1 minute to reset the crossbow and rings.</p>
+		</description>	
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="crossbow, hand">Weapon</set>
+			<set name="weapon">Crossbow, Hand</set>
+			<set name="rarity">Rare</set>
+		</setters>
+    </element>
+	<element name="Quicksilver Clay" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_QUICKSILVER_CLAY" >
+		<description>
+			<p>This small orb of silver, watery liquid is strangely dry to the touch. While holding the 1-inch-diameter metallic sphere in the palm of your hand, you can mentally control the form that it takes using an action. The form stretches and turns into the imagined shape and remains centered in your hand. Regardless of the form, it can be no larger than the palm of your hand and is always a liquid. The form returns to its natural orb state when you end your focus on the <i>quicksilver clay</i> (no action required) or it leaves your hand.</p>
+			<p class="indent">Eating or drinking the liquid is harmless, but takes 1d4 days to exit the body.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Common</set>
+		</setters>
+    </element>
 
 </elements>

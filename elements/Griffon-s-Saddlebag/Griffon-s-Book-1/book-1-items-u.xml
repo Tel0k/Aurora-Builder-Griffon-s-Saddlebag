@@ -8,4 +8,15 @@
 		</update>
 	</info>
 
+	<element name="Uorik the Conqueror’s Juice Cup" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_UORIK_THE_CONQUERORS_JUICE_CUP" >
+		<description>
+			<p>This brass cup changes the flavor of any water it’s holding. As a bonus action, you can whisper the name of a fruit into the cup. If the cup is filled with water, the water’s color and flavors change to resemble that kind of fruit juice. Saying the name of another fruit changes the water’s color and flavors again. Regardless of its color and flavors, the water is still only water. Shouting into the cup causes the juice to effervesce and bubble. If the water is poisoned, the drink tastes foul and badly fermented.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Common</set>
+		</setters>
+    </element>
+
 </elements>

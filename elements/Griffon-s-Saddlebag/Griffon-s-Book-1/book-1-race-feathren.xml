@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<info>
+		<name>Book 1: Race Feathren</name>
+		<description>The first published work</description>                             
+		<update version="0.0.1">
+			<file name="book-1-race-feathren.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag/Griffon-s-Book-1/book-1-race-feathren.xml" />
+		</update>
+	</info>
+
+    <element name="Feathren" type="Race" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_RACE_FEATHREN">
+		<description>
+			<p class="flavor">Feathren are the representation of something new from something old. A step beyond their ancestral griffon heritage, these bipedal creatures celebrate their individuality amidst the cries and jeers from common folk. Originally born from the Astral Plane, where all things can be lost, found, and remade, feathren now walk the Material Plane in search of new ideas, materials, and direction. Filled with endless curiosity, many make their way through the world as adventurers and artisans, taking care to learn what they can from their experiences before moving on to the next one.</p>
+			<h4>VARIED HERITAGE</h4>
+			<p>Feathren unite remarkable aspects of two otherwise disparate species. Their strong legs are feline, while their chest, arms, and head are avian. Despite their distant relation to griffons, feathren stand upright and can use their sharp talons to manipulate objects as deftly as any other humanoid. Their voices often bear some bird-like resemblance to their ancestry and contain the occasional trill, coo, or caw.</p>
+			<p class="indent">Few feathren look the same. Their fur, plumage, and build can vary widely, forming unique combinations of origin and aptitude. While some feathren are born with the body of an eagle and lion, others combine the likes of owls and crows with tigers and leopards. Feathren find particular pleasure in jewelry and decoration: an inescapable personality trait from their heritage. Without wings to embellish, most turn to adorning themselves with baubles and rings on their talons, feathered ears, and tail. Others enjoy body art, such as tattoos, paints, and other unique means of self expression. Most feathren struggle to resist the urge to preen or adjust their worn finery whenever they catch a glimpse of their reflection.</p>
+			<h4>CONFIDENT AND CURIOUS</h4>
+			<p>Born with the innate gifts of two naturally skilled creatures, feathren have a shared sense of confidence in their abilities. Feathren spend their lives learning and mastering new trades to sate their curiosity, preferring to answer a puzzle or question on their own rather than ask for help. Many feathren find camaraderie among those that share a common passion, and while they're remiss to turn to peers for help, they enjoy the sharing of stories and conversation about their interests.</p>
+			<h4>FEATHREN NAMES</h4>
+			<p>As is their nature, feathren enjoy experimenting with names and playing with the combinations they can make with them. Feathren are given a name at birth that's used as a first name, but give themselves new surnames as they grow.</p>
+            <p class="indent">Throughout a feathren's lifespan, they may go through as many as twenty surnames: some may last for years, while others are kept for mere weeks. These names are typically combinations of words that describe them and act as either loose titles or personal mantras, and can come from a variety of languages.</p>
+			<p>
+              <span class="feature">Male Names:</span>Acero, Astraios, Caicias, Cleve, Fhyriad, Gyrin, Iapet, Ipsideo, Jurat, Klost, Lostro, Quyll, Ronta, Strey, Untreyo, Yulla, Zwayne<br/>
+			  <span class="feature">Female Names:</span>Accra, Axellia, Coora, Ereya, Finneli, Fuli, Herata, Hyla, Juip, Leies, Lucine, Lustra, Monit, Omi, Parra, Reyda, Velrin<br/>
+			  <span class="feature">Example Surnames:</span>Birthwoven, Crownfeather, Downy, Gemcrest, Ghostwing, Goldtail, Mistwalker, Ricket, Rightedge, Starborn, Wavecrushed<br/>
+			</p>
+			<h4>FEATHREN TRAITS</h4>
+			<p>Your feathren character has a variety of natural abilities as a result of its unique mix of avian and feline ancestry.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your ability scores increase depending on your feathren ancestry. Use the Feathren Ancestry tables to determine your combination of physical features and corresponding ability score increases, choosing one Avian option and one Feline option.</p>
+            <h5>Avian Feathren Ancestry</h5>
+            <table>
+                <thead>
+                    <tr><td class="col-10">Avian Ancestry</td><td>Ability Score Increase</td></tr>
+                </thead>
+                <tr><td>Jay, Owl, or Raven</td><td>Your Intelligence score increases by 2.</td></tr>
+                <tr><td>Eagle, Falcon, or Hawk</td><td>Your Wisdom score increases by 2.</td></tr>
+                <tr><td>Cardinal, Mockingbird, or Parrot</td><td>Your Charisma score increases by 2.</td></tr>
+            </table>
+            <h5>Feline Feathren Ancestry</h5>
+            <table>
+                <thead>
+                    <tr><td class="col-10">Feline Ancestry</td><td>Ability Score Increase</td></tr>
+                </thead>
+                <tr><td>Lion, Panther, or Saber-Toothed Tiger</td><td>Your Strength score increases by 1.</td></tr>
+                <tr><td>Cheetah, Serval, or Tiger</td><td>Your Dexterity score increases by 1.</td></tr>
+                <tr><td>Jaguar, Lynx, or Snow Leopard</td><td>Your Constitution score increases by 1.</td></tr>
+                <tr><td>4</td><td>data4</td></tr>
+            </table>
+			<p class="indent"><strong><em>Age.</em></strong> Young feathren are born from eggs and mature more quickly than humans do, reaching maturity by age 8 and typically living to be around 70.</p>
+			<p class="indent"><strong><em>Alignment.</em></strong> Feathren can be mercurial and admire variety and expression, and as a result tend to lean towards the gentler aspects of chaos. They are more often good than not, although some allow their vanity to turn to greed and evil.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Feathren typically range from under 5 to over 6 feet tall with a range of builds based on their ancestry, usually weighing between 100 and 200 pounds. Your size is Medium.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet.</p>
+			<p class="indent"><strong><em>Darkvision.</em></strong> Your mix of predatory blood has given you eyes that can cut through darkness. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>
+			<p class="indent"><strong><em>Natural Creator.</em></strong> You have proficiency in two artisan's tools of your choice, and can gain proficiency in a new tool in half the normal amount of time.</p>
+			<p class="indent"><strong><em>Talons.</em></strong> Your talons are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>
+			<p class="indent"><strong><em>Astral Ancestry.</em></strong> Due to your curious lineage stemming from the Astral Plane, you have a limited ability to magically harness the stardust that exists within all things. You can cast <i>identify</i> and enhance ability with this trait, without requiring material components. Once you cast either spell, you can't cast that spell again with this trait until you finish a long rest.</p>
+			<p class="indent"><strong><em>Kindred Speech.</em></strong> You have the ability to communicate in a limited manner with cats and birds that are Large or smaller, including griffons. They can understand the meaning of your words, though you have no special ability to understand them in return. You have advantage on all Charisma checks you make to influence them.</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common and one extra language of your choice. When choosing a language to study, feathren tend to value the sounds they make more highly than their practicality.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="male">Acero, Astraios, Caicias, Cleve, Fhyriad, Gyrin, Iapet, Ipsideo, Jurat, Klost, Lostro, Quyll, Ronta, Strey, Untreyo, Yulla, Zwayne</set>
+			<set name="names" type="female">Accra, Axellia, Coora, Ereya, Finneli, Fuli, Herata, Hyla, Juip, Leies, Lucine, Lustra, Monit, Omi, Parra, Reyda, Velrin</set>
+            <set name="names" type="surname">Birthwoven, Crownfeather, Downy, Gemcrest, Ghostwing, Goldtail, Mistwalker, Ricket, Rightedge, Starborn, Wavecrushed</set>
+			<set name="names-format">{{name}} {{surname}}</set>
+		</setters>
+		<rules>
+			<stat name="Dexterity" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI"/>
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language" supports="Custom Race Language" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Racial Trait" name="Avian Ancestry" supports="Avian Ancestry" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Racial Trait" name="Feline Ancestry" supports="Feline Ancestry" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Racial Trait" id="ID_TGSB_B1_RACIAL_TRAIT_NATURAL_CREATOR" />
+			<grant type="Racial Trait" id="ID_TGSB_B1_RACIAL_TRAIT_TALONS" />
+			<grant type="Racial Trait" id="ID_TGSB_B1_RACIAL_TRAIT_ASTRAL_ANCESTRY" />
+			<grant type="Racial Trait" id="ID_TGSB_B1_RACIAL_TRAIT_KINDRED_SPEECH" />
+		</rules>
+	</element>
+	<element name="Natural Creator" type="Racial Trait" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_RACIAL_TRAIT_NATURAL_CREATOR">
+		<description>
+			<p>You have proficiency in two artisan's tools of your choice, and can gain proficiency in a new tool in half the normal amount of time.</p>
+		</description>
+		<sheet>
+			<description>You can gain proficiency in a new tool in half the normal amount of time.</description>
+		</sheet>
+		<rules>
+			<select type="Proficiency" name="Tool Proficiency (Natural Creator)" supports="Tool, Artisan tools" number="2" />
+		</rules>
+	</element>
+	<element name="Talons" type="Racial Trait" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_RACIAL_TRAIT_TALONS">
+		<description>
+			<p>Your talons are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>
+		</description>
+		<sheet>
+			<description>Your talons are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal 1d4 + {{strength:modifier}} slashing damage.</description>
+		</sheet>
+	</element>
+	<element name="Astral Ancestry" type="Racial Trait" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_RACIAL_TRAIT_ASTRAL_ANCESTRY">
+		<description>
+			<p>Due to your curious lineage stemming from the Astral Plane, you have a limited ability to magically harness the stardust that exists within all things. You can cast <i>identify</i> and enhance ability with this trait, without requiring material components. Once you cast either spell, you can't cast that spell again with this trait until you finish a long rest.</p>
+		</description>
+		<sheet usage="1/Long Rest">
+			<description>You can cast Identify and Enhance Ability with this trait, without requiring material components.</description>
+		</sheet>
+	</element>
+	<element name="Kindred Speech" type="Racial Trait" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_RACIAL_TRAIT_KINDRED_SPEECH">
+		<description>
+			<p>You have the ability to communicate in a limited manner with cats and birds that are Large or smaller, including griffons. They can understand the meaning of your words, though you have no special ability to understand them in return. You have advantage on all Charisma checks you make to influence them.</p>
+		</description>
+		<sheet>
+			<description>You have a limited ability to communicate with cats and birds of Large or smaller size, including griffons. They can understand the meaning of your words, though you cannot understand them in return. You have advantage on all CHA checks you make to influence them.</description>
+		</sheet>
+	</element>
+
+	<!-- Avian Ancestry -->
+	<element name="Jay" type="Racial Trait" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_RACIAL_TRAIT_AVIAN_ANCESTRY_JAY">
+		<compendium display="false" />
+		<supports>Avian Ancestry</supports>
+		<description>
+			<p>Your Intelligence score increases by 2.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="intelligence" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+		</rules>
+	</element>
+	<element name="Owl" type="Racial Trait" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_RACIAL_TRAIT_AVIAN_ANCESTRY_OWL">
+		<compendium display="false" />
+		<supports>Avian Ancestry</supports>
+		<description>
+			<p>Your Intelligence score increases by 2.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="intelligence" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+		</rules>
+	</element>
+	<element name="Raven" type="Racial Trait" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_RACIAL_TRAIT_AVIAN_ANCESTRY_RAVEN">
+		<compendium display="false" />
+		<supports>Avian Ancestry</supports>
+		<description>
+			<p>Your Intelligence score increases by 2.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="intelligence" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+		</rules>
+	</element>
+	
+	<element name="Eagle" type="Racial Trait" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_RACIAL_TRAIT_AVIAN_ANCESTRY_EAGLE">
+		<compendium display="false" />
+		<supports>Avian Ancestry</supports>
+		<description>
+			<p>Your Wisdom score increases by 2.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="wisdom" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+		</rules>
+	</element>
+	<element name="Falcon" type="Racial Trait" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_RACIAL_TRAIT_AVIAN_ANCESTRY_FALCON">
+		<compendium display="false" />
+		<supports>Avian Ancestry</supports>
+		<description>
+			<p>Your Wisdom score increases by 2.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="wisdom" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+		</rules>
+	</element>
+	<element name="Hawk" type="Racial Trait" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_RACIAL_TRAIT_AVIAN_ANCESTRY_HAWK">
+		<compendium display="false" />
+		<supports>Avian Ancestry</supports>
+		<description>
+			<p>Your Wisdom score increases by 2.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="wisdom" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+		</rules>
+	</element>
+	
+	<element name="Cardinal" type="Racial Trait" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_RACIAL_TRAIT_AVIAN_ANCESTRY_CARDINAL">
+		<compendium display="false" />
+		<supports>Avian Ancestry</supports>
+		<description>
+			<p>Your Charisma score increases by 2.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="charisma" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+		</rules>
+	</element>
+	<element name="Mockingbird" type="Racial Trait" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_RACIAL_TRAIT_AVIAN_ANCESTRY_MOCKINGBIRD">
+		<compendium display="false" />
+		<supports>Avian Ancestry</supports>
+		<description>
+			<p>Your Charisma score increases by 2.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="charisma" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+		</rules>
+	</element>
+	<element name="Parrot" type="Racial Trait" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_RACIAL_TRAIT_AVIAN_ANCESTRY_PARROT">
+		<compendium display="false" />
+		<supports>Avian Ancestry</supports>
+		<description>
+			<p>Your Charisma score increases by 2.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="charisma" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+		</rules>
+	</element>
+
+	<!-- Feline Ancestry -->
+	<element name="Lion" type="Racial Trait" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_RACIAL_TRAIT_FELINE_ANCESTRY_LION">
+		<compendium display="false" />
+		<supports>Feline Ancestry</supports>
+		<description>
+			<p>Your Strength score increases by 1.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="intelligence" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+		</rules>
+	</element>
+	<element name="Panther" type="Racial Trait" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_RACIAL_TRAIT_FELINE_ANCESTRY_PANTHER">
+		<compendium display="false" />
+		<supports>Feline Ancestry</supports>
+		<description>
+			<p>Your Strength score increases by 1.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="strength" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+		</rules>
+	</element>
+	<element name="Saber-Toothed Tiger" type="Racial Trait" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_RACIAL_TRAIT_FELINE_ANCESTRY_SABERTOOTHED_TIGER">
+		<compendium display="false" />
+		<supports>Feline Ancestry</supports>
+		<description>
+			<p>Your Strength score increases by 1.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="strength" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+		</rules>
+	</element>
+	
+	<element name="Cheetah" type="Racial Trait" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_RACIAL_TRAIT_FELINE_ANCESTRY_CHEETAH">
+		<compendium display="false" />
+		<supports>Feline Ancestry</supports>
+		<description>
+			<p>Your Dexterity score increases by 1.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="dexterity" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+		</rules>
+	</element>
+	<element name="Serval" type="Racial Trait" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_RACIAL_TRAIT_FELINE_ANCESTRY_SERVAL">
+		<compendium display="false" />
+		<supports>Feline Ancestry</supports>
+		<description>
+			<p>Your Dexterity score increases by 1.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="dexterity" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+		</rules>
+	</element>
+	<element name="Tiger" type="Racial Trait" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_RACIAL_TRAIT_FELINE_ANCESTRY_TIGER">
+		<compendium display="false" />
+		<supports>Feline Ancestry</supports>
+		<description>
+			<p>Your Dexterity score increases by 1.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="dexterity" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+		</rules>
+	</element>
+	
+	<element name="Jaguar" type="Racial Trait" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_RACIAL_TRAIT_FELINE_ANCESTRY_JAGUAR">
+		<compendium display="false" />
+		<supports>Feline Ancestry</supports>
+		<description>
+			<p>Your Constitution score increases by 1.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="constitution" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+		</rules>
+	</element>
+	<element name="Lynx" type="Racial Trait" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_RACIAL_TRAIT_FELINE_ANCESTRY_LYNX">
+		<compendium display="false" />
+		<supports>Feline Ancestry</supports>
+		<description>
+			<p>Your Constitution score increases by 1.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="constitution" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+		</rules>
+	</element>
+	<element name="Snow Leopard" type="Racial Trait" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_RACIAL_TRAIT_FELINE_ANCESTRY_SNOW_LEOPARD">
+		<compendium display="false" />
+		<supports>Feline Ancestry</supports>
+		<description>
+			<p>Your Constitution score increases by 1.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="constitution" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+		</rules>
+	</element>
+
+</elements>

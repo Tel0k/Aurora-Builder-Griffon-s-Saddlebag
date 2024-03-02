@@ -7,5 +7,45 @@
 			<file name="book-1-items-n.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag/Griffon-s-Book-1/book-1-items-n.xml" />
 		</update>
 	</info>
+	<element name="Necrolace" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_NECROLACE" >
+		<description>
+			<p>This necklace allows you to absorb the life energy of creatures you slay. When you reduce a Small or larger creature who is hostile toward you to 0 hit points, the necklace emits a faint glow and gains 1 charge. The necklace can hold up to 3 charges and contains 1d3 charges when found. You can expend 1 or more charges as a bonus action to turn death into life. You take 1d8 necrotic damage for each expended charge and heal another creature you can see within 30 feet of you for twice the amount of necrotic damage you took. This damage ignores resistance and immunity.</p>
+			<p class="indent">If this damage reduces you to 0 hit points, you’re stable but unconscious. When this happens, the creature is healed for twice the amount of hit points you had remaining before you fell unconscious.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a spellcaster">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+    </element>
+	<element name="Nightstalker’s Kanabo" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_NIGHTSTALKERS_KANABO" >
+		<description>
+			<p>This studded greatclub once belonged to a hungering oni who excelled at subterfuge. You gain a +1 bonus to attack and damage rolls made with this magic weapon, which has the heavy property. When you hit a sleeping creature with this weapon, that creature takes an extra 2d8 psychic damage from the attack. In addition, when you roll a 20 on an attack roll with this weapon, the target of the attack must succeed on a DC 16 Constitution saving throw or magically fall asleep until the end of your next turn, the sleeper takes damage, or a creature uses an action to shake or slap the sleeper awake. While the target is asleep, it is unconscious. Undead and creatures immune to being charmed automatically succeed on the saving throw.</p>
+			<p class="indent">The weapon has 3 charges and regains 1d3 expended charges daily at dusk. While holding the weapon, you can expend 1 of its charges as a bonus action to cast either the <i>invisibility</i> (targeting only yourself ) or <i>sleep</i> (3rd-level version) spell from it.</p>
+		</description>	
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="greatclub">Weapon</set>
+			<set name="weapon">Greatclub</set>
+			<set name="enhancement">1</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+    </element>
+	<element name="Null Chalk" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_NULL_CHALK" >
+		<description>
+			<p>This drab pouch contains 1d4 + 1 sticks of dull gray chalk. The chalk feels slightly tingly to the touch.</p>
+			<p class="indent">As an action, you can touch 1 of the sticks of chalk to the ground, wall, or ceiling to magically create a line that is up to 50 feet long and 1 foot thick. The line extends from your location in the direction and shape of your choice. You can shape the line in any way you choose so long as it makes one continuous path along the surface or similar adjacent surfaces. Once a stick of chalk has been used in this way, it disintegrates into a pile of fine, nonmagical powder.</p>
+			<p class="indent">Magical effects can’t cross this line. The line’s effect extends 20 feet perpendicularly from the surface on which the line is drawn. Targets on the other side of the line are considered to have full cover for the purpose of being targeted by spells or magical effects. Magical items that cross the line become mundane and nonmagical for 1 round.</p>
+			<p class="indent">The first time a celestial, elemental, fey, fiend, or undead creature attempts to cross the line on a turn, that creature must make a DC 16 Charisma saving throw. On a failed save, the creature’s movement speed becomes 0 until the start of its next turn, is forced backward up to 10 feet away from the line, and takes 2d8 force damage. On a successful save, a creature takes half as much damage, and its speed is unaffected as it passes through the line. If the line cuts through a creature’s space when it appears, the creature is pushed to one side of the line (your choice).</p>
+			<p class="indent">This effect lasts for 8 hours or until a break of at least one foot is made in the line, which causes it to instantly lose all magical properties. A creature can spend 1 minute to smudge, smear, erase, or otherwise remove the line enough to disable its effects. When targeted by the dispel magic spell, the line is treated as if it were a 6th-level spell. If the line is dispelled in this way, its effects are disabled for 1 minute.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+    </element>
 
 </elements>

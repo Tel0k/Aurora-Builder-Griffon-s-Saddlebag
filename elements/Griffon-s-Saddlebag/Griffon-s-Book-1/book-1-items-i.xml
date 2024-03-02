@@ -8,4 +8,122 @@
 		</update>
 	</info>
 
+	<element name="Ice Sickle" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_ICE_SICKLE" >
+		<description>
+			<p>This magic sickle from the Everglacier is perpetually covered in tiny, needle-like icicles along its edge that reform almost as soon as they’re gone. The first target hit by this weapon on each of your turns takes an extra 1d6 cold damage from the attack.</p>
+		</description>	
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="sickle">Weapon</set>
+			<set name="weapon">Sickle</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+    </element>
+	<element name="Immovable Button" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_IMMOVABLE_BUTTON" >
+		<description>
+			<p>As a bonus action, you can press this iron shirt button against a piece of fabric and speak its command word, “hold”. When you do, the button magically attaches to the cloth, fixing itself in place even if it is defying gravity. The button must be attached to a piece of fabric that is either unworn or worn by a willing creature. It can hold up to 500 pounds of weight and magically prevents the cloth from tearing due to tension. More weight causes the button to deactivate and fall.</p>
+			<p class="indent">A creature can use an action to make a DC 20 Strength check, moving the fixed button up to 10 feet on a success. A creature can make a DC 10 Intelligence (Investigation) check to determine that this button is magical, and if already activated, knows that the fabric around the button can be cut away. The button remains fixed in place for 1 minute before falling. The button’s magic is lost once it’s been used in this way.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Common</set>
+		</setters>
+    </element>
+	<element name="Infernal Aegis" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_INFERNAL_AEGIS" >
+		<description>
+			<p>While holding this shield, you can speak its command word as a bonus action to cause it to become wreathed in harmless, magical flames. The flames cast bright light in a 20-foot radius and dim light for another 20 feet. The flames last until you speak its command word again as a bonus action or until you drop or doff the shield.</p>
+			<p class="indent">While holding the shield, you have a +1 bonus to AC as well as resistance to fire damage. This bonus is in addition to the shield’s normal bonus to AC. In addition, the shield has 4 charges and regains 1d4 expended charges daily at dawn. While the shield is ablaze, you can expend 1 or more of its charges to cast the <i>fire shield</i> (2 charges, warm shield only) or <i>hellish rebuke</i> (1 charge, save DC 16) spell from it.</p>
+		</description>	
+		<setters>
+			<set name="keywords">shield</set>
+			<set name="category">Magic Armor</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="shield">Armor</set>
+			<set name="enhancement">1</set>
+			<set name="armor">ID_INTERNAL_ARMOR_GROUP_SHIELD</set>
+			<set name="attunement" >true</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+		<rules>
+			<stat name="ac:shield" value="1" bonus="enhancement" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
+		</rules>
+    </element>
+	<element name="Inferno Rope" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_INFERNO_ROPE" >
+		<description>
+			<p>This 10-foot long rope smells of sulfur and crackles with embers when moved. As an action, you can lay the rope down in a line next to you on solid ground and speak its command word to magically set it ablaze. When you do, the rope becomes a 15-foot tall wall of fire along its length. The flames are visible, but not opaque, and are 1 inch thick. Creatures within 5 feet of the flames when it’s ignited must succeed on a DC 13 Dexterity saving throw or take 2d4 fire damage. A creature setting the rope ablaze automatically succeeds on this saving throw. The flames burn for 1 minute and cast bright light in a 15-foot radius and dim light for another 15 feet. A creature must make a DC 13 Dexterity saving throw when it crosses the line of fire for the first time on its turn or ends its turn there. On a failure, the creature takes 2d4 fire damage.</p>
+			<p class="indent">The rope rematerializes at the base of the flames after 1 minute. Once the rope has been lit, it can’t be used again in this way until the next dawn. The rope can only be cut by magical means and becomes a nonmagical length of rope once cut.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+    </element>
+	<element name="Ironleaf Maul of Entanglement" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_IRONLEAF_MAUL_OF_ENTANGLEMENT" >
+		<description>
+			<p>Despite the head of this maul being made from vines, it seems impossibly solid and carries with it a formidable heft. You gain a +1 bonus to attack and damage rolls made with this magic weapon. The maul has 3 charges and regains 1d3 expended charges each day at dawn. When you hit a Medium or smaller target with the maul, you can expend a charge to force it to make a Strength saving throw. On a failure, it takes 1d6 piercing damage and is restrained by thorny vines until the end of its next turn. The DC for this property is equal to 8 + your proficiency bonus + your Strength modifier.</p>
+		</description>	
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="maul">Weapon</set>
+			<set name="weapon">Maul</set>
+			<set name="enhancement">1</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+    </element>
+	<element name="Ironleaf Oaken Shield" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_IRONLEAF_OAKEN_SHIELD" >
+		<description>
+			<p>This reinforced wooden shield is covered with ironleaf vines that grant you extra protection. You gain a +1 bonus to your AC while wielding this shield in addition to the shield’s normal bonus to AC. In addition, the wooden shield reforms itself to fit you whenever you transform into a beast while holding it. When you do, the ironleaf vines and wooden shield latch onto your bestial form, granting you a +1 bonus to your AC while transformed in this way.</p>
+		</description>	
+		<setters>
+			<set name="keywords">shield</set>
+			<set name="category">Magic Armor</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="shield">Armor</set>
+			<set name="enhancement">1</set>
+			<set name="armor">ID_INTERNAL_ARMOR_GROUP_SHIELD</set>
+			<set name="attunement" addition="by a druid">true</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+		<rules>
+			<stat name="ac:shield" value="1" bonus="enhancement" />
+		</rules>
+    </element>
+	<element name="Ironleaf Plate" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_IRONLEAF_PLATE" >
+		<description>
+			<p>This set of armor gives you a +1 bonus to your AC and is lined with ironleaf vines. While wearing this armor, the vines seem to support and quiet its normally loud movements, allowing you to make Dexterity (Stealth) checks without disadvantage. In addition, the vines dampen the impact you receive from blunt force, granting you resistance to bludgeoning damage.</p>
+			<p class="indent">If you take fire damage, the leaves wither for 1 minute. While the leaves are withered, you gain none of their benefits.</p>
+			<p class="indent"><b><i>Mantle of the Wild.</i></b> While wearing this armor, you can use an action to cast the <i>pass without trace</i> spell from it. Once used, this property can’t be used again until the following dawn.</p>
+		</description>	
+		<setters>
+			<set name="keywords">plate</set>
+			<set name="category">Magic Armor</set>
+			<set name="type" addition="plate">Armor</set>
+			<set name="armor">Plate</set>
+			<set name="slot">body</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_IGNORE_STEALTH_DISADVANTAGE" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_BLUDGEONING" />
+		</rules>
+    </element>
+	<element name="Ironshod Trotters" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_IRONSHOD_TROTTERS" >
+		<description>
+			<p>These boots have iron horseshoes embedded in their soles. When you take the Dash action to run while wearing the boots, you can move an extra 10 feet.</p>
+			<p class="indent">As an action, you can click the boots together to cast the <i>polymorph</i> spell on yourself to transform into a riding horse. The horse has a carrying capacity of 480 pounds and a walking speed of 60 feet. Your game statistics are replaced by the riding horse’s statistics, but you retain your alignment, personality, and Intelligence, Wisdom, and Charisma scores. You also retain all of your skill and saving throw proficiencies, in addition to gaining those of the creature. Your gear melds into the new form. You can’t activate, use, wield, or otherwise benefit from any of your equipment while transformed. Any bags you were carrying do not meld into your new form, and are magically draped over your torso as saddlebags.</p>
+			<p class="indent">You remain in this form for up to 8 hours or until you end it as an action. Taking any damage while transformed causes you to revert to your normal form early and take the damage as normal. Once this property of the boots has been used, it can’t be used again until the next dawn.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+    </element>
+
 </elements>

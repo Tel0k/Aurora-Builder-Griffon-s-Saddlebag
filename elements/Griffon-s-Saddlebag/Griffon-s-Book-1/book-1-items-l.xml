@@ -7,5 +7,91 @@
 			<file name="book-1-items-l.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag/Griffon-s-Book-1/book-1-items-l.xml" />
 		</update>
 	</info>
+	
+	<element name="Lance of the Hungering Dead" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_LANCE_OF_THE_HUNGERING_DEAD" >
+		<description>
+			<p>This magical, gruesome lance can drain the life force from another creature. The first time on your turn when you hit a hostile living creature with a melee weapon attack using the lance, you deal an extra 1d12 necrotic damage. You gain temporary hit points equal to half the necrotic damage dealt, rounded up. Temporary hit points gained from this attack fade after one hour.</p>
+		</description>	
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="lance">Weapon</set>
+			<set name="weapon">Lance</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+    </element>
+	<element name="Leeching Quarterstaff" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_LEECHING_QUARTERSTAFF" >
+		<description>
+			<p>You gain a +1 bonus to attack and damage rolls made with this magic weapon. This quarterstaff has 6 charges and regains 1d6 expended charges daily at dawn. When you hit a target with this weapon, you can expend 1 of its charges to siphon away some of the target's life force to deal an extra 1d6 necrotic damage with the attack. You regain health equal the amount of necrotic damage dealt in this way. This property has no effect on undead creatures or constructs.</p>
+		</description>	
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="quarterstaff">Weapon</set>
+			<set name="weapon">Quarterstaff</set>
+			<set name="enhancement">1</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+    </element>
+	<element name="Liar's Lyre" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_LIARS_LYRE" >
+		<description>
+			<p>This magical lyre's strings reverberate with enchantment magic when you tell lies, allowing you to deceive other creatures more easily. You have advantage on Charisma (Deception) checks you make when you spend at least 1 minute attempting to convince a creature of a lie. In addition, if you cast the <i>vicious mockery</i> cantrip while holding the lyre, the spell save DC is increased by 1. You are proficient with this lyre while you're attuned to it.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="slot">onehand</set>
+			<set name="attunement" addition="by a bard">true</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+		<rules>
+			<grant name="ID_PROFICIENCY_TOOL_PROFICIENCY_LYRE" type="Proficiency" />
+		</rules>
+    </element>
+	<element name="Lightning Pylons" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_LIGHTNING_PYLONS">
+		<description>
+			<p>These 3-foot-long rods are made using a blend of magic and science and normally come in sets of three. The pylons are tipped with a fragment of a blue dragon's horn. A lightning pylon can extend electricity to any neighboring pylons to create an electrical barrier between them. Each pylon has an electrical charge. Once a charge has been lost, it takes 12 hours to recharge.</p>
+			<p class="indent">You can place a pylon upright in an unoccupied space within 5 feet of you using an action. If a pylon has an electrical charge, you can speak its command word as a bonus action if you're within 5 feet of it. When you do, that pylon is electrified for 1 minute and loses its electrical charge at the end of that minute. Any other pylon with an electrical charge placed within 20 feet of an electrified pylon also becomes electrified, creating a wall of lightning between them that is 10 feet tall and 1 foot thick. The wall is opaque and casts bright light out to 10 feet and dim light for an additional 10 feet. You can have up to 6 pylons connected in this way at one time. Electrified pylons are magically bound to the ground until they lose their charge.</p>
+			<p class="indent">When the wall appears, each creature within its area must make a DC 15 Dexterity saving throw. On a failure, a creature takes 5d8 lightning damage and its speed is reduced to 0 until the start of its next turn. On a success, a creature takes half as much lightning damage and its speed is halved instead. Creatures made of metal or wearing metal armor have disadvantage on this saving throw. A creature that enters the wall for the first time on its turn or ends its turn within 5 feet of it must also make the saving throw.</p>
+			<p class="indent">Each magic pylon has AC 15 and 20 hit points. A creature that touches an electrified pylon or hits it with a metal melee weapon takes 1d8 lightning damage for each pylon connected to it, including itself. When a pylon is reduced to 0 hit points, it falls over and loses its electrical charge, ending any connection it has to other pylons. A pylon reduced to 0 hit points can't be used again until 2 days have passed, at which point it regains all its hit points.</p>
+		</description>
+		<setters>
+			<set name="category">Rods</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="type">Rod</set>
+			<set name="slot">onehand</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+	<element name="Locksmith's Bane" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_LOCKSMITHS_BANE" >
+		<description>
+			<p>This silver lockpick twists and reorients itself to more easily open locks. You gain a +3 bonus on ability checks you make with this tool in order to pick open a lock. If you roll a 1 on an ability check in this way, the pick casts the knock spell on the lock before it turns to dust and is destroyed.</p>
+			<p class="indent">If you roll a 1 in this way and use an ability to reroll the die or otherwise change the result, the item becomes a nonmagical, mundane lock pick but does not cast the spell or disintegrate.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+    </element>
+	<element name="Love's Embrace" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_LOVES_EMBRACE" >
+		<description>
+			<p>You gain a +1 bonus to attack and damage rolls made with this magic weapon. This weapon can be attuned to by two friendly creatures together over the course of a long rest. If the weapon is attuned to by two creatures in this way, the weapon's attack and damage bonus becomes +2 instead.</p>
+			<p class="indent">This greatsword is made of two long scimitars that are held together by a powerful, unidentifiable magic. You can speak the weapon's command word using a bonus action to separate it into a pair of scimitars or recombine them into the greatsword. If you are not already holding it when you speak the weapon's command word and are on the same plane of existence as it, you can choose to summon either one or both scimitars to your hand as individual blades or as the combined greatsword.</p>
+			<p class="indent">The scimitars have the thrown property with a normal range of 20 feet and a long range of 60 feet when separated. The scimitars deal piercing damage when thrown.</p>
+			<p class="indent">Each scimitar also has its own elemental effect — either fire or cold — that inflicts an extra 1d6 fire or 1d6 cold damage with each strike, depending on which sword you hit with. When you hit with an attack using the greatsword, the target takes both fire and cold bonus damage from the attack.</p>
+			<p class="indent">Each attuned creature can cast the <i>fire shield</i> spell once at 4th level without expending a spell slot. You do not need material or somatic components when casting it in this way. Once you cast this spell, you cannot cast it again until the following dawn.</p>
+		</description>	
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="greatsword">Weapon</set>
+			<set name="weapon">Greatsword</set>
+			<set name="enhancement">1</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Legendary</set>
+		</setters>
+    </element>
 
 </elements>

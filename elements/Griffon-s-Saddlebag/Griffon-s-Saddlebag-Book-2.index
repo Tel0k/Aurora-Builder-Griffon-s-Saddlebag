@@ -3,18 +3,44 @@
 	<info>
 		<name>The Griffon's Saddlebag Book 2</name>
 		<description>The second published work</description>                             
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="Griffon-s-Saddlebag-Book-2.index" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag/Griffon-s-Saddlebag-Book-2.index" />
 		</update>
 	</info>
 	<files>
 		<!-- Book 2 -->
-		<file name="source.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag/Griffon-s-Book-2/source.xml" /> <!--
+		<file name="source.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag/Griffon-s-Book-2/source.xml" /> 
+		<!-- Magic Items --> <!--
 		<file name="book-2-items-a.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag/Griffon-s-Book-2/book-2-items-a.xml" />
 		<file name="book-2-items-b.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag/Griffon-s-Book-2/book-2-items-b.xml" />
 		<file name="book-2-items-c.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag/Griffon-s-Book-2/book-2-items-c.xml" />
 		<file name="book-2-items-d.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag/Griffon-s-Book-2/book-2-items-d.xml" />
 		<file name="book-2-items-e.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag/Griffon-s-Book-2/book-2-items-e.xml" />
-		<file name="book-2-items-f.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag/Griffon-s-Book-2/book-2-items-f.xml" /> -->
+		<file name="book-2-items-f.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag/Griffon-s-Book-2/book-2-items-f.xml" /> 
+		<file name="book-2-items-g.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag/Griffon-s-Book-2/book-2-items-g.xml" />
+		<file name="book-2-items-h.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag/Griffon-s-Book-2/book-2-items-h.xml" />
+		<file name="book-2-items-i.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag/Griffon-s-Book-2/book-2-items-i.xml" />
+		<file name="book-2-items-j.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag/Griffon-s-Book-2/book-2-items-j.xml" />
+		<file name="book-2-items-k.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag/Griffon-s-Book-2/book-2-items-k.xml" />
+		<file name="book-2-items-l.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag/Griffon-s-Book-2/book-2-items-l.xml" />
+		<file name="book-2-items-m.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag/Griffon-s-Book-2/book-2-items-m.xml" />
+		<file name="book-2-items-n.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag/Griffon-s-Book-2/book-2-items-n.xml" />
+		<file name="book-2-items-o.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag/Griffon-s-Book-2/book-2-items-o.xml" />
+		<file name="book-2-items-p.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag/Griffon-s-Book-2/book-2-items-p.xml" />
+		<file name="book-2-items-q.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag/Griffon-s-Book-2/book-2-items-q.xml" />
+		<file name="book-2-items-r.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag/Griffon-s-Book-2/book-2-items-r.xml" />
+		<file name="book-2-items-s.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag/Griffon-s-Book-2/book-2-items-s.xml" />
+		<file name="book-2-items-t.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag/Griffon-s-Book-2/book-2-items-t.xml" />
+		<file name="book-2-items-u.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag/Griffon-s-Book-2/book-2-items-u.xml" />
+		<file name="book-2-items-v.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag/Griffon-s-Book-2/book-2-items-v.xml" />
+		<file name="book-2-items-w.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag/Griffon-s-Book-2/book-2-items-w.xml" />
+		<file name="book-2-items-x.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag/Griffon-s-Book-2/book-2-items-x.xml" />
+		<file name="book-2-items-y.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag/Griffon-s-Book-2/book-2-items-y.xml" />
+		<file name="book-2-items-z.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag/Griffon-s-Book-2/book-2-items-z.xml" /> -->
+		<!-- Artifacts -->
+		<!-- Races --> <!--
+		<file name="book-2-race-geleton.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag/Griffon-s-Book-2/book-2-race-geleton.xml" />
+		<file name="book-2-race-etherean.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag/Griffon-s-Book-2/book-2-race-etherean.xml" /> -->
+		<!-- Subclasses -->
 	</files>
 </index>

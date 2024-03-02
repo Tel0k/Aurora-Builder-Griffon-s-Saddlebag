@@ -8,4 +8,15 @@
 		</update>
 	</info>
 
+	<element name="Jotun's Jodhpurs" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_HAT_TRICK" >
+		<description>
+			<p>While wearing these pants, you count as one size smaller when riding a nonhumanoid creature as a mount if you aren't wearing heavy armor.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Rare</set>
+		</setters>
+    </element>
+
 </elements>

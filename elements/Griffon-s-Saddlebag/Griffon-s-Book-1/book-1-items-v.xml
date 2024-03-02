@@ -7,5 +7,124 @@
 			<file name="book-1-items-v.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag/Griffon-s-Book-1/book-1-items-v.xml" />
 		</update>
 	</info>
+	
+	<element name="Vancian Helm" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_VANCIAN_HELM" >
+		<description>
+			<p>This helmet is made from the reclaimed and partially disenchanted remains of a shield guardian. The helm is no longer bound to an amulet. You gain a +1 bonus to AC while you wear this helmet.</p>
+			<p class="indent"><b><i>Spell Storing.</i></b> Any creature can cast a spell of 1st through 4th level into it by touching the helm as the spell is cast. The spell has no effect, other than to be stored in the helm. The helm can only hold one spell at a time.</p>
+			<p class="indent">While wearing this helmet, you can cast any spell stored in it. The spell uses the slot level, spell save DC, spell attack bonus, and spellcasting ability of the original caster, but is otherwise treated as if you cast the spell. When the spell is cast or a new spell is stored, any previously stored spell is lost.</p>
+			<p class="indent">If you are wearing the helmet when a spell of 5th level or higher is cast into the helm, the spell is expended without effect and you take 2d6 psychic damage. While a spell is stored within the helmet, your eyes glow with a brilliant color of your choice while you wear it.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="slot">head</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<stat name="ac:misc" value="1" />
+		</rules>
+    </element>
+	<element name="Venombane Armor" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_VENOMBANE_ARMOR" >
+		<description>
+			<p>This leather armor absorbs poison and allows you to traverse webbed areas more easily. While you're wearing this armor, you can't be caught in webs of any sort and can move through webs as if they were difficult terrain. In addition, when you take poison damage while wearing this armor, you can use your reaction to reduce the damage by 1d8 + your Constitution modifier.</p>
+		</description>	
+		<setters>
+			<set name="category">Magic Armor</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="any light armor">Armor</set>
+			<set name="armor">ID_INTERNAL_ARMOR_GROUP_LIGHT</set>
+			<set name="attunement" >true</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+    </element>
+	<element name="Vigilus" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_VIGILUS" >
+		<description>
+			<p>This hand crossbow has a small spring-loaded case of 6 bolts attached to its side that automatically reload the crossbow whenever it's fired. While the case has bolts in it, the crossbow ignores its loading property. Once the case is empty, a creature can use an action to reload it with another 6 bolts.</p>
+			<p class="indent">As an action, you can unfurl the crossbow's three collapsible legs and plant it firmly on the ground to become a Small defensive construct. Once deployed, the crossbow magically draws itself and loads the next bolt in its case, if any. While you're within 30 feet of the crossbow, you can use a bonus action on each of your turns to command it to attack a target you can see within 30 feet of it. The crossbow uses your attack roll and ability score modifier for its damage rolls. The first time an invisible creature enters a space within 30 feet of the crossbow on its turn, the crossbow emits a small chirping sound audible out to 100 feet.</p>
+			<p class="indent">The deployed crossbow has 30 hit points, AC 12, and automatically fails Dexterity and Strength saving throws but passes all others. If it's reduced to 0 hit points, it falls over and can't be deployed again in this way for 1 minute. You can quickly retrieve the deployed crossbow using a bonus action when you enter the same space as it.</p>
+		</description>	
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="crossbow, hand">Weapon</set>
+			<set name="weapon">Crossbow, Hand</set>
+			<set name="rarity">Rare</set>
+		</setters>
+    </element>
+	<element name="Visage of Delight and Disaster" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_VISAGE_OF_DELIGHT_AND_DISASTER" >
+		<requirements>[cha:17]</requirements>
+		<description>
+			<p>While wearing this mask, you gain 2 Bardic Inspiration dice, which are d10s. These dice are separate from any Bardic Inspiration dice you have from another source. You can use a bonus action on your turn to choose one creature other than yourself within 60 feet of you who can hear you. That creature gains one Bardic Inspiration die. These dice are the same as normal Bardic Inspiration dice, but carry with them additional benefits based on the mood of your performance:</p>
+			<p class="indent"><b><i>Delight.</i></b> If you inspire a creature with a joyful or uplifting performance, that creature has advantage on saving throws to resist becoming frightened for 1 minute following your performance. In addition, when that creature uses the Bardic Inspiration die, it gains temporary hit points equal to twice the amount it rolled on the die.</p>
+			<p class="indent"><b><i>Disaster.</i></b> If you inspire a creature with a grim or haunting performance, that creature has advantage on saving throws to resist becoming charmed for 1 minute following your performance. In addition, when that creature hits a target with a weapon attack, it can expend the Bardic Inspiration die to deal psychic damage to the target, in addition to the weapon's damage. This psychic damage is equal to twice the number rolled on the Bardic Inspiration die.</p>
+			<p class="indent">The expression of the mask subtly changes to reflect your expression or mouth's movement behind the mask. You regain all expended Bardic Inspiration dice when you finish a short or long rest.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a creature with a Charisma of 17 or higher">true</set>
+			<set name="rarity">Legendary</set>
+		</setters>
+    </element>
+	<element name="Void Arrow" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_VOID_ARROW" >
+		<description>
+			<p>This pitch-dark piece of ammunition is composed of densely-packed shadows. A creature hit by this magic ammunition takes psychic damage instead of piercing damage. This ammunition makes no sound when it's fired or strikes a surface, leaves no discernible wounds, and vanishes immediately after hitting a creature.</p>
+		</description>	
+		<setters>
+			<set name="keywords">arrow, bolt</set>
+			<set name="category">Ammunition</set>
+			<set name="type" addition="arrow or bolt">Weapon</set>
+			<set name="rarity">Uncommon</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Volcanic Boots" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_VOLCANIC_BOOTS" >
+		<description>
+			<p>These heavy volcanic stones rearrange themselves to better fit your feet once you've attuned to them. Despite their appearance, the boots are comfortably light and warm. While wearing the boots, you have resistance to fire damage.</p>
+			<p class="indent">The boots have 10 charges and regain 1d6 + 4 expended charges daily at dawn. When you walk at least 5 feet on solid ground while wearing the boots, you can expend 1 or more of their charges as part of that movement. Choose an unoccupied space you just walked through for each expended charge: the ground and air in a 5-foot cube within that space becomes volcanic and impossibly hot. Any creature other than you that enters or starts its turn in that space must succeed on a DC 15 Dexterity saving throw or take 2d6 fire damage.</p>
+			<p class="indent">The volcanic effect lasts for 1 minute or until you end it early as a bonus action or fall unconscious.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="slot">feet</set>
+			<set name="rarity">Common</set>
+		</setters>
+    </element>
+	<element name="Volt Gauntlets" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_VOLT_GAUNTLETS" >
+		<description>
+			<p>These metallic gauntlets have several sharp points extending from its knuckles and are lined with an insulating material. Unarmed strikes made with your fists while wearing these gauntlets deal piercing damage instead of bludgeoning. In addition, the gauntlets have 6 charges and regain 1d6 expended charges each day at dawn. When you hit a creature with an unarmed strike with the gauntlets, you can expend 1 of their charges to deal an extra 1d8 lightning damage. When you do, the target must succeed on a DC 15 Constitution saving throw or be unable to take reactions until the start of its next turn. While the gauntlets hold at least 1 charge, they give off occasional snaps and sparks of electricity.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="slot">hands</set>
+			<set name="rarity">Rare</set>
+		</setters>
+    </element>
+	<element name="Voltedge" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_VOLTEDGE" >
+		<description>
+			<p>This split metal sword arcs with electricity between its two halves. When you hit with an attack using this magic sword, the target takes an extra 1d6 lightning damage. While holding this sword, you can use an action to unleash a concentrated beam of lightning from the blade in a line that is 60 feet long and 5 feet wide. Each creature within that line must make a DC 15 Dexterity saving throw. A creature takes 4d6 lightning damage on a failed save, or half as much damage on a success. Once this property of the sword has been used, it can't be used again until the next dawn.</p>
+		</description>	
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="any sword">Weapon</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_SWORDS</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+    </element>
+	<element name="Vox Helm" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_VOX_HELM" >
+		<description>
+			<p>This metal helm has a second guard that rests in front of your mouth and alters your voice. You can raise and lower this guard using an action. While wearing the helmet with the guard lowered, your voice sounds obviously enchanted and can be adjusted to modify its pitch, masculinity or femininity, and reverberation at will (no action required).</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Common</set>
+		</setters>
+    </element>
 
 </elements>

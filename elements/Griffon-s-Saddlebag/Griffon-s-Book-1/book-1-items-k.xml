@@ -7,5 +7,99 @@
 			<file name="book-1-items-k.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag/Griffon-s-Book-1/book-1-items-k.xml" />
 		</update>
 	</info>
+	
+	<element name="Killskull Longbow of Dread" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_KILLSKULL_LONGBOW_OF_DREAD" >
+		<description>
+			<p>This magic longbow is adorned with a bear skull and claws. The bow holds up to 4 charges and gains 1 charge whenever you reduce a Small or larger creature to 0 hit points with it. For each charge the bow has, a small, etched line appears on the bear skull adorning the weapon. An etched line vanishes from the skull when its charge is expended.</p>
+			<p class="indent">When you hit a creature with a ranged attack using this weapon, you can expend 1 of its charges to cause that creature to take an extra 1d8 psychic damage and make a DC 15 Wisdom saving throw. On a failure, the creature is frightened of you for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>
+		</description>	
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="longbow">Weapon</set>
+			<set name="weapon">Longbow</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+    </element>
+	<element name="Kindle Egg Sugarbomb" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_KINDLE_EGG_SUGARBOMB" >
+		<description>
+			<p>When you eat this spicy chocolate sweet as an action, you gain resistance to fire damage and can tolerate cold temperatures as low as 0 degrees Fahrenheit without any additional protection for 1 hour.</p>
+			<p class="indent"><b><i>Upset stomach.</i></b> You can only be under the effects of 1 sugarbomb that has this feature at a time. Eating a sugarbomb that has this feature while under the effects of another one causes the effects of the first sugarbomb to immediately end and be replaced by the new one’s. This rapid change is difficult to stomach, forcing you to make a DC 13 Constitution saving throw. On a failed save, you gain the effects of the new sugarbomb, but become poisoned for 1 minute. On a success, you gain the effects of the new sugarbomb and are not poisoned.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+    </element>
+	<element name="Knight’s Standard of Valor" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_KNIGHTS_STANDARD_OF_VALOR" >
+		<description>
+			<p>You gain a +1 bonus to attack and damage rolls made with this magic weapon. While wielding this halberd, you radiate fervor and valor. You and other friendly creatures within 10 feet of you are considered proficient in saving throws made to resist becoming frightened. In addition, when an allied creature other than you starts its turn within 10 feet of you, that creatures gains a 5-foot bonus to their movement speed until the end of their turn.</p>
+			<p class="indent">You can concentrate on the weapon’s flag over the course of 1 hour to change its design and color.</p>
+		</description>	
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="halberd">Weapon</set>
+			<set name="weapon">Halberd</set>
+			<set name="enhancement">1</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+    </element>
+	<element name="Knight’s Standard of Vigor" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_KNIGHTS_STANDARD_OF_VIGOR">
+		<description>
+			<p>You gain a +1 bonus to attack and damage rolls made with this magic weapon. While wielding this brass pike, you radiate health and vitality. You and other friendly creatures within 10 feet of you are considered proficient in saving throws made to resist becoming poisoned. In addition, when an affected creature other than you regains hit points while in combat from a spell or potion, you can use your reaction to cause that ally to regain an extra 1d6 + 2 hit points.</p>
+			<p class="indent">You can concentrate on the weapon’s flag over the course of a short rest to change its design and color.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="pike">Weapon</set>
+			<set name="weapon">Pike</set>
+			<set name="enhancement">1</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules />
+	</element>
+	<element name="Knight’s Standard of Virtue" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_KNIGHTS_STANDARD_OF_VIRTUE">
+		<description>
+			<p>You gain a +1 bonus to attack and damage rolls made with this magic weapon. While wielding this decorated glaive, you radiate righteousness. You and other friendly creatures within 10 feet of you are considered proficient in saving throws made to resist becoming charmed. In addition, when a friendly creature you can see within 10 feet of you takes damage, you can use your reaction to magically reduce the damage they take by up to 5. When you do, you take force damage equal to the amount of damage you reduced in this way.</p>
+			<p class="indent">You can concentrate on the weapon’s flag over the course of a short rest to change its design and color.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="glaive">Weapon</set>
+			<set name="weapon">Glaive</set>
+			<set name="enhancement">1</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			
+		</rules>
+	</element>
+	<element name="Knocking Boots" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_KNOCKING_BOOTS" >
+		<description>
+			<p>These steel-toed boots of dwarven make are adorned with an embossed key on the toe. As an action, you can kick an object that contains a mundane or magical means of preventing access to cast the <i>knock</i> spell on it using the boots. Once this property of the boots has been used, they can’t be used again in this way until the following dawn.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+    </element>
+	<element name="Kraken’s Whip" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_KRAKENS_WHIP" >
+		<description>
+			<p>This whip is made using the shrunken tentacle of a great sea creature. It still writhes slightly on its own.</p>
+			<p class="indent">As an action, you can force a creature you can see within 10 feet of you to make a DC 13 Strength or Dexterity saving throw (their choice). On a failure, the creature is grappled by the whip’s tentacle and takes 1d4+2 bludgeoning damage. The affected target or another creature can use an action to reattempt the saving throw, escaping the grapple upon a success. While grappled, the creature takes 1d4+2 bludgeoning damage at the end of each of its subsequent turns.</p>
+			<p class="indent">You can’t use the whip to attack while grappling a creature with it in this way. While holding the whip, you can end the grapple at any time (no action required), and your movement speed is halved when you move more than 10 feet away from the grappled creature as you drag it along behind you.</p>
+		</description>	
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="whip">Weapon</set>
+			<set name="weapon">Whip</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+    </element>
 
 </elements>
