@@ -3,7 +3,7 @@
 	<info>
 		<name>The Griffon's Saddlebag Book 1</name>
 		<description>The first published</description>                             
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="Griffon-s-Saddlebag-Book-1.index" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag/Griffon-s-Saddlebag-Book-1.index" />
 		</update>
 	</info>
