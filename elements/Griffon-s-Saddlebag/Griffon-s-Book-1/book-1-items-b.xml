@@ -3,7 +3,7 @@
 	<info>
 		<name>Book 1: Magic Items B</name>
 		<description>The first published work</description>                             
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="book-1-items-b.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag/Griffon-s-Book-1/book-1-items-b.xml" />
 		</update>
 	</info>
@@ -20,7 +20,7 @@
 			<set name="rarity">Uncommon</set>
 		</setters>
 	</element>
-	<element name="Band of Mirrored Essence" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_BAND_OF_MIRRORE_ESSENCE" >
+	<element name="Band of Mirrored Essence" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_BAND_OF_MIRRORED_ESSENCE" >
 		<description>
 			<p>This unassuming platinum ring is polished to a mirror finish. When you reduce a Small or larger hostile creature to 0 hit points while wearing the ring, you can use your reaction to absorb a portion of that creature's essence into the ring. Looking into the ring shows the reflection of the creature whose essence is held inside. As an action, you can release the captured essence and assume either the creature's appearance or one of its features.</p>
 			<p class="indent">If you take on the appearance of the creature, it must be a creature no more than one size larger or smaller than you. You do not physically change in size or shape, but your body is shrouded in a convincing illusion. Your voice changes to match the creature's, and you can understand any of its known languages but can neither read nor speak any that you don't already know. Another creature can see through the illusion by succeeding on a DC 16 Intelligence (Investigation) check. Physical interaction with this illusory form reveals it to be an illusion, because things can pass through it. The illusion lasts for 8 hours or until you dismiss it as a bonus action or fall unconscious.</p>

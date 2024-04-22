@@ -7,5 +7,289 @@
 			<file name="book-1-items-r.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag/Griffon-s-Book-1/book-1-items-r.xml" />
 		</update>
 	</info>
+	<element name="Radiant Defender" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_RADIANT_DEFENDER" >
+		<description>
+			<p>This maul has a narrow shield covering its handle that can be rotated to protect the wielder's grip. You gain a +1 bonus to attack and damage rolls made with this magic weapon. While wielding this guarded maul, taking the Dodge action also gives you a +2 bonus to your AC until the start of your next turn. In addition, when you take the Dodge action and a creature within 5 feet of you misses you with an attack, you can use your reaction to make an attack with the maul against that creature. If you hit, the attack deals an extra 1d8 radiant damage. Once you use your reaction to make an attack in this way, you lose the maul's bonus to your AC until you take the Dodge action again.</p>
+		</description>	
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="maul">Weapon</set>
+			<set name="weapon">Maul</set>
+			<set name="enhancement">1</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+    </element>
+	<element name="Reap and Sew" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_REAP_AND_SEW" >
+		<description>
+			<p>You gain a +2 bonus to attack and damage rolls made with this magic weapon. While attuned to the weapon, you can cast the <i>mending</i> cantrip at will. A special, needle-like bolt is magically bound to the crossbow. When fired, the bolt leaves a faint thread of arcane energy behind it and deals force damage instead of piercing. The bolt returns to the crossbow and loads itself after each attack, ignoring the crossbow's normal loading property.</p>
+			<p class="indent">The crossbow has 4 charges and regains 1d4 expended charges each day at dawn. When you fire the special bolt from this crossbow and hit a Large or smaller creature, you can expend 1 charge to tether that creature to a point on the ground adjacent to it. If the creature attempts to move more than 10 feet away from that point before the end of its next turn, it must succeed on a DC 15 Strength saving throw or have its movement speed reduced to 0 until the start of its next turn.</p>
+			<p class="indent">If the special bolt is somehow destroyed or lost, the bolt reappears loaded in the crossbow after 24 hours. The weapon is considered to be a mundane, nonmagical crossbow while separated from the bolt for longer than 1 minute.</p>
+			<p class="indent"><b><i>Curse.</i></b> Once attuned to this weapon, you must make a DC 12 Wisdom saving throw whenever you attempt to take a short or long rest. On a failure, you are overcome with the urge to craft and are forced to sew, knit, crochet, or crossstitch feverishly for at least 1 hour before being able to rest. The curse remains even if the attunement ends, but can be undone by any effect that removes a curse such as a greater restoration or remove curse spell.</p>
+		</description>	
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="light crossbow">Weapon</set>
+			<set name="weapon">Crossbow, Light</set>
+			<set name="enhancement">2</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+    </element>
+	<element name="Red Claw's Regalia" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_RED_CLAWS_REGALIA" >
+		<description>
+			<p>This dragon scale robe is miraculously insulated and comfortable. While wearing the robe, you gain the following benefits:</p>
+			<ul>
+				<list>You can withstand temperatures as low as -50 degrees Fahrenheit without any additional protection.</list>
+				<list>Your Constitution score increases by 2, to a maximum of 22.</list>
+				<list>You have advantage on Constitution saving throws.</list>
+				<list>You have resistance to fire damage.</list>
+				<list>You can stand on and walk across molten rock, unharmed, as if it were solid ground.</list>
+			</ul>
+			<p class="indent">The hem of this robe glimmers with slowly shifting embers. While wearing the robe, your steps leave behind small motes of harmless fire and scorched earth that disappear after 1 second.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
+			<stat name="constitution" value="2"/>
+			<stat name="constitution:max" value="22"/>
+		</rules>
+    </element>
+	<element name="Relentless Bulwark" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_RELENTLESS_BULWARK" >
+		<description>
+			<p>This hefty metal shield is virtually impenetrable. The shield has 6 charges and regains 1d4 + 2 expended charges daily at dawn. While holding the shield, you can use an action to expend 1 of its charges to cast the <i>shield of faith</i> spell from it. Whenever you would fail a Constitution saving throw to maintain concentration on this spell, you can use your reaction to expend another charge from the shield to succeed on the saving throw instead. You can only use your reaction in this way if you're holding the shield.</p>
+		</description>	
+		<setters>
+			<set name="category">Magic Armor</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="shield">Armor</set>
+			<set name="attunement" addition="by a cleric or paladin">true</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+	<element name="Retaliating Bloom Shield" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_RETALIATING_BLOOM_SHIELD" >
+		<description>
+			<p>This steel shield hides a slim chamber in its center where magical flora grow and release toxic pollen. The chamber is covered with an intricate, interlocking series of metal plates and flaps that, once released, resembles a flower.</p>
+			<p class="indent">While holding the shield, you can use your reaction when a Large or smaller creature you can see within 5 feet of you misses you with an attack to release the chamber's mechanism and fire the toxic pollen into the face of the attacker. When you do, that creature must succeed on a DC 15 Constitution saving throw or take 3d10 poison damage and be poisoned for 1 minute. On a success, the creature takes half as much damage and isn't poisoned. Once this property has been used, it can't be used again until the next dusk, when the flowers release another wave of pollen.</p>
+			<p class="indent">Curious, whirring mechanisms inside the shield automatically retract the chamber's unfurled metallic plates at dusk. Alternatively, you can manually collapse the shield's plates over the course of 1 minute.</p>
+		</description>	
+		<setters>
+			<set name="category">Magic Armor</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="shield">Armor</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+	<element name="Retaliating Shield of Ink" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_RETALIATING_SHIELD_OF_INK" >
+		<description>
+			<p>This shield has a hidden compartment inside that can spray thick squid ink at attacking creatures. When a Large or smaller creature within 5 feet of you misses you with a melee attack, you can use your reaction to press a button on the shield's handle. When you do, ink sprays from the front of the shield at the face of the attacking creature. That creature must succeed on a DC 13 Dexterity saving throw or be blinded until the beginning of its next turn.</p>
+			<p class="indent">The shield can hold up to 3 uses of the ink before needing to be refilled. It takes 1 minute to refill the shield using a vial of squid ink worth at least 20gp. Alternatively, you can use a vial of thinner writing ink worth 5gp. If you do. the save DC becomes 10 instead.</p>
+			<p class="indent">This is a mechanical item whose purpose and functionality can be understood following a successful Intelligence check (DC 12). On a success, you can interpret what the shield does, how to use it, and how to take care of it. You also understand that filling the shield with other volatile or sticky liquids such as acid, poison, grog, oil, or any other solid material such as sand, will damage the machinery inside and take 8 hours of work to repair.</p>
+		</description>	
+		<setters>
+			<set name="category">Magic Armor</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="shield">Armor</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+	<element name="Ring of Anchoring" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_RING_OF_ANCHORING" >
+		<description>
+			<p>While attuned to this ring, you can breathe normally underwater, and whenever you're pushed against your will, the distance you're moved is reduced by 10 feet.</p>
+			<p class="indent"><b><i>Curse.</i></b> Once you attune to and wear this hammered lead ring, the arm that's wearing it becomes unbearably heavy when it's submerged underwater. When underwater, make a DC 20 Strength (Athletics) check. On a failure, you're dragged downward 30 feet at the start of each of your turns, and your movement speed becomes 0. You can reattempt this saving throw every minute. On a success, you can move your arm, albeit sluggishly, for 1 minute. While you can move your arm, your movement speed is halved, any attack roll you make with the arm is made with disadvantage, and any Strength or Dexterity check you make is made with disadvantage. If you're still underwater at the end of this minute, you're forced to reattempt the saving throw. You can't remove this ring once you're cursed by it, and you remain cursed until you're targeted by the <i>remove curse</i> spell or similar magic. You can remove the ring and the curse without magic by physically removing the finger that's wearing it. Once removed from the water, your arm's weight and your movement speed return to normal.</p>
+		</description>
+		<setters>
+			<set name="category">Rings</set>
+			<set name="slot">ring</set>
+			<set name="type">Ring</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+	<element name="Ring of Eldritch Ire" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_RING_OF_ELDRITCH_IRE" >
+		<description>
+			<p>This cold, warped ring has three yellow gemstones adorning its surface that swivel and move like strange eyes. This ring has 3 charges and regains all expended charges daily at dusk. While wearing the ring, you can expend 1 of its charges as a bonus action to mark an unmarked creature that you can see within 60 feet of you for 1 hour. The mark is lost if you fall unconscious or end it early using a bonus action. A marked creature appears to be shrouded in a strange, sharpening mist that magically helps you focus. You gain a +1 bonus to attack and damage rolls against marked creatures, and marked creatures have a -1 penalty to saving throws against spells you cast.</p>
+			<p class="indent">You know a marked creature's general distance and direction from you at all times while it's on the same plane of existence as you. In addition, you perceive a marked creature within 60 feet of you as though you had truesight, and can see through any illusion that stands between you and the marked creature.</p>
+		</description>
+		<setters>
+			<set name="category">Rings</set>
+			<set name="slot">ring</set>
+			<set name="type">Ring</set>
+			<set name="attunement" addition="by a warlock">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+	<element name="Ring of Gestures" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_RING_OF_GESTURES" >
+		<description>
+			<p>This gaudy ring has a delicately carved pink gem in the shape of a hand at its center. While wearing this ring, you can cast the minor illusions cantrip at will to enlarge, reduce, and change the color of the hand wearing the ring or any of its fingers. In addition, whenever you make a gesture with the hand wearing this ring, the pink gemstone moves to mimic the gesture and remains that way until you make a new one.</p>
+		</description>
+		<setters>
+			<set name="category">Rings</set>
+			<set name="slot">ring</set>
+			<set name="type">Ring</set>
+			<set name="rarity">Common</set>
+		</setters>
+	</element>
+	<element name="Ring of Roses" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_RING_OF_ROSES" >
+		<description>
+			<p>As an action, you can cause a single rose to grow and appear in your hand. The stem is 1 foot long and has small, dull thorns. The flower is odorless and blooms in a color of your choice, but withers and turns to dust after 24 hours.</p>
+		</description>
+		<setters>
+			<set name="category">Rings</set>
+			<set name="slot">ring</set>
+			<set name="type">Ring</set>
+			<set name="rarity">Common</set>
+		</setters>
+	</element>
+	<element name="Ring of Seething" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_RING_OF_SEETHING" >
+		<description>
+			<p>This dark band is cool to the touch and has several cracks throughout its otherwise smooth body. When you attune to the ring, choose a creature type: aberration, celestial, dragon, elemental, fey, fiend, or undead. While wearing the ring, its normally cool band glows red hot when a creature of the chosen type is within 60 feet of you. In addition, you have advantage on any saving throw you make to resist being charmed or frightened by a creature of that type. While seemingly radiating heat, the ring feels only faintly warm to you. Small pieces of the metal band hover above the surface of the ring when glowing in this way.</p>
+			<p class="indent"><b><i>Curse.</i></b> Once you attune to the ring and place it on your finger, you can't remove it unless targeted by a <i>remove curse</i> spell. While cursed, you have disadvantage on any Charisma check or Wisdom (Insight) check you make that involves a creature of the chosen type. In addition, while you're within 60 feet of one or more creatures of that type, you have disadvantage on attack rolls that target a creature of a different type.</p>
+		</description>
+		<setters>
+			<set name="category">Rings</set>
+			<set name="slot">ring</set>
+			<set name="type">Ring</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+	<element name="Ring of the Fowl Sentinel" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_RING_OFTHE_FOWL_SENTINEL" >
+		<description>
+			<p>This plain bronze ring is embossed with a rooster's head at its center. You can use an action to enchant a friendly chicken or rooster by tapping the ring to its beak. While enchanted, its speed becomes 0 and remains quiet for up to 8 hours. The chicken or rooster lets out a cry after 8 hours or if it sees another Small or larger creature it hasn't seen before. The chicken or rooster has a passive perception of 13 and a +3 bonus to Wisdom (Perception) checks it makes while enchanted. It has 1 hit point, an AC of 10, and can be heard out to 150 feet when it lets out a cry. Only 1 creature can be enchanted by the ring at any time. Tapping the ring to the enchanted chicken or rooster's beak again before the effect ends breaks the enchantment early.</p>
+		</description>
+		<setters>
+			<set name="category">Rings</set>
+			<set name="slot">ring</set>
+			<set name="type">Ring</set>
+			<set name="rarity">Common</set>
+		</setters>
+	</element>
+	<element name="Ring of the Sandskimmer" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_RING_OFTHE_SANDSKIMMER" >
+		<description>
+			<p>This ring is made entirely of sand that ebbs and flows around your finger. The sand is magically held together by a single, perfectly smooth tiger's eye stone that spins in place as the sand brushes past it. While wearing this ring, you leave no footprints behind when you walk in sand, and you treat all nonmagical difficult terrain in sand as if it were normal terrain.</p>
+		</description>
+		<setters>
+			<set name="category">Rings</set>
+			<set name="slot">ring</set>
+			<set name="type">Ring</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+	<element name="Rings of Fire" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_RING_OF_FIRE" >
+		<description>
+			<p>This ring is made of magical fire. While wearing this ring, you can use it to cast the <i>wall of fire</i> spell as an action. Once used, this property of the ring can't be used again until the next dawn.</p>
+			<p class="indent">When cast from the ring, the wall must be in a circle centered on you. The height and thickness of the wall is 20 feet tall and 1 foot thick</p>
+			<p class="indent">The wall has a spell save DC of 15.</p>
+		</description>
+		<setters>
+			<set name="category">Rings</set>
+			<set name="slot">ring</set>
+			<set name="type">Ring</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+	<element name="Rings of Ice" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_RING_OF_ICE" >
+		<description>
+			<p>This ring is made of magical ice. While wearing this ring, you can use it to cast the <i>wall of ice</i> spell as an action. Once used, this property of the ring can't be used again until the next dawn.</p>
+			<p class="indent">When cast from the ring, the wall must be in a circle centered on you. The height and thickness of the wall is 10 feet tall and 1 foot thick.</p>
+			<p class="indent">The walls have a spell save DC of 16.</p>
+		</description>
+		<setters>
+			<set name="category">Rings</set>
+			<set name="slot">ring</set>
+			<set name="type">Ring</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+	</element>
+	<element name="Rings of Stone" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_RING_OF_STONE" >
+		<description>
+			<p>This ring is made of magical stone. While wearing this ring, you can use it to cast the <i>wall of stone</i> spell as an action. Once used, this property of the ring can't be used again until the next dawn.</p>
+			<p class="indent">When cast from the ring, the wall must be in a circle centered on you. The height and thickness of the wall is 10 feet high and 6 inches thick.</p>
+			<p class="indent">The wall has a spell save DC of 15.</p>
+		</description>
+		<setters>
+			<set name="category">Rings</set>
+			<set name="slot">ring</set>
+			<set name="type">Ring</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+	<element name="Rings of Wind" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_RING_OF_WIND" >
+		<description>
+			<p>This ring is made of magical wind (uncommon). While wearing this ring, you can use it to cast the <i>wind wall</i> spell as an action. Once used, this property of the ring can't be used again until the next dawn.</p>
+			<p class="indent">When cast from the ring, the wall must be in a circle centered on you. The height and thickness of the wall is 15 feet high and 1 foot thick.</p>
+			<p class="indent">The walls have a spell save DC of 13.</p>
+		</description>
+		<setters>
+			<set name="category">Rings</set>
+			<set name="slot">ring</set>
+			<set name="type">Ring</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+	<element name="Rocborne Hand Ballista" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_ROCBORNE_HAND_BALLISTA" >
+		<description>
+			<p>This massive, beast-hunting crossbow is carried with its two handles from above instead of by being held from below. You gain a +1 bonus to attack and damage rolls made with this magic weapon. This crossbow uses twice the normal amount of ammunition each time you fire it and deals an extra 1d10 piercing damage to any target it hits. The weapon emits a roc-like screech that's audible out to 100 feet each time it's fired.</p>
+			<p class="indent">This crossbow is blessed with the spirits of great ancestral hunters. The weapon has 5 charges and regains 1d4 + 1 expended charges daily at dawn. When you attack a Huge or smaller creature with this weapon, you can expend 1 of its charges as part of the attack. If the attack hits, the creature must make a DC 16 Constitution saving throw. On a failed save, its speed is reduced to 0 and it can't take reactions until the start of its next turn.</p>
+		</description>	
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="heavy crossbow">Weapon</set>
+			<set name="weapon">Heavy Crossbow</set>
+			<set name="enhancement">1</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+    </element>
+	<element name="Rocborne Robe" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_ROCBORNE_ROBE" >
+		<description>
+			<p>This warm canvas robe is lined with roc down. While wearing it, you can withstand temperatures as low as -50 degrees Fahrenheit. In addition, the cloak has 5 charges and regains 1d4 + 1 expended charges daily at dawn. While wearing the cloak, you can use an action to expend 1 of its charges and unfurl the robe. The robe opens into two large, stylized wings before flapping back down, buffeting the area in front of you and refolding into the robe. The wings create a line of wind 15 feet wide and 10 feet long in front of you, forcing any affected Medium or smaller creature within the area to make a DC 13 Strength saving throw. On a failure, a creature is pushed 10 feet away from you. At the same time, you are flung away, flying 10 feet backwards without provoking opportunity attacks.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+    </element>
+	<element name="Rocborne Rod" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_ROCBORNE_ROD" >
+		<description>
+			<p>This wooden rod is carved in the representation of five ancient rocs. Motes of their spirits flow through it and allow you to channel some of their lingering power</p>
+			<p class="indent">This rod has 5 charges and regains 1d4 + 1 expended charges daily at dawn. While holding the rod, you can use a reaction while falling, or an action otherwise, to expend 1 of its charge to cause two handles to extend from its top and bottom. While holding the handles, a pair of magical wings appear above the rod that reduce your falling speed to 10 feet per round, or 20 feet if you weigh more than 200 pounds. While falling in this way, you gain a flying speed of 40 feet but cannot fly upwards without a significant updraft. If you land on the ground while falling in this way, you take no damage from falling.</p>
+			<p class="indent">In addition, you can use the rod to summon a buffeting gust of wind around you. While holding the rod aloft, you can use an action to expend 1 of its charges. When you do, powerful winds whip around you and blow everything within 20 feet of you skyward in a column of wind 60 feet high. Large and smaller creatures within range must succeed on a DC 15 Strength saving throw or be launched 30 feet upward before crashing back to the ground. Affected objects weighing less than 200 pounds are also launched by the wind. You automatically succeed on the saving throw unless you decide to fail. If you choose to fail the saving throw and use your reaction to summon the magical wings (if they weren't already summoned), you're carried upward 60 feet instead.</p>
+		</description>
+		<setters>
+			<set name="category">Rods</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="type">Rod</set>
+			<set name="slot">onehand</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+	<element name="Runic Ammunition" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_RUNIC_AMMUNITION" >
+		<description>
+			<p><i>Runic ammunition</i> resembles normal bolts, arrows, or stones that are etched with runes and are magically discordant to spellcasters. When a creature concentrating on a spell or magical effect is hit by a piece of runic ammunition, that creature makes the resulting Constitution saving throw to maintain its concentration with disadvantage.</p>
+			<p class="indent">You have a +1 bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical.</p>
+		</description>	
+		<setters>
+			<set name="keywords">arrow, bolt, sling bullet</set>
+			<set name="category">Ammunition</set>
+			<set name="type" addition="a bolt, arrow, or sling bullet">Weapon</set>
+			<set name="enhancement">1</set>
+			<set name="stackable">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
 
 </elements>

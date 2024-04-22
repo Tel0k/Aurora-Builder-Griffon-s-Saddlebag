@@ -8,4 +8,331 @@
 		</update>
 	</info>
 
+	<element name="Talyard the Great's Wand of Power" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_TALYARD_THE_GREATS_WAND_OF_POWER">
+		<description>
+			<p>This normal-looking spruce stick is actually the wand of a famous drunkard. A drunken creature that sees the stick perceives it as a magnificent, colorful wand that radiates with an awesome power.</p>
+			<p class="indent">This wand has 3 charges and regains 1d3 expended charges daily at dusk. While you're drunk and are holding the wand, you can use an action to cast one of the following spells from the wand, even if you are incapable of casting spells: heroism (1 charge), lesser restoration (2 charges), or thaumaturgy (no charges). If you don't have a spellcasting ability modifier, Charisma is your spellcasting ability when casting these spells (minimum +1 modifier).</p>
+		</description>
+		<setters>
+			<set name="category">Wands</set>
+			<set name="type">Wand</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+	<element name="Tear of Gaia" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_TEAR_OF_GAIA" >
+		<description>
+			<p>As an action, you can crush this small, green gem underfoot to activate its magic. Plants within a 10-foot radius of you immediately become healthy and full. Fruit and vegetable-bearing plants begin to grow their produce, which grow ripe over the course of 1 hour. If there are no plants within range or you crush the gem against an inorganic material, fertile topsoil 1 inch deep spreads across the area. Healthy green grass immediately grows from the new soil.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Common</set>
+		</setters>
+    </element>
+	<element name="Telescoping Bladelance" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_TELESCOPING_BLADELANCE" >
+		<description>
+			<p>This mechanical lance has bladed edges and has the heavy property. You can use a bonus action on your turn to extend or retract the weapon by twisting its handle. The weapon is a normal lance while it's extended. If the lance is retracted, the end of the weapon rests inside the wider, bladed base and is considered to be a greatsword instead. This greatsword deals 1d12 slashing damage instead of 2d6.</p>
+			<p class="indent">While the weapon is retracted, you can choose to extend it as a bonus action immediately after hitting a target with an attack. If the target is a Large or smaller creature, it's pushed 5 feet away from you.</p>
+		</description>	
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="lance">Weapon</set>
+			<set name="weapon">Lance</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+    </element>
+	<element name="Tempest Griffon Feather Cape" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_TEMPEST_GRIFFON_FEATHER_CAPE" >
+		<description>
+			<p>You have resistance to lightning damage and make Dexterity saving throws to resist or avoid lightning spells and effects with advantage while wearing this cape.</p>
+			<p class="indent">While wearing the cape, you can use an action to speak its command word to transform into a bolt of lightning. When you do, choose an unoccupied space that you can see within 120 feet of you. You disappear from your current location and travel in a line that is 5 feet wide and up to 120 feet long to the chosen space. Any creature in the line or within 5 feet of either your old or new location must make a DC 16 Dexterity saving throw. A creature takes 3d10 lightning damage on a failed save, or half as much damage on a successful one. Once this property of the cape has been used, it can't be used again until the next dawn.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_LIGHTNING" />
+		</rules>
+    </element>
+	<element name="Tether Tearer" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_TETHER_TEARER" >
+		<description>
+			<p>This silver axe can temporarily bind a creature to its corporeal form. This axe deals an extra 1d6 force damage to any creature it hits that has the <i>incorporeal movement</i> trait. When it does, that creature can't benefit from its <i>incorporeal movement</i> trait again until the end of its next turn.</p>
+		</description>	
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="any axe">Weapon</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_AXES</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+    </element>
+	<element name="Tethervine Quiver" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_TETHERVINE_QUIVER" >
+		<description>
+			<p>This seemingly overgrown quiver keeps a large plant magically concealed inside it. The quiver can store up to 20 arrows or bolts. When you draw a piece of ammunition from the quiver, you can speak the quiver's command word as a bonus action to magically connect the end of the ammunition to the plant inside the quiver. The plant is a rope-like vine that flies effortlessly behind a fired piece of ammunition. While wearing the quiver, you can use a bonus action to magically retract the vine up to 60 feet back into the quiver. Any object weighing less than 25 pounds hit by a connected piece of ammunition is pulled back toward the quiver when its retracted in this way. Despite the quiver's limitations, the rope-like vine can hold up to 250 pounds on its own.</p>
+			<p class="indent">If you hit a creature with an arrow or bolt that was connected to the vine, the vine magically disconnects itself and falls from the ammunition. You can disconnect the vine from the ammunition by speaking its command word again or by severing the vine from the quiver as a bonus action. Once severed, the vine is considered to be a mundane length of hemp rope.</p>
+			<p class="indent">You can only fire a connected piece of ammunition as far as you have the vine to. The plant grows up to 120 feet long and regrows up to 30 feet of vine daily at dawn.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+    </element>
+	<element name="The Rose Basket" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_THE_ROSE_BASKET" >
+		<description>
+			<p>This silver rapier has a rose adorning its crossguard and pommel and has thorns lining its hilt. You gain a +2 bonus to attack and damage rolls made with this magic weapon. In addition, the weapon deals an extra 1d8 radiant damage to any shapechanger or fey creature it hits.</p>
+			<p class="indent"><b><i>Field of Roses.</i></b> As an action, you can speak the rapier's command word and touch its point to the ground at your feet. When you do, silver rosebushes sprout from the ground in a 25-foot square, centered on your location. The area becomes difficult terrain, and when a creature moves into or within the area, it takes 2d4 piercing damage for every 5 feet it travels. While holding this rapier, you can pass through this area as if it were normal terrain, and you don't take damage from moving within it. The rosebushes remain for 1 minute or until you dismiss them as a bonus action. Once this property has been used, it can't be used again until the next dawn.</p>
+		</description>	
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="rapier">Weapon</set>
+			<set name="weapon">Rapier</set>
+			<set name="enhancement">2</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+    </element>
+	<element name="Thornpiercer" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_THORNEPIERCER" >
+		<description>
+			<p>This rose has a stem large enough to hold like the hilt of a weapon. You can focus on the rose as a bonus action to cause it to grow one of the following weapons from its center: a dagger, shortsword, rapier, or whip. If the hilt already has a weapon growing from its center, the existing weapon withers away and disintegrates, allowing the new one to take its place.</p>
+			<p class="indent">You gain a +2 bonus to attack and damage rolls made with this magic weapon. In addition, targets hit by the weapon take an extra 1d4 piercing damage. If you are a druid or are proficient with either simple or martial weapons, you are proficient with the weapons that thornpiercer grows.</p>
+			<p class="indent"><b><i>Dagger.</i></b> When you throw this weapon, only the blade is thrown from the rose hilt. Hit or miss, when the blade reaches its target, it erupts into a burst of thorns. The target and up to 3 other creatures of your choice within 10 feet of it must succeed on a DC 17 Dexterity saving throw or take 1d4 + 2 piercing damage.</p>
+			<p class="indent"><b><i>Rapier.</i></b> When you roll a 20 on an attack roll with this weapon, the blade's thorns eviscerate the inside of the target and deal an extra 3d4 piercing damage. If the target was a Large or smaller creature, it must also make a DC 17 Constitution saving throw. On a failure, its hit point maximum is reduced by the amount of damage dealt by the attack. On a success, it's reduced by half the amount instead. Once the creature completes a short or long rest, its hit point maximum is restored.</p>
+			<p class="indent"><b><i>Shortsword</i></b> The first creature hit by this weapon on each of your turns must make a DC 17 Constitution saving throw. On a failed save, a creature takes an extra 1d6 poison damage and is poisoned until the end of its next turn.</p>
+			<p class="indent"><b><i>Whip.</i></b> When you hit a Medium or smaller target with this weapon, you can attempt to grapple it with the whip. When you do, the target must succeed on a DC 17 Strength saving throw or be grappled by viny whip. A grappled target takes 1d4 piercing damage from the whip's thorns at the start of each of its turns until it's freed. A creature can use its action to make a DC 17 Strength check, freeing itself or another creature within its reach on a success. The whip breaks off from the hilt when you successfully grapple a target in this way, allowing you to move freely while the target remains grappled.</p>
+		</description>	
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="dagger, shortsword, rapier, or whip">Weapon</set>
+			<set name="weapon">Dagger||Shortsword||Rapier||Whip</set>
+			<set name="enhancement">2</set>
+			<set name="damage" type="piercing">1d4</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Legendary</set>
+		</setters>
+    </element>
+	<element name="Thunderous Flail" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_THUNDEROUS_FLAIL" >
+		<description>
+			<p>This flail has 3 charges and regains 1d3 expended charges each day at dawn. You can expend 1 charge to cast the <i>thunderwave</i> spell (save DC 15). The ball of the flail is the origin of the spell. As long as the flail has at least 1 charge, you deal an extra 1d6 lightning damage to the first target you hit with it on each of your turns.</p>
+			<p class="indent">If you make a melee attack using the flail, you can immediately expend 1 charge to cast <i>thunderwave</i> as a bonus action in the direction of your last attacked target.</p>
+			<p class="indent">The ball of the flail is attached to the chain with a powerful magnetic connection that can be released at will. You can make a ranged attack using the flail by releasing the ball mid-swing. This attack has a normal range of 20 feet and long range of 60. Strength is your ability modifier for this attack. While the ball is within 60 feet of you, you can magnetically pull it back up to 20 feet towards you as a bonus action. It magically reattaches itself to the chain when it enters the same space as you.</p>
+			<p class="indent">While the ball is detached, you can still use the flail to cast <i>thunderwave</i>. When you do, the spell's area of effect becomes a 10-foot radius sphere centered on the ball.</p>
+		</description>	
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="flail">Weapon</set>
+			<set name="weapon">Flail</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+    </element>
+	<element name="Thwackstaff" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_THWACKSTAFF" >
+		<description>
+			<p>This festive quarterstaff is decorated with ribbons and other glittering elements. It is perfectly balanced and seems to be made to perform with. This magic quarterstaff has the finesse property and grants you a +1 bonus to Charisma (Performance) checks you make in order to put on an entertaining performance using the quarterstaff.</p>
+			<p class="indent"><b><i>Punishing Parry.</i></b> This quarterstaff has 3 charges and regains all expended charges daily at dawn. While holding this quarterstaff, you can expend 1 of its charges as a reaction when a creature that you can see hits you with a melee attack. When you do, roll a d6. You gain a bonus to AC equal to the number rolled against that attack, potentially causing it to miss you. If the attack misses you as a result of this bonus to AC, you can immediately make one attack with the quarterstaff against the attacking creature as part of your reaction. If you hit, the attack does extra damage equal to the number rolled on the d6.</p>
+		</description>	
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="quarterstaff">Weapon</set>
+			<set name="weapon">Quarterstaff</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+		<rules>
+			<stat name="performance:misc" value="1" />
+		</rules>
+    </element>
+	<element name="Timber" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_TIMBER" >
+		<description>
+			<p>This magical axe is imbued with a destructive force that builds with each consecutive strike. You have a bonus to attack and damage rolls made with this magic weapon equal to the number of charges it currently has. The handaxe gains 1 charge each time you make a successful attack with it: up to a maximum of 3 charges. When <i>timber</i> gains its third charge, the built-up force explodes; it loses all charges, and the target takes an extra 3d6 force damage, or 6d6 if it's made of wood. When this happens, if the target is no more than one size larger than you, you can choose to push it up to 10 feet away from you.</p>
+			<p class="indent"><i>Timber's</i> charges last for up to 1 minute. It loses all charges if you make an attack against a new target, make an attack with a different weapon, or miss with an attack using <i>timber</i>.</p>
+		</description>	
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="handaxe">Weapon</set>
+			<set name="weapon">Handaxe</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+    </element>
+	<element name="Timepiercer" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_TIMEPIERCER" >
+		<description>
+			<p>This item appears to be a sword hilt that has a small hole on either end of it. The hilt is made of clear quartz and contains an hourglass with sand inside it. Despite the holes on the hilt, the sand never seems to flow out of the hourglass. You can speak the hilt's command word as a bonus action to cause it to form a thin blade of sand. The hourglass spills sand from the bottom of the hilt that circulates up and around to form the blade and guard of the rapier before returning to the hourglass again through the hole at the top. You can speak the hilt's command word again as a bonus action to cause all the sand to return to the hourglass. While the blade is formed, you gain a +2 bonus to attack and damage rolls made with this magic weapon.</p>
+			<p class="indent">While holding the hilt, you can use an action to cast either the <i>haste</i> or <i>slow</i> spell (save DC 16) from it. You have advantage on Constitution saving throws you make in order to maintain concentration on a spell cast in this way. Once a spell has been cast using the hilt, it can't be used to cast that spell again until the next dawn. The sands in the hourglass move quickly while you concentrate on a <i>haste</i> spell cast in this way, or more slowly when you concentrate on a <i>slow</i> spell.</p>
+		</description>	
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="rapier">Weapon</set>
+			<set name="weapon">Rapier</set>
+			<set name="enhancement">2</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+    </element>
+	<element name="Timeshifter's Mantle" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_TIMESHIFTERS_MANTLE" >
+		<description>
+			<p>If a Large or smaller creature hits you with a melee attack while you're wearing this cloak, you can use your reaction to cause time to briefly warp around you. After taking the damage from the attack, you can immediately move up to half your speed without provoking opportunity attacks, and the attacker's speed is reduced to 0 until the start of its next turn. Once this property of the cloak has been used, it can't be used again until the next dawn.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Rare</set>
+		</setters>
+    </element>
+	<element name="Toadstone" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_TOADSTONE" >
+		<description>
+			<p>This small jade carving of a frog dangles from a simple cord of leather to be worn as a necklace. While you wear it, you gain a swimming speed equal to your walking speed and can hold your breath for up to 1 hour. In addition, you can cast the <i>jump</i> spell using the necklace, targeting only yourself. Once the necklace has been used to cast this spell, it can't do so again until the next dusk.</p>
+			<p class="indent"><b><i>Curse.</i></b> This necklace is cursed. Attuning to it curses you until you're targeted by the remove curse spell or similar magic. Removing the necklace fails to end the curse on you. While you're cursed, your skin is perpetually slightly wet and clammy, and you have only an appetite for insects and other grubs instead of the foods you would normally enjoy eating.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+		<rules>
+			<stat name="speed:swim" value="speed" bonus="base" />
+		</rules>
+    </element>
+	<element name="Tome of Dreams" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_TOME_OF_DREAMS" >
+		<description>
+			<p>This beautifully embossed book is full of gripping short stories. You can read a story from the book in 10 minutes. The underlying nature of each story is unclear, leaving your subconscious mind to slowly process and unpack its deeper meanings over the course of your next long rest. The next time you finish a long rest after reading a story from the book, roll a d20. On a roll of 10 or lower, you take 2d4 psychic damage as your mind is plagued with intense terrors from the story you read. On a roll of 11 or higher, you gain 2d4 temporary hit points as your mind is filled with joy and courage instead. If you start a story but don't finish reading it, nothing happens the next time you finish a long rest.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+    </element>
+	<element name="Torchbearer's Reach" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_TORCHBEARERS_REACH">
+		<description>
+			<p>This weapon has the light property and deals fire damage instead of slashing. When held, a magical flame forms at the top of the whip's handle. The flame gives off bright light in a 20-foot radius and dim light for another 20 feet. You can stretch the flame to form a 10-foot long coil of fire by snapping the handle and flame down as if to crack the whip (no action required). The flame doesn't hurt you while you hold the whip. You can snuff the fire out with your hand or blow it out to extinguish it using a bonus action.</p>
+			<p class="indent">The whip's flame is intangible and can't be used to bind a creature or retrieve objects from afar, but can be used to light other fires.</p>
+		</description>	
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="whip">Weapon</set>
+			<set name="weapon">Whip</set>
+			<set name="rarity">Uncommon</set>
+			<set name="damage" type="fire">1d4</set>
+		</setters>
+    </element>
+	<element name="Torpedo Arrow" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_TORPEDO_ARROW" >
+		<description>
+			<p>This unique arrow's spiraling design allows it to travel unimpaired in the water. When firing this arrow underwater, you ignore the normal disadvantages of underwater fighting. When you fire this weapon out of water, the normal and long ranges of the arrow are halved.</p>
+		</description>	
+		<setters>
+			<set name="keywords">arrow</set>
+			<set name="category">Ammunition</set>
+			<set name="type" addition="arrow">Weapon</set>
+			<set name="rarity">Common</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Torrent Taiaha" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_TORRENT_TAIAHA">
+		<description>
+			<p>A mote of swirling, magic water circles the top of this wooden staff. This staff can be wielded as a magic quarterstaff that grants a +1 bonus to attack and damage rolls made with it. When you make a melee attack with the staff, you can choose to extend and lash out with the water, instead of the staff. When you do, the water has a range of 10 feet and deals 1d4 bludgeoning damage if it hits. You're proficient with this attack and use your Wisdom modifier for its attack and damage rolls. After the attack, the water shrinks back to the staf</p>
+			<p class="indent">While holding the staff, you can stand on and move across any liquid surface as if it were solid ground. If you end your turn on a liquid in this way, you sink into it as normal until you stand on solid ground again. In addition, while holding the staff, you can use an action to cast the <i>control water</i> spell (Flood or Part Water only) from it. The spell ends early if you are no longer holding the staff. Once the staff's been used to cast this spell, it can't do so again until the next dawn.</p>
+		</description>
+		<setters>
+			<set name="category">Staffs</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="4">4 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">Quarterstaff</set>
+			<set name="type">Staff</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+	<element name="Tote of Tricky Treat Sugarbombs" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_TOTE_OF_TRICKY_TREAT_SUGARBOMBS" >
+		<description>
+			<p>This canvas bag holds 5d8 + 10 clove and pumpkin candies inside. A small illusory face appears over the sewn-on pumpkin at night. Each candy has a minor magical effect that lasts for 1 minute unless otherwise specified. Some effects are pleasant, whereas some are mischievous. You can eat a piece of candy using an action. When you do, roll on the table below to determine the candy's effect:</p>
+			<table>
+				<thead>
+					<tr><td class="col-10">d20</td><td>Effect</td></tr>
+				</thead>
+				<tr><td>1</td><td>The candy seemed to have spoiled, forcing you to succeed on a DC 13 Constitution saving throw or spend your action on your next turn retching and reeling.</td></tr>
+				<tr><td>2</td><td>Your face appears to melt: revealing the skull beneath it. The effect is harmless and illusory.</td></tr>
+				<tr><td>3</td><td>Any food you eat or water you drink taste like ash and blood, respectively.</td></tr>
+				<tr><td>4</td><td>Other creatures' eyes appear to be hollowed out and blackened to you.</td></tr>
+				<tr><td>5</td><td>Your ears turn a different, vibrant color at the start of each of your turns.</td></tr>
+				<tr><td>6</td><td>Your hair falls out and regrows over the next minute.</td></tr>
+				<tr><td>7</td><td>Your laughter becomes maniacal, and you have trouble stopping once you've started.</td></tr>
+				<tr><td>8</td><td>Your pupils resemble a snake's.</td></tr>
+				<tr><td>9</td><td>You hear a fly near your ear, but you can neither see it nor swat it away.</td></tr>
+				<tr><td>10</td><td>Your skin turns orange, and light spills forth from your eyes and mouth, casting bright light in a 10-foot radius and dim light for another 10 feet.</td></tr>
+				<tr><td>11</td><td>Confetti bursts from the top of your head, and small children can be heard laughing.</td></tr>
+				<tr><td>12</td><td>You sprout tiny, flightless bat wings.</td></tr>
+				<tr><td>13</td><td>You know the location of the nearest pumpkin within 1 mile.</td></tr>
+				<tr><td>14</td><td>Nearby crows and ravens land on your shoulders or outstretched arm.</td></tr>
+				<tr><td>15</td><td>A friendly, floppy wizard hat appears on your head. After 1 minute, it disappears in a cloud of stars.</td></tr>
+				<tr><td>16</td><td>Any alcohol in your stomach or that you drink becomes nonalcoholic.</td></tr>
+				<tr><td>17</td><td>Your voice becomes smooth and golden, allowing you to add your proficiency bonus to Charisma (Performance) checks to sing. If you are already proficient with this skill, you add double your proficiency bonus instead.</td></tr>
+				<tr><td>18</td><td>Any food you eat or water you drink tastes delicious and reminds you of your favorite pastimes.</td></tr>
+				<tr><td>19</td><td>You gain darkvision out to a range of 30 feet. If you already have darkvision, its range is increased by 30 feet.</td></tr>
+				<tr><td>20</td><td>You can magically sense if someone is possessed, and you can see creatures that are invisible.</td></tr>
+			</table>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Common</set>
+		</setters>
+    </element>
+	<element name="Trident of the Dryad" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_TRIDENT_OFTHE_DRIAD" >
+		<description>
+			<p>This magical wooden trident has 4 charges and regains 1d3 + 1 expended charges daily at dawn. Once on each of your turns while holding the trident, you can expend 1 of its charges (no action required) and use 10 feet of your movement to step magically into one living tree within your reach and emerge from a second living tree within 60 feet of the first tree, appearing in an unoccupied space within 5 feet of the second tree. Both trees must be Large or bigger.</p>
+			<p class="indent"><b><i>Tree Form.</i></b> You can use an action to plant the bottom of this trident in fertile ground and speak its command word to transform it into a healthy tree. The tree is 60 feet tall and has a 5-foot-diameter trunk, and its branches at the top spread out in a 20-foot radius. Once on your turn, you can expend 1 of the trident's charges (no action required) and use 10 feet of your movement to step into this tree and emerge from another point on its trunk or within its branches.</p>
+			<p class="indent">The tree appears ordinary but radiates a faint aura of transmutation magic if targeted by <i>detect magic</i>. While touching the tree, you can use an action to speak its command word again to return the trident to its normal form. Any creature in the tree falls when it reverts to a trident. Once this property of the trident has been used, it can't be used again until the next dawn.</p>
+		</description>	
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="trident">Weapon</set>
+			<set name="weapon">Trident</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+    </element>
+	<element name="Trident of the Hydra" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_TIMEPIERCER" >
+		<description>
+			<p>This oddly shaped trident is made of hammered mythril and has a strangely short handle. You gain a +1 bonus to attack and damage rolls made with this magic weapon. This weapon can't be wielded with two hands. When you throw this trident, the forked end of the weapon magically splits apart to form three separate spears: allowing you to make 3 attacks with it instead of 1. After the attack, the trident regrows its missing prongs from one of the separated spears, and the other two spears dissolve.</p>
+		</description>	
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="trident">Weapon</set>
+			<set name="weapon">Trident</set>
+			<set name="enhancement">1</set>
+			<set name="rarity">Rare</set>
+		</setters>
+    </element>
+	<element name="Tub of Churning and Fermentation" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_TUB_OF_CHURNING_AND_FERMENTATION" >
+		<description>
+			<p>This squat wooden and ceramic tub has a screw-on lid that fits snuggly around its base. The tub can hold up to 2 gallons of liquid or 1 cubic foot of material within it. You can leave a liquid or other perishable in the tub and secure the lid before saying the name of the end result you'd like the contents to turn into. If you say the name of a possible result, the tub clicks lightly before locking its lid shut for 10 minutes.</p>
+			<p class="indent">After 10 minutes, the tub gives a second, louder click as the lid unlocks. The contents of the tub will have been stirred, processed, or otherwise fermented in such a way to generate the commanded end product. Adding extra ingredients into the tub can impact the end result's flavor.</p>
+			<p class="indent">Once the tub has been used in this way, it can't be used again until the following dawn.</p>
+			<table>
+				<thead>
+					<tr><td class="col-10">Example Ingredient</td><td>Potential Outcome</td></tr>
+				</thead>
+				<tr><td>Milk</td><td>Butter</td></tr>
+				<tr><td>Milk</td><td>Cheese</td></tr>
+				<tr><td>Milk</td><td>Yogurt</td></tr>
+				<tr><td>Vinegar, Cucumbers</td><td>Pickles</td></tr>
+				<tr><td>Apples</td><td>Hard Cider</td></tr>
+				<tr><td>Assorted Fruits</td><td>Wine</td></tr>
+				<tr><td>Cabbage</td><td>Sauerkraut</td></tr>
+			</table>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+    </element>
+
 </elements>

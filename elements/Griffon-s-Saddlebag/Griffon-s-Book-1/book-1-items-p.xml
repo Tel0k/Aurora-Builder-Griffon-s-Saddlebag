@@ -7,5 +7,351 @@
 			<file name="book-1-items-p.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag/Griffon-s-Book-1/book-1-items-p.xml" />
 		</update>
 	</info>
+<!-- 26 items -->
+	<element name="Pack of LeviBubble Sugarbombs" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_PACK_LEVIBUBBLE_SUGARBOMBS" >
+		<description>
+			<p>This delicious gum comes in packs of 5 and can be blown into large, levitating bubbles 1 foot on a side. You need to chew a piece of this gum for 1 minute before its magic can be used. Once it's been chewed for at least 1 minute, you can use an action while the gum is in your mouth to blow a single bubble with it. Once you do, you're considered to be under the effects of the <i>levitate</i> spell as if you'd cast it so long as the bubble stays in your mouth. While the effect doesn't require you to concentrate on a spell, it does end early and cause you to fall if the bubble takes any damage. The effect ends on its own after 10 minutes, allowing you and the bubble to float gently down to the ground if you're still afloat. The gum becomes nonmagical, albeit still delicious, once this bubble's effect ends.</p>
+			<p class="indent">You can blow this bubble and remove it from your mouth as an action and place it on another creature or object within 5 feet of you. When you do, that creature or object rises 20 feet, vertically, as if under the effects of the <i>levitate</i> spell. An unwilling creature must succeed on a Dexterity (Acrobatics) or Strength (Athletics) check contested by your Dexterity (Acrobatics) or Strength (Athletics) check to resist having the bubble stuck to them. Creatures and objects floating in this way can't change their altitude without popping the bubble.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+    </element>
+	<element name="Pair of Tiny Violin Rings" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_PAIR_OF_TINY_VIOLIN_RINGS" >
+		<description>
+			<p>This pair of golden rings play a sad, sad melody when you rub the two fingers wearing them together. Creatures that know the <i>vicious mockery</i> cantrip can use this set of rings as a somatic component instead of the normal verbal component required by the spell.</p>
+		</description>
+		<setters>
+			<set name="category">Rings</set>
+			<set name="slot">ring</set>
+			<set name="type">Ring</set>
+			<set name="rarity">Common</set>
+		</setters>
+	</element>
+	<element name="Pearl of Wisdom Quiver" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_PEARL_OF_WISDOM_QUIVER" >
+		<description>
+			<p>This magical quiver is made from the shell of an enormous oyster. Arrows you pull from it are considered magical and are coated with a pearlescent, hydrophobic coating. Ranged weapon attacks made with these arrows ignore the normal penalties of underwater fighting. These arrows become nonmagical once they hit a target or are held by a creature other than you. In addition, you can speak the quiver's command word to cause it to create a magical pearl. You can hold onto this pearl or give it to another creature. When a creature with the pearl makes a Wisdom ability check or saving throw, that creature can choose to make the roll with advantage. When it does, the pearl turns to dust. The pearl is visibly magical and disintegrates on its own after 24 hours if left unused. Once the quiver produces a pearl in this way, it can't produce another one until the following dawn.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>.
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+    </element>
+	<element name="Pendant of the Tempered Fury" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_PENDANT_OFTHE_TEMPERED_FURY" >
+		<description>
+			<p>This magic silvered pendant glows with a simmering flame of rage trapped inside of its clenched fist. Small sparks shoot out from between the pendant's metal fingers. The fiery anger from the pendant tightens your focus and allows you to shrug off some of the damage you take. If you are wearing no armor and using no shield while you wear this pendant, all bludgeoning, piercing, and slashing damage you take is reduced by 3.</p>
+			<p class="indent">In addition, the pendant has 3 charges and regains 1d3 expended charges daily at dawn. You can use a bonus action to expend 1 of its charges to ignite your hands in a magical flame. While lit, your arms and hands cast bright light in a 10-foot radius and dim light for another 10 feet, and your unarmed attacks deal an additional 1d4 fire damage to any target they hit. Your hands remain lit for 1 minute or until you use a bonus action to quench them.</p>
+			<p class="indent">Any flame created by the pendant, whether it be on your hands or on the pendant itself, is harmless to you. While your hands are wreathed in fire in this way, your unarmed strikes are considered magical.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="slot">neck</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+    </element>
+	<element name="Pendant of the Thieves' Sight" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_PENDANT_OFTHE_THIEVES_SIGHT" >
+		<description>
+			<p>While wearing this pendant, you can read and understand thieves' cant. In addition, you can more easily recognize the patterns used in written and spoken codes, granting you a +5 bonus to any Intelligence check you make to understand a written or spoken cipher.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="slot">neck</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+		<rules>
+			<grant type="Language" id="ID_WOTC_PHB_LANGUAGE_THIEVES_CANT" />
+		</rules>
+    </element>
+	<element name="Peppermince Sugarbomb" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_PEPPERMINCE_SUGARBOMB" >
+		<description>
+			<p>This hard, minty sugarbomb slowly dissolves in your mouth over the course of 1 hour. At any point, you can use a bonus action to crunch down and break the sugarbomb into tiny, painful shards. You take 1d6 piercing damage from the shards, but are temporarily enchanted by the candy. While enchanted, your piercing and slashing weapon attacks deal an extra 2 damage to any target hit by them. After 1 minute, the enchantment fades.</p>
+			<p class="indent"><b><i>Upset stomach.</i></b> You can only be under the effects of 1 sugarbomb that has this feature at a time. Eating a sugarbomb that has this feature while under the effects of another one causes the effects of the first sugarbomb to immediately end and be replaced by the new one's. This rapid change is difficult to stomach, forcing you to make a DC 13 Constitution saving throw. On a failed save, you gain the effects of the new sugarbomb, but become poisoned for 1 minute. On a success, you gain the effects of the new sugarbomb and are not poisoned.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="stackable">true</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+    </element>
+	<element name="Periapt of Reflection" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_PERIAPT_OF_REFLECTION" >
+		<description>
+			<p>This perfectly reflective charm magically helps you meditate and focus your mind. While wearing the necklace, you can use your reaction to reroll any Intelligence, Wisdom, or Charisma saving throw that you fail. You must use the new result.</p>
+			<p class="indent"><b><i>Curse.</i></b> This curse is only revealed and extended to you when you roll a 1 on a saving throw after using the periapt to reroll it. While you're cursed, the mirrored surface of the necklace dulls into an ugly, flat gray while you wear it. The curse persists even if you are not wearing the necklace, and you remain cursed until targeted by the remove curse spell or similar magic.</p>
+			<p class="indent">While you're cursed, your reflection in any mirrored surface within 10 feet of you turns into an ugly, horrifying visage of your deepest insecurities. In addition, when you fail an Intelligence, Wisdom, or Charisma saving throw (including the roll that reveals this curse), you take 1d8 psychic damage.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="slot">neck</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+    </element>
+	<element name="Permanent Parchment" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_PERMANENT_PARCHMENT" >
+		<description>
+			<p>This violet piece of parchment is smooth and pleasant to write on. You can speak either of the parchment's command words “lock” or “unlock” as a bonus action to lock or unlock the parchment, respectively. While locked, the sheet cannot be torn by hand, damaged by fire, or damaged by immersion in water, and any ink already on the page can't be removed, smeared, or otherwise changed without the use of magic. New ink added to a locked sheet of permanent parchment runs off the page like water. While unlocked, the parchment behaves like a nonmagical sheet of paper.</p>
+			<p class="indent">While unlocked, you can speak the paper's other command word, “clear”, to cause any ink on the sheet of parchment to magically evaporate without leaving any marks behind.</p>
+			<p class="indent">The language the parchment's command words must be spoken in is determined by the creator of the parchment.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="stackable">true</set>
+			<set name="rarity">Common</set>
+		</setters>
+    </element>
+	<element name="Petal Dancer Ward" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_PETAL_DANCER_WARD" >
+		<description>
+			<p>This cape is made of colorful and aromatic petals. While wearing the cape, petals drift behind you as you walk and disappear before touching the ground. You can use a bonus action to change the color of these petals. While wearing the cape, you can use an action to cast the <i>druidcraft</i> cantrip from it, and creatures with the keen smell trait make attacks of opportunity against you with disadvantage.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>.
+			<set name="slot">shoulders</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+    </element>
+	<element name="Phase Axe" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_PHASE_AXE" >
+		<description>
+			<p>This crystalline battleaxe seems to be almost transparent when looking at the bladed head from different angles. You gain a +1 bonus to attack and damage rolls made with this magic weapon. This weapon has the thrown property with a normal range of 20 feet and a long range of 60 feet. The first time on your turn when you hit a target with a ranged attack using the axe, you can force another creature within 10 feet of the target to make a DC 15 Dexterity saving throw. On a failed save, that creature takes 1d8 force damage.</p>
+			<p class="indent">If you can see the axe and are within 60 feet of it, you can use a bonus action to return the axe back to your outstretched hand. When you do, the weapon phases through any obstacle in its path that is no more than 5 feet thick or made of lead.</p>
+		</description>	
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="battleaxe">Weapon</set>
+			<set name="weapon">Battleaxe</set>
+			<set name="enhancement">1</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+    </element>
+	<element name="Phoenix Arrow" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_PHOENIX_ARROW" >
+		<description>
+			<p>This bolt or arrow is fletched with phoenix feathers and is magically bound to a small quiver. You have a +1 bonus to attack and damage rolls made with this piece of magic ammunition. Once fired, the ammunition bursts into flames upon impact and deals fire damage instead of piercing. At the start of your next turn, the arrow leaves behind a small pile of ash and reappears in its quiver.</p>
+			<p class="indent">You can speak the ammunition's command word as a bonus action before firing it to set it ablaze. If you fire it on that same turn, the arrow or bolt deals an extra 1d6 fire damage to any target it hits, but turns to ash before reaching its target if fired at a target more than 30 feet away. The arrow reappears in its quiver immediately after making this attack.</p>
+			<p class="indent">You can store up to 10 other arrows in the quiver but can only have 1 Phoenix Arrow bound to it at a time. If the arrow is ever destroyed, it reappears in the quiver after 24 hours. Firing the arrow or bolt into an <i>antimagic field</i> renders it nonmagical while within the field, allowing the ammunition to be permanently destroyed.</p>
+		</description>	
+		<setters>
+			<set name="keywords">arrow, bolt</set>
+			<set name="category">Ammunition</set>
+			<set name="type" addition="arrow or bolt">Weapon</set>
+			<set name="enhancement">1</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+	<element name="Pike of the Forgotten Legion" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_PIKE_OFTHE_FORGOTTEN_LEGION" >
+		<description>
+			<p>You gain a +2 bonus to attack and damage rolls made with this magic weapon. This weapon has 6 charges and regains 1d4 + 2 expended charges daily at dusk. While holding this pike, you can expend 1 or more of its charges to cast one of the following spells from it (save DC 16): <i>mirror image</i> (1 charge), <i>phantom steed</i> (1 charge), <i>speak with dead</i> (1 charge), or <i>spirit guardians</i> (2 charges).</p>
+			<p class="indent"><b><i>Spectral Warrior.</i></b> Once on each of your turns when you hit a creature with this pike, you can choose to summon a spectral warrior from the weapon. Until the start of your next turn, that creature is haunted by the warrior. While haunted, a creature has disadvantage on weapon attacks against you. This property has no effect against undead creatures.</p>
+			<p class="indent"><b><i>Haunting Phalanx.</i></b> You can use an action while holding this pike to expend 3 of its charges and point it forward commandingly. Five spectral, pike-wielding warriors appear before you and march in a 25-foot-by-50-foot line in a direction you choose. Any creature within that line's area must make a DC 16 Intelligence saving throw. On a failed save, a creature takes 3d10 necrotic damage and 3d10 psychic damage and is affected by the weapon's spectral warrior property. On a success, the creature takes half as much damage and isn't affected by the spectral warriors. Undead creatures automatically succeed on the saving throw.</p>
+		</description>	
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="pike">Weapon</set>
+			<set name="weapon">Pike</set>
+			<set name="enhancement">2</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Legendary</set>
+		</setters>
+    </element>
+	<element name="Plaguebane Mask" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_PLAGUEBANE_MASK" >
+		<description>
+			<p>This bird-like mask's blend of magic and science is as unique as it is helpful. It can be easily lifted over your face to eat or speak more clearly. The mask's beak is lined with magical flowers that react to and purify airborne toxins before they pass through it. While wearing the mask, you have advantage against being poisoned or diseased from airborne sources, as well as resistance to the poison damage that they might cause.</p>
+			<p class="indent">In addition, the flowers have 3 charges and regain 1d3 expended charges each day at dawn as new flowers bloom. As an action, you can hold the beak's nostrils closed with a free hand and expend 1 of its charges to exhale a 15-foot cone of thick pollen in front of you. Creatures caught in the pollen must make a DC 15 Constitution saving throw. On a failed save, a creature's speed is halved until the end of its next turn and takes 2d8 poison damage. On a success, its speed is unaffected and the poison damage is halved.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>.
+			<set name="slot">head</set>
+			<set name="rarity">Rare</set>
+		</setters>
+    </element>
+	<element name="Planar Rapier" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_PLANAR_RAPIER" >
+		<description>
+			<p>This thin blade seems to toe the line between planes of existence, occasionally allowing it to bend them to extend beyond its normal reach. You gain a +2 bonus to attack and damage rolls made with this magic weapon.</p>
+			<p class="indent">The rapier has 5 charges and regains 1d4+1 expended charges each day at dawn. You can expend 1 charge to extend the reach of a melee attack you make with the rapier to 10 feet instead of 5. You can expend this charge either before or after you make the attack. If you expend the charge after making a melee attack with the rapier against a target within 5 feet of you, you can extend the rapier to immediately pierce through the original target and make a bonus melee attack against a different target 5 feet behind the original one, provided that the second target is still within 10 feet of you. This bonus attack is considered to be part of the initial attack. The second target does not benefit from using the original one as cover. Whenever you expend a charge with this weapon, the planes around the blade begin to tear, causing any target hit by an attack with the extended blade to take an extra 2d8 force damage.</p>
+			<p class="indent">After the attack, the blade returns to its normal size.</p>
+		</description>	
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="rapier">Weapon</set>
+			<set name="weapon">Rapier</set>
+			<set name="enhancement">2</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+    </element>
+	<element name="Pomade of Ten Thousand Styles" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_POMADE_OF_TEN_THOUSAND_STYLES" >
+		<description>
+			<p>This canister of waxy pomade has magical properties, allowing you to change your hair's color, style, thickness, and length (up to 1 foot longer or shorter per use). The canister steadily replenishes its pomade over time. It can hold up to 4 uses at a time and regains 1d4 expended uses each day at dawn. Using 1 use of the pomade takes 1 minute.</p>
+			<p class="indent">Once you've used this product in your hair, it returns to its normal appearance after you finish a long rest. Hair produced by the pomade that's been cut off turns to dust after 24 hours. If you use the pomade every day for 7 days to make the same changes, the changes become permanent.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>.
+			<set name="rarity">Rare</set>
+		</setters>
+    </element>
+	<element name="Potion of Dragon's Breath (Uncommon)" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_POTION_OF_DRAGONS_BREATH_UNCOMMON" >
+		<description>
+			<p>This potion is crafted using the harvested stomach and gizzard of a fallen dragon. Drinking the potion as an action allows you to use an action on your subsequent turns to spew dragon-like projectiles. These projectiles are the same as a dragonborn's breath weapon, whose element and areas of effect are determined by the dragon it was sourced from. The effect lasts for 1 minute. Materials gathered from young dragons produce uncommon potions (dealing 3d6 damage with the breath weapon, save DC 13).</p>
+			<p class="indent">It takes 7 days and proficiency with alchemist's supplies to create the potion, requiring 2 hours of work each day in order to prepare it. Failing to tend to the potion causes it to reset, requiring another 7 days to craft. When the potion resets in this way, roll a d20. On a 1, the potion spoils and is lost.</p>
+		</description>
+		<setters>
+			<set name="category">Potions</set>
+			<set name="weight" lb="0.5">½ lb.</set>
+			<set name="type">Potion</set>
+			<set name="stackable">true</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+	<element name="Potion of Dragon's Breath (Rare)" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_POTION_OF_DRAGONS_BREATH_RARE" >
+		<description>
+			<p>This potion is crafted using the harvested stomach and gizzard of a fallen dragon. Drinking the potion as an action allows you to use an action on your subsequent turns to spew dragon-like projectiles. These projectiles are the same as a dragonborn's breath weapon, whose element and areas of effect are determined by the dragon it was sourced from. The effect lasts for 1 minute. Materials gathered from adult dragons produce rare (dealing 4d6 damage with the breath weapon, save DC 15) results.</p>
+			<p class="indent">It takes 7 days and proficiency with alchemist's supplies to create the potion, requiring 2 hours of work each day in order to prepare it. Failing to tend to the potion causes it to reset, requiring another 7 days to craft. When the potion resets in this way, roll a d20. On a 1, the potion spoils and is lost.</p>
+		</description>
+		<setters>
+			<set name="category">Potions</set>
+			<set name="weight" lb="0.5">½ lb.</set>
+			<set name="type">Potion</set>
+			<set name="stackable">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+	<element name="Potion of Dragon's Breath (Very Rare)" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_POTION_OF_DRAGONS_BREATH_VERYRARE" >
+		<description>
+			<p>This potion is crafted using the harvested stomach and gizzard of a fallen dragon. Drinking the potion as an action allows you to use an action on your subsequent turns to spew dragon-like projectiles. These projectiles are the same as a dragonborn's breath weapon, whose element and areas of effect are determined by the dragon it was sourced from. The effect lasts for 1 minute. Materials gathered from ancient dragons produce very rare (dealing 5d6 damage with the breath weapon, save DC 16) results.</p>
+			<p class="indent">It takes 7 days and proficiency with alchemist's supplies to create the potion, requiring 2 hours of work each day in order to prepare it. Failing to tend to the potion causes it to reset, requiring another 7 days to craft. When the potion resets in this way, roll a d20. On a 1, the potion spoils and is lost.</p>
+		</description>
+		<setters>
+			<set name="category">Potions</set>
+			<set name="weight" lb="0.5">½ lb.</set>
+			<set name="type">Potion</set>
+			<set name="stackable">true</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+	</element>
+	<element name="Potion of Spell Recovery" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_POTION_OF_SPELL_RECOVERY" >
+		<description>
+			<p>When you drink this potion, you recover expended spells slots with a combined level that is equal to or less than 1d3 + 3, and none of the slots can be 6th level or higher.</p>
+		</description>
+		<setters>
+			<set name="category">Potions</set>
+			<set name="weight" lb="0.5">½ lb.</set>
+			<set name="type">Potion</set>
+			<set name="stackable">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+	<element name="Prismatic Javelin" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_PRISMATIC_JAVELIN" >
+		<description>
+			<p>This dark crystal javelin has a prismatic head that can refract light into beautiful displays of color. Immediately after you throw this javelin and it hits a target within 120 feet of you, the javelin disappears in a small burst of light before reappearing in your open hand.</p>
+			<p class="indent">As an action, you can throw the javelin at a point you can see within 120 feet of you and speak its command word. When the javelin lands, it erupts in a dazzling display of color and light, casting painful bright light in a 20-foot radius and dim light for another 20 feet. Creatures of your choice within the bright light must make a DC 13 Dexterity saving throw. For each creature hit by the light, roll a d6 to determine the color of light that hits it and type of damage that it takes using the table below. A creature that fails the saving throw takes 2d10 damage for each beam of light that hits it of the type determined by the table. A creature behind total cover from the javelin is not affected. Once this property has been used, it can't be used again until the next dawn.</p>
+			<h5>title</h5>
+			<table>
+				<thead>
+					<tr><td class="col-10">d6</td><td>column2</td><td>column2</td></tr>
+				</thead>
+				<tr><td>1</td><td>Red</td><td>Fire</td></tr>
+				<tr><td>2</td><td>Orange</td><td>Acid</td></tr>
+				<tr><td>3</td><td>Yellow</td><td>Lightning</td></tr>
+				<tr><td>4</td><td>Green</td><td>Poison</td></tr>
+				<tr><td>5</td><td>Blue</td><td>Cold</td></tr>
+				<tr><td>6</td><td>Special</td><td>The creature is struck by two beams of light. Roll twice more, rerolling any 6.</td></tr>
+			</table>
+		</description>	
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="javelin">Weapon</set>
+			<set name="weapon">Javelin</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+    </element>
+	<element name="Profane Mask" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_PROFANE_MASK" >
+		<description>
+			<p>This cloth mask converts the words that pass through it into vile obscenities. While wearing the mask over your mouth, your words are heard as angry insults and swears instead of the ones you intend. You do not hear these words. A creature can make a DC 10 Intelligence (Investigation) or Wisdom (Insight) check to determine that the words it hears are not your own. Verbal spell components, command words, and actual obscenities you say are unaffected by the mask's magic and are heard normally by creatures within earshot.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>.
+			<set name="rarity">Common</set>
+		</setters>
+    </element>
+	<element name="Purging Dagger" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_PURGING_DAGGER" >
+		<description>
+			<p>This chiseled wooden dagger is a relic crafted from the bough of a holy tree and is always miraculously sharp. You gain a +1 bonus to attack and damage rolls made with this magic weapon. The dagger deals an extra 1d4 radiant damage to any target it hits. The extra damage increases to 2d4 when you use the dagger to attack an undead creature, causing blue tongues of holy flame to flash along the weapon's edge.</p>
+			<p class="indent">When you roll a 20 on an attack roll made with this weapon against an undead creature, you can choose to plunge the blade into the creature's body and leave it there. When you do, the dagger emits bright light in a 15-foot radius and dim light for another 15 feet. The light is sunlight. While the blade is lodged in a target in this way, that target takes 3d4 radiant damage at the start of each of its turns, and the dagger continues to emit sunlight. A creature can use an action to make a DC 16 Strength check, freeing the dagger from the target on a success. Once freed, the blade vanishes and reappears on the ground at your feet or in your hand if you have one free.</p>
+		</description>	
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="dagger">Weapon</set>
+			<set name="weapon">Dagger</set>
+			<set name="enhancement">1</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+    </element>
+	<element name="Purity Spear" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_PURITY_SPEAR" >
+		<description>
+			<p>This beautiful spear has a long handle carved of ivory and is tipped with the spiraling horn of a unicorn. You gain a +2 bonus to attack and damage rolls made with this magic weapon.</p>
+			<p class="indent">While attuned to the spear, you are immune to the poisoned condition and have immunity to poison damage. In addition, you have advantage on Constitution and Wisdom saving throws to resist spells and other magical effects.</p>
+			<p class="indent">The spear has 10 charges and regains 1d6 + 4 expended charges daily at dawn. While holding the spear, you can expend 1 or more of its charges to cast the following spells from it (save DC 17): <i>calm emotions</i> (2 charges), <i>detect evil and good</i> (1 charge), <i>dispel evil and good</i> (5 charges), <i>greater restoration</i> (5 charges), <i>misty step</i> (2 charges), or <i>purify food and drink</i> (1 charge). In addition, you can use an action to expend 1 of its charges to touch a creature with the spear. That creature regains 2d8 + 2 hit points and is cured of one poison or disease afflicting it.</p>
+			<p class="indent"><b><i>Charge.</i></b> If you move at least 20 feet straight toward a target and hit it with the spear on the same turn, the target takes an extra 2d8 piercing damage.</p>
+			<p class="indent"><b><i>Curse Breaker.</i></b> While attuned to the spear, you are immune to being cursed by spells and other abilities. For the purposes of this property, a curse refers to any spell or ability that has “curse” in its name or description. If you are already afflicted with a curse when you attune to the spear or are attuned to a cursed item, you suppress the effects of the curse for as long as you remain attuned to the spear. If you break your attunement with the spear, the curse is no longer suppressed.</p>
+		</description>	
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="spear">Weapon</set>
+			<set name="weapon">Spear</set>
+			<set name="enhancement">2</set>
+			<set name="attunement" addition="by a good-aligned creature">true</set>
+			<set name="rarity">Legendary</set>
+		</setters>
+    </element>
+	<element name="Purse Piglet" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_PURSE_PIGLET" >
+		<description>
+			<p>This ceramic piglet figurine is glazed with a friendly pink coating that's soft to the touch and has a hole in the top that's stoppered with a cork. When you drop a coin in the piglet and stopper it, the figurine springs to life. When it does, it imprints on you and considers you its owner. The owner can hold and gently shake the piglet, causing it to oink happily, and magically know how much money is inside of it.</p>
+			<p class="indent">Once alive, the piglet happily eats any coin handed to it: storing it inside. The piglet will spit out exact change when you or an ally asks for it, even converting them into larger or smaller denominations. The figurine can only hold coins and will spit or sneeze out anything else you place inside of it. The piglet squeals with glee and prances about excitedly when you deposit or feed it coins. The pig can eat up to 1000 coins of any denomination every hour it spends eating them. It will eat electrum pieces with less enthusiasm. It remains the same size regardless of how many coins are inside of it.</p>
+			<p class="indent">The piglet is exceptionally loyal and will listen to commands given by its owner and other allied creatures of the owner's choosing. It walks beside you or its nearest ally as best it can, but vanishes into a pocket dimension if it is ever more than 30 feet away from one of you. The figurine can be summoned to you or another allied creature's location as a bonus action by saying the command phrase “Come home, little piggy”. You can tell the figurine to return to its pocket dimension using another bonus action to say the command phrase “Go to market, little piggy.”</p>
+			<p class="indent">When asking for 10% or more of its total stockpile, the piglet looks disappointed before carrying out the request. The piglet can eject its own stopper and roll over on its back to empty itself of coins when it's asked for a large amount, but will always retain at least one copper coin unless you physically remove it. The figurine returns to its inanimate form when there are no more coins inside of it.</p>
+			<p class="indent">The piglet has 5 hit points, an AC of 10, and a walking speed of 30 feet. It does not need air to breathe. If the piglet is reduced to 0 hit points, it cries out and shatters into hundreds of ceramic pieces. While your coins are not lost, it takes the piglet 1d4 days to rematerialize again before you.</p>
+			<p class="indent">If the pig's owner dies, the distraught pig empties itself of all its coins: returning to its inanimate ceramic form atop of whatever coins were inside of it.</p>
+			<p class="indent">Placing the piglet inside an extradimensional space created by a <i>bag of holding</i>, <i>portable hole</i>, or similar item instantly destroys both items and opens a gate to the Astral Plane. When this happens, the piglet is permanently destroyed, and its contents are lost. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate is sucked through it to a random location on the Astral Plane. The gate then closes. The gate is one-way and cannot be reopened again.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>.
+			<set name="rarity">Rare</set>
+		</setters>
+    </element>
+	<element name="Puzzle Ring of Vitality, Life, and Power" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_PUZZLE_RING_OF_VITALITY_LIFE_AND_POWER" >
+		<description>
+			<p><b><i>The Inner Ring.</i></b> This golden ring is blessed by a god of life and healing. While wearing the ring, you can use your Lay On Hands feature on an ally within 10 feet of you instead of needing to touch them.</p>
+			<p class="indent"><b><i>The Outer Ring.</i></b> The inner ring is covered by a silver puzzle ring that grants various benefits. The puzzle ring is made of three distinct bands that, when fit together in an elaborate and ever-changing puzzle, cause you to emanate a 30-foot aura that heals and supports your allies. As an action, you can make an Intelligence check to solve a piece of the puzzle in a fixed order:</p>
+			<ul>
+				<li>The first band slides into place following a successful DC 5 Intelligence check. Once solved, you begin to emit the ring's aura. The aura lasts for 1 minute and is always centered on you. While you emit this aura, you can use a bonus action on your turn to cause a creature within the aura (including you) to regain 2d6 hit points.</li>
+				<li>The second band is solved following a successful DC 10 Intelligence check. When it slides into place, the aura's strength increases. Each living, nonhostile creature regains 1 hit point when it starts its turn in the aura with 0 hit points. In addition, creatures within the radius have resistance against necrotic damage, and their hit point maximum can't be reduced.</li>
+				<li>The third and final band is solved following a successful DC 15 Intelligence check. When the band fits into place to complete the puzzle, the aura's power is maximized. Friendly creatures within the aura have advantage on saving throws against spells and magical effects, and if succeeding on a saving throw in this way would normally cause the creature to take half damage, it takes no damage instead.</li>
+			</ul>
+			<p>The aura ends early if you take the ring off or are reduced to 0 hit points. Once the aura fades, you can't activate the outer ring again until 1 day has passed for each band that you solved. If you solve all 3 bands, the number of days is reduced by 1d3. On a 3, the outer ring can be activated again immediately.</p>
+		</description>
+		<setters>
+			<set name="category">Rings</set>
+			<set name="type">Ring</set>
+			<set name="slot">ring</set>
+			<set name="attunement" addition="by a paladin">true</set>
+			<set name="rarity">Legendary</set>
+		</setters>
+	</element>
 
 </elements>

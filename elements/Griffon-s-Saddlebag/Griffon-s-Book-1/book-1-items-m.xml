@@ -7,5 +7,228 @@
 			<file name="book-1-items-m.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag/Griffon-s-Book-1/book-1-items-m.xml" />
 		</update>
 	</info>
-
+<!-- 16 items -->
+	<element name="Mageplate Cap" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_MAGEPLATE_CAP" >
+		<description>
+			<p>This pointed hat is fitted with chain and metal that have been enchanted with abjuration magic. The cap has 2 charges and regains 1 expended charge daily at dawn. While wearing the cap, you can use an action to expend 1 of its charges to cast the mage armor spell from it, targeting only yourself. When the spell is cast in this way, the arcane armor appears platelike and changes your base AC to 15 + your Dexterity modifier instead of the spell's normal change to your AC.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a wizard or sorcerer">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+    </element>
+	<element name="Magma War Pick" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_MAGMA_WAR_PICK">
+		<description>
+			<p>You gain a +1 bonus to attack and damage rolls made with this magic weapon. The war pick deals an extra 1d4 fire damage to any target it hits.</p>
+			<p class="indent">This weapon has 3 charges and regains 1d3 expended charges each day at dawn. When you hit a target that is either made of metal or wearing metal armor, you can expend 1 charge to inflict an extra 2d8 fire damage to the target.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="slot">onehand</set>
+			<set name="weapon">War Pick</set>
+			<set name="type" addition="war pick">Weapon</set>
+			<set name="enhancement">1</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+	<element name="Mammoth Boots" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_MAMMOTH_BOOTS" >
+		<description>
+			<p>These magical boots are as sturdy as the feet of a mammoth. Your weight increases by 50 pounds while wearing these boots, although you don't feel any different, and you ignore difficult terrain caused by snow or ice. In addition, whenever you're pushed against your will, the distance you would be moved is reduced by 5 feet.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+		<rules>
+			<stat name="weight" value="50" />
+		</rules>
+    </element>
+	<element name="Mantle of the Pack Lord" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_MANTLE_OFTHE_PACK_LORD" >
+		<description>
+			<p>While you wear this enchanted pelt cloak, if a creature would gain advantage on an attack against you due to having its ally within 5 feet of you, it makes the attack without advantage.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Rare</set>
+		</setters>
+    </element>
+	<element name="Mask of Dendallen" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_MASK_OF_DENDALLEN" >
+		<description>
+			<p>This skull mask covers the top of your face and offers several benefits while worn. The mask has 5 charges and regains all expended charges daily at dusk. While wearing the mask, you can use an action to expend 1 of its charges to cast one of the following spells from it (save DC 16): <i>bestow curse</i>, <i>fear</i>, <i>speak with dead</i>, or <i>tongues</i>. You have advantage on Constitution saving throws you make in order to maintain concentration on a spell you cast in this way. In addition, you can read all writing.</p>
+			<p class="indent"><b><i>Curse.</i></b> When you place this mask over your face for the first time, make a DC 16 Intelligence saving throw. On a success, you are aware of the curse's effects and can immediately remove the mask before it extends the curse to you. On a failure, you take 5d10 psychic damage as the curse extends to you and magically latches onto your face. As long as you remain cursed, the mask can't be removed unless targeted by the remove curse spell, and the skin surrounding the mask is riddled with blackened veins and sickly gray skin. While wearing this mask, you can't smell or taste anything and automatically fail any check relying on smell or taste. Your voice also changes. Use the table below to determine the new voice. In addition, whenever you roll a 1 on an ability check, saving throw, or attack roll, you take 1d10 psychic damage.</p>
+			<table>
+				<thead>
+					<tr><td class="col-10">d6</td><td>Change to your voice</td></tr>
+				</thead>
+				<tr><td>1</td><td>Your voice deepens and does not echo.</td></tr>
+				<tr><td>2</td><td>Your voice becomes raspy and overly enunciates consonant sounds.</td></tr>
+				<tr><td>3</td><td>Your voice becomes quiet, almost a whisper, but can still be heard as if it were spoken at a normal volume.</td></tr>
+				<tr><td>4</td><td>Your voice becomes high pitched, and your laugh maniacal.</td></tr>
+				<tr><td>5</td><td>Your words become slurred, as if your tongue is suddenly too large for your mouth, and your spit releases a faint hiss when it escapes your mouth.</td></tr>
+				<tr><td>6</td><td>Your voice becomes that of another ally's and changes each time you finish a long rest.</td></tr>
+			</table>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+    </element>
+	<element name="Mask of the Pact Bearer" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_MASK_OFTHE_PACT_BEARER" >
+		<description>
+			<p>This mask looks like a normal wooden mask before it's attuned to. When you attune to this mask, your otherworldly patron's lingering presence over you magically reshapes it to represent the visage of your patron. While you wear this mask, you can cast one spell from your patron's expanded spell list without expending a spell slot. The spell must be of a level equal to or less than your warlock spell slot level. A spell cast in this way is always cast at its lowest level, regardless of your normal warlock spell slot level. Once the mask has been used in this way, it can't be used again until the next dawn.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a warlock">true</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+    </element>
+	<element name="Master Machinist's Marvelous Mallet" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_MASTER_MACHINISTS_MARVELOUS_MALLET">
+		<description>
+			<p>This immaculate silver hammer is polished to a mirror finish. You gain a +1 bonus to attack and damage rolls made with this magic weapon. The weapon has 7 charges and regains 1d6 + 1 expended charges daily at dawn. As an action, you can touch an object with the hammer and expend 1 of its charges to cast the <i>mending</i> cantrip from the hammer on the object. Casting <i>mending</i> in this way affects an area up to 5 feet on a side, instead of 1 foot. Alternatively, you can expend 3 of its charges as a bonus action while touching a creature's armor with the hammer to temporarily enchant it. The enchantment lasts for 1 minute and grants the armor's wearer a +1 bonus to its AC in addition to the armor's normal bonus to AC, if any. A creature can only be affected by one of these enchantments at any time.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="slot">onehand</set>
+			<set name="weapon">Light Hammer</set>
+			<set name="type" addition="light hammer">Weapon</set>
+			<set name="enhancement">1</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+	<element name="Mastery Gem" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_MASTERY_GEM" >
+		<description>
+			<p>This red gemstone seems to glint with some sort of liquid inside. The gem is impervious to attacks and damaging effects. The gem contains magic absorbed from countless other sources that it uses to overpower the requirements of certain item attunements. While holding this gem against an item with an attunement requirement you don't meet, you can ignore that requirement and attune to the item anyway. The item can't be a legendary item or artifact. The gem fuses to the surface of the item and encases the area around it in a crystalline shell.</p>
+			<p class="indent">You can unattune to the new item as normal, even if the item is cursed. Unattuning to a cursed item in this way breaks the curse's effects on you. When you unattune to an item in this way, the gem detaches from the item, allowing you to use it on another one. The crystalline shell remains on the unattuned item. When you remove the crystal in this way, it takes the item's magic with it: turning the unattuned item into a mundane and nonmagical item.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Legendary</set>
+		</setters>
+    </element>
+	<element name="Memento of the Shapeless" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_MEMENTO_OFTHE_SHAPELESS">
+		<description>
+			<p>This weapon was forged using the preserved remains of an ancient mimic. You gain a +2 bonus to attack and damage rolls made with this magic weapon.</p>
+			<p class="indent">As a bonus action, you can speak the weapon's command word to reshape it into any melee weapon with which you're proficient that does not have the reach or heavy property.</p>
+			<p class="indent">When you hit a creature with this weapon, you can also attempt to grapple it (save DC 13) by channeling the weapon's natural pseudopod form. While grappling a creature in this way, you can't attack or grapple another. Releasing the weapon frees the creature.</p>
+			<p class="indent"><b><i>Pseuperpod.</i></b> As an action, choose a creature within 30 feet and make a melee attack against it using the weapon. The weapon stretches towards your target as a pseudopod, ignoring half and three-quarters cover, and deals 6d8 bludgeoning damage if it hits. After the attack, the weapon retracts back into its previous form. If you attempt to grapple the target with the attack, the save DC increases to 15 for this attack. If the creature fails, it is dragged up to 15 feet closer to you before being released from the weapon's grasp. If it failed the saving throw by 5 or more, it is dragged up to 30 feet closer to you and remains grappled. Once you've used this feature, you can't use it again until 12 hours have passed.</p>
+			<p class="indent"><b><i>Limb replacement.</i></b> If you're missing an arm or forearm, you can graft the weapon to you in its place. If you do, the weapon changes and reforms to match the missing limb. You can add your proficiency bonus to any Strength (Athletics) checks you make using the limb, or double the bonus if you're already proficient. You can alter the arm's form to turn it into a weapon as needed.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="any melee weapon without the reach or heavy property">Weapon</set>
+			<set name="weapon">((ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE),(!ID_INTERNAL_WEAPON_PROPERTY_HEAVY|| !ID_INTERNAL_WEAPON_PROPERTY_REACH))</set>
+			<set name="enhancement">2</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Legendary</set>
+		</setters>
+	</element>
+	<element name="Merry Berry" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_MERRY_BERRY" >
+		<description>
+			<p>This small fruit is highly sought after by cooks and sweet-lovers everywhere, both for its flavor as well as its unique sensory-enhancing properties. Eating a berry raw yields a taste and texture like that of a rich shortbread: the perfect way to end a day of adventure or travel.</p>
+			<p class="indent">Cooking the berry, whether it be in a cuisine or simply roasted over a campfire, brings out more uncommon effects. When properly cooked, a creature that eats the fruit gains advantage on all Wisdom and Intelligence checks based on smell or taste for the next 24 hours, as well as advantage on ability checks using cook's utensils.</p>
+			<p class="indent">Overcooking the fruit not only cooks out the berry's benefits, but also results in a soggy and overall bland dish.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Common</set>
+			<set name="stackable">true</set>
+		</setters>
+    </element>
+	<element name="Mirrorlight Edge" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_MIRRORLIGHT_EDGE">
+		<description>
+			<p>This roughly hewn crystal sword bends light in unexpected and dangerous ways. As an action, you can speak the scimitar's command word to cause it to emit up to 2 ghostly projections of itself. The sword can have up to 2 of these projections at any time, which last until you dismiss them (no action required). When swung, the ghostly projections make the sword difficult to see. When you make an attack with the sword and miss while it has at least 1 projection, you can dismiss one of its projections to reroll the attack. You must use the new roll.</p>
+			<p class="indent">When you hit a target with this weapon while it has at least 1 projection, the ghostly projections become razor sharp. Targets hit by the sword take an extra 1d4 slashing damage for each projection the sword has.</p>
+			<p class="indent">The sword emits dim light in a 10-foot radius while it has 1 projection and 20 feet while it has 2. Sheathing the scimitar contains the projections and their light without dismissing them.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="slot">onehand</set>
+			<set name="weapon">Scimitar</set>
+			<set name="type" addition="scimitar">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+	<element name="Mirrorlight Piercer" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_MIRRORLIGHT_PIERCER">
+		<description>
+			<p>This crystalline spear bends the light it generates in such a way that it becomes tangible. While you hold the spear in one hand and have another hand free, you can speak the spear's command word as an action to cause it to create a ghostly projection of itself in your free hand. Both the spear and its projection have the light property. When you use an action to create a projection in this way, you can make one weapon attack with either the spear or projection as part of that action. The projection lasts for 1 minute or until you dismiss it using a bonus action or until a creature other than you holds it. If you drop or stow the crystalline spear, the projection disappears until you hold the spear again.</p>
+			<p class="indent">If you make a ranged attack with the projection, it disappears after it hits or misses a target. If you're still holding the crystalline spear when this happens, it magically recreates the projection in your open hand again (no action required).</p>
+			<p class="indent">You gain a +2 bonus to attack and damage rolls made with this magic weapon and its projection. The spear can only have 1 projection active at a time. While it has a projection, both the spear and projection cast bright light in a 10-foot radius and dim light for an additional 10 feet. If you don't have an open hand when the spear creates a projection, the projection is dismissed.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="slot">onehand</set>
+			<set name="weapon">Spear</set>
+			<set name="type" addition="spear">Weapon</set>
+			<set name="enhancement">2</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+	<element name="Mockingblade" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_MOCKINGBLADE">
+		<description>
+			<p>This magic sword helps you more effectively add insult to injury. The sword has 6 charges and regains 1d4 + 2 expended charges daily at dawn. When you hit a creature with this weapon, you can immediately use a bonus action to expend 1 of its charges to cast the <i>vicious mockery</i> spell from it, using your spell save DC, against that creature. When you do, any words you use to insult the creature appear written along the blade for 1 minute or until replaced by a new insult.</p>
+			<p class="indent">When a creature rolls a 20 on a saving throw against a <i>vicious mockery</i> spell cast from the blade in this way, the face adorning the sword's hilt screams insults at you instead until the end of your turn. The insults are audible out to 30 feet and are directed at your deepest insecurities and regrets. Any creature that hears these insults is made aware of your weaknesses, granting it advantage on its next attack roll against you until the start of your next turn. Once the sword screams at you in this way, it can't be used to cast the <i>vicious mockery</i> spell again until 1d4 days have passed.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="slot">onehand</set>
+			<set name="weapon">Shortsword</set>
+			<set name="type" addition="shortsword">Weapon</set>
+			<set name="attunement" addition="by a bard">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+	<element name="Monocle of Clarity" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_MONOCLE_OF_CLARITY" >
+		<description>
+			<p>This single lens has three filters that you can peer through. You can change the monocle's filter by rotating its outer ring. A small arrow along the edge of the frame indicates the monocle's selected filter. The monocle has 4 charges and regains 1d3 + 1 expended charges daily at dawn. While wearing the monocle, you can expend 1 of its charges as an action to activate one of the following filters and gain various benefits. The effects last for 1 hour while you continue to wear the monocle or until you change its filter.</p>
+			<p class="indent"><b><i>Filter of Comprehend Languages.</i></b> When you peer through this filter, you can read and comprehend any written language as per the written language portion of the comprehend languages spell.</p>
+			<p class="indent"><b><i>Filter of Darkvision.</i></b> While looking through this filter, you have darkvision out to a range of 60 feet.</p>
+			<p class="indent"><b><i>Filter of See Invisibility.</i></b> When gazing through this filter, you see invisible creatures and objects as if they were visible.</p>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Rare</set>
+		</setters>
+    </element>
+	<element name="Monsterbane Lasher" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_MONSTERBANE_LASHER">
+		<description>
+			<p>This mithral whip was once used by a powerful monster hunter. You gain a +1 bonus to attack and damage rolls made with this magic weapon. In addition, targets hit by the whip take an extra 1d4 slashing damage from its attacks.</p>
+			<p class="indent">The whip has 7 runes on its handle that correspond to different damage types: acid, cold, fire, lightning, poison, radiant, or thunder. When you hit a creature with a melee attack using this weapon, you can channel 1 or more of the runes to deal an extra 2d4 damage of the type or types that correspond to the channeled runes. For example, you can channel 2 runes to add 2d4 acid and 2d4 fire damage to an attack against a troll, or 1 rune to add 2d4 thunder damage to an attack against a clay golem. Once you add a damage type to an attack in this way, you can't add that type again until the following dawn.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="whip">Weapon</set>
+			<set name="weapon">Whip</set>
+			<set name="slot">onehand</set>
+			<set name="enhancement">1</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+	</element>
+	<element name="Moonswaddled Armor" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_MOONSWADDLED_ARMOR" >
+		<description>
+			<p>This comfortable set of armor grants additional protection and respite when worn at night. You gain a +1 bonus to AC while wearing this armor between dusk and dawn, and when you would normally roll 1 or more Hit Dice to restore hit points when taking a short rest after dusk, you instead use the highest number possible for each Hit Die spent.</p>
+		</description>	
+		<setters>
+			<set name="keywords">light</set>
+			<set name="category">Magic Armor</set>
+			<set name="type" addition="any light armor">Armor</set>
+			<set name="armor">ID_INTERNAL_ARMOR_GROUP_LIGHT</set>
+			<set name="slot">body</set>
+			<set name="rarity">Rare</set>
+		</setters>
+    </element>
 </elements>
