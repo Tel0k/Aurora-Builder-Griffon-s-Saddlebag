@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<info>
+		<name>Book 1: Sorcerer - Frost Magic</name>
+		<description>The first published work</description>                             
+		<update version="0.0.1">
+			<file name="book-1-sorcerer-frost-magic.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag/Griffon-s-Book-1/book-1-sorcerer-frost-magic.xml" />
+		</update>
+	</info>
+	<element name="Frost Magic" type="Archetype" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_ARCHETYPE_FROST_MAGIC">
+		<supports>Sorcerous Origin</supports>
+		<description>
+			<p>Your magic is created by pieces of the Everheart, the center and driving force behind the expanding Everglacier wastelands. This power within you might be passed down through ancestors who protected the glacier's magical core, or it might have been forced upon you through a chance encounter with the enchanted ice itself. Regardless of the source of your power, you are a creature of cold incarnate.</p>
+			<p class="indent"></p>
+			<div element="ID_TGSB_B1_ARCHETYPE_FEATURE_FM_FROZEN_BODY" />
+			<div element="ID_TGSB_B1_ARCHETYPE_FEATURE_FM_CREATE_ICE" />
+			<div element="ID_TGSB_B1_ARCHETYPE_FEATURE_FM_COLDHEARTED" />
+			<div element="ID_TGSB_B1_ARCHETYPE_FEATURE_FM_FLASH_FREEZE" />
+			<div element="ID_TGSB_B1_ARCHETYPE_FEATURE_FM_FROZEN_SOUL" />
+		</description>
+		<sheet display="false">
+			<description></description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_TGSB_B1_ARCHETYPE_FEATURE_FM_FROZEN_BODY" level="1" />
+			<grant type="Archetype Feature" id="ID_TGSB_B1_ARCHETYPE_FEATURE_FM_CREATE_ICE" level="1" />
+			<grant type="Archetype Feature" id="ID_TGSB_B1_ARCHETYPE_FEATURE_FM_COLDHEARTED" level="6" />
+			<grant type="Archetype Feature" id="ID_TGSB_B1_ARCHETYPE_FEATURE_FM_FLASH_FREEZE" level="14" />
+			<grant type="Archetype Feature" id="ID_TGSB_B1_ARCHETYPE_FEATURE_FM_FROZEN_SOUL" level="18" />
+		</rules>
+	</element>
+	<element name="Frozen Body" type="Archetype Feature" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_ARCHETYPE_FEATURE_FM_FROZEN_BODY">
+		<description>
+			<p>Starting at 1st level, your skin takes on a faintly ice-like, crystalline glow. Your hit point maximum increases by 1 and increases by 1 again whenever you gain a level in this class.</p>
+			<p class="indent">In addition, you're most comfortable in the ice and snow. You ignore difficult terrain created by ice or snow, and when you walk on ice, you only spend 1 foot of movement for every 2 feet you move.</p>
+		</description>
+		<sheet>
+			<description>You ignore difficult terrain created by ice or snow, and when you walk on ice, you only spend 1ft of movement for every 2ft you move.</description>
+		</sheet>
+		<rules>
+			<stat name="hp" value="level:sorcerer" />
+		</rules>
+	</element>
+	<element name="Create Ice" type="Archetype Feature" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_ARCHETYPE_FEATURE_FM_CREATE_ICE">
+		<description>
+			<p>At 1st level, you can use a bonus action to turn up to 5 contiguous 5-foot spaces on the ground into icy terrain, originating from the ground at your feet. The ice is difficult terrain and lasts until the end of your next turn.</p>
+			<p class="indent">You can spend up to 2 sorcery points when creating this terrain to increase the number of spaces you can target with this feature by 5 for each sorcery point spent.</p>
+		</description>
+		<sheet action="Bonus Action">
+			<description>You can turn up to 5 contiguous 5ft spaces on the ground into icy terrain, originating from the ground at your feet. The ice is difficult terrain and lasts until the end of your next turn.&#13;
+			You can spend up to 2 sorcery points when creating this terrain to increase the number of spaces you can target by 5 for each point spent.</description>
+			<description level="6">You can turn up to 5 contiguous 5ft spaces on the ground or water into icy terrain, originating from the ground at your feet. The ice is difficult terrain and lasts until the end of your next turn.&#13;
+			You can spend up to 2 sorcery points when creating this terrain to increase the number of spaces you can target by 5 for each point spent.</description>
+		</sheet>
+	</element>
+	<element name="Cold-Hearted" type="Archetype Feature" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_ARCHETYPE_FEATURE_FM_COLDHEARTED">
+		<description>
+			<p>At 6th level, you gain resistance to cold damage. When you deal cold damage to a Large or smaller creature with a spell, you can spend 1 or more sorcery points to attempt to freeze it in place. When you do, that creature's speed is reduced by 15 feet for each sorcery point you spend until the end of its next turn. If you reduce a creature's speed to 0 in this way, it takes 2d6 cold damage.</p>
+			<p class="indent">In addition, you can now use your Create Ice feature to freeze water as well as ground.</p>
+		</description>
+		<sheet>
+			<description>When you deal cold damage to a Large or smaller creature with a spell, you can spend 1 or more sorcery points to attempt to freeze it in place. When you do, that creature's speed is reduced by 15 feet for each point you spend until the end of its next turn. If you reduce a creature's speed to 0 in this way, it takes 2d6 cold damage.</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" />
+		</rules>
+	</element>
+	<element name="Flash Freeze" type="Archetype Feature" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_ARCHETYPE_FEATURE_FM_FLASH_FREEZE">
+		<description>
+			<p>By 14th level, you're most confident on the ice. Your movement doesn't provoke opportunity attacks while you're walking on icy terrain.</p>
+			<p class="indent">In addition, when a creature within 5 feet of you that you can see hits you with an attack, you can use your reaction to release a blast of freezing cold, dealing cold damage to the attacker equal to half your sorcerer level + your Charisma modifier. When you do, you can also create up to 5 contiguous spaces of icy terrain, originating from the ground at your feet. This icy terrain lasts until the end of your next turn.</p>
+		</description>
+		<sheet action="(2)Reaction">
+			<description>(1)Your movement doesn't provoke opportunity attacks while you're walking on icy terrain.&#13;
+			(2)When a creature within 5ft of you that you can see hits you with an attack, you can release a blast of freezing cold, dealing {{flash freeze:damage}} cold damage to the attacker. When you do, you can also create up to 5 contiguous spaces of icy terrain, originating from the ground at your feet. This icy terrain lasts until the end of your next turn.</description>
+		</sheet>
+		<rules>
+			<stat name="flash freeze:damage" value="level:sorcerer:half" />
+			<stat name="flash freeze:damage" value="charisma:modifier" />
+		</rules>
+	</element>
+	<element name="Frozen Soul" type="Archetype Feature" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_ARCHETYPE_FEATURE_FM_FROZEN_SOUL">
+		<description>
+			<p>At 18th level, you gain immunity to cold damage and resistance to fire damage.</p>
+			<p class="indent">You also learn the wall of ice spell. The spell counts as a sorcerer spell for you, but it doesn't count against the number of sorcerer spells you know. In addition, you can cast it once without expending a spell slot. When you do, the panels of ice created by the spell don't need to be contiguous with one another. Once you cast the spell in this way, you can't do so again until you finish a long rest.</p>
+		</description>
+		<sheet usage="1/Long Rest">
+			<description>You can cast the Wall of Ice spell once without expending a spell slot. When you do, the panels of ice created by the spell don't need to be contiguous with one another.</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_COLD" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
+			<grant type="Spell" id="ID_PHB_SPELL_WALL_OF_ICE" spellcasting="Sorcerer" />
+		</rules>
+	</element>
+
+</elements>

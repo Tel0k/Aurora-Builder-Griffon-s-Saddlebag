@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<info>
+		<name>Book 1: Paladin - Oath of the Hearth</name>
+		<description>The first published work</description>                             
+		<update version="0.0.1">
+			<file name="book-1-paladin-hearth.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag/Griffon-s-Book-1/book-1-paladin-hearth.xml" />
+		</update>
+	</info>
+	<element name="Oath of the Hearth" type="Archetype" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_ARCHETYPE_OATH_OFTHE_HEARTH">
+		<supports>Sacred Oath</supports>
+		<description>
+			<p>The Oath of the Hearth originates from the city of the same name, whose tragic downfall has been all but lost to history over centuries. These paladins swore an oath to protect this tropical, sunlit city in the name of their celestial guardians. Until the end, they fulfilled their oaths. You may swear this oath because you have an age-old connection to the city through your bloodline, or may have established a connection to the city's principles through stories or interaction with a related celestial being. Regardless of your reasons for taking it, those that swear this oath adorn their armor with symbols of community, fire, and the sun to reflect their commitment to the city and the lives that were led there. </p>
+			<h5 class="caption">TENETS OF THE HEARTH</h5>
+			<p>The tenets of the Oath of the Hearth are linked directly to the once-flourishing city of the oath's origin. The culture was vibrant and open, and thrived under the tropical sun in the Elsath Jungle. They were supportive of children's imagination and new ideas, and as a community would rush to foster good creativity. With new ideas came progress and prosperity, and with each new generation, the future always looked brighter. The core principles of this oath are devoted to upporting the weak, developing community, and destroying the evils that would seek to harm them.</p>
+			<p class="indent"><b><i>Shield the Embers.</i></b> Protect those that can't defend themselves. Every ember is a fount of possibility and strength.</p>
+			<p class="indent"><b><i>Feed the Fire.</i></b> Keep the fires of passion burning. New ideas light the way to progress and salvation</p>
+			<p class="indent"><b><i>Share the Warmth.</i></b> Offer guidance and kindness to those that need it. Respite and rest are always free to give.</p>
+			<p class="indent"><b><i>Burn Away Evil.</i></b> Turn those that would harm the innocent or douse the peoples' flames to ash</p>
+			<div element="ID_TGSB_B1_ARCHETYPE_FEATURE_OOH_OATH_SPELLS" />
+			<div element="ID_TGSB_B1_ARCHETYPE_FEATURE_OOH_CHANNEL_DIVINITY" />
+			<div element="ID_TGSB_B1_ARCHETYPE_FEATURE_OOH_AURA_OF_WARMTH" />
+			<div element="ID_TGSB_B1_ARCHETYPE_FEATURE_OOH_INSULATING_WARD" />
+			<div element="ID_TGSB_B1_ARCHETYPE_FEATURE_OOH_BURNING_SPIRIT" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_TGSB_B1_ARCHETYPE_FEATURE_OOH_OATH_SPELLS" level="3" />
+			<grant type="Archetype Feature" id="ID_TGSB_B1_ARCHETYPE_FEATURE_OOH_CHANNEL_DIVINITY" level="3" />
+			<grant type="Archetype Feature" id="ID_TGSB_B1_ARCHETYPE_FEATURE_OOH_AURA_OF_WARMTH" level="7" />
+			<grant type="Archetype Feature" id="ID_TGSB_B1_ARCHETYPE_FEATURE_OOH_INSULATING_WARD" level="15" />
+			<grant type="Archetype Feature" id="ID_TGSB_B1_ARCHETYPE_FEATURE_OOH_BURNING_SPIRIT" level="20" />
+		</rules>
+	</element>
+	<element name="Oath of the Hearth Spells" type="Archetype Feature" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_ARCHETYPE_FEATURE_OOH_OATH_SPELLS">
+		<description>
+			<p>You gain oath spells at the paladin levels listed.</p>
+			<h5 class="caption">OATH OF THE HEARTH SPELLS</h5>
+			<table>
+				<thead>
+					<tr><td>Paladin Level</td><td>Spells</td></tr>
+				</thead>
+				<tr><td>3rd</td><td><em>burning hands, find familiar</em></td></tr>
+				<tr><td>5th</td><td><em>aid, continual flame</em></td></tr>
+				<tr><td>9th</td><td><em>beacon of hope, daylight</em></td></tr>
+				<tr><td>13th</td><td><em>fire shield, guardian of faith</em></td></tr>
+				<tr><td>17th</td><td><em>flame strike, telepathic bond</em></td></tr>
+			</table>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_BURNING_HANDS" level="3" spellcasting="Paladin" prepared="true"/>
+			<grant type="Spell" id="ID_PHB_SPELL_FIND_FAMILIAR" level="3" spellcasting="Paladin" prepared="true"/>
+			<grant type="Spell" id="ID_PHB_SPELL_AID" level="5" spellcasting="Paladin" prepared="true"/>
+			<grant type="Spell" id="ID_PHB_SPELL_CONTINUAL_FLAME" level="5" spellcasting="Paladin" prepared="true"/>
+			<grant type="Spell" id="ID_PHB_SPELL_BEACON_OF_HOPE" level="9" spellcasting="Paladin" prepared="true"/>
+			<grant type="Spell" id="ID_PHB_SPELL_DAYLIGHT" level="9" spellcasting="Paladin" prepared="true"/>
+			<grant type="Spell" id="ID_PHB_SPELL_FIRE_SHIELD" level="13" spellcasting="Paladin" prepared="true"/>
+			<grant type="Spell" id="ID_PHB_SPELL_GUARDIAN_OF_FAITH" level="13" spellcasting="Paladin" prepared="true"/>
+			<grant type="Spell" id="ID_PHB_SPELL_FLAME_STRIKE" level="17" spellcasting="Paladin" prepared="true"/>
+			<grant type="Spell" id="ID_PHB_SPELL_RARYS_TELEPATHIC_BOND" level="17" spellcasting="Paladin" prepared="true"/>
+		</rules>
+	</element>
+	<element name="Channel Divinity" type="Archetype Feature" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_ARCHETYPE_FEATURE_OOH_CHANNEL_DIVINITY">
+		<description>
+			<p>When you take this oath at 3rd level, you gain the following two Channel Divinity options.</p>
+			<p class="indent"><b><i>Burning Weapon.</i></b> As a bonus action, you can ignite one weapon that you're holding with fiery energy using your Channel Divinity. For 1 minute, you deal extra fire damage with that weapon equal to your Charisma modifier (minimum 1). The weapon also emits bright light in a 20-foot radius and dim light for an additional 20 feet. If the weapon is not already magical, it becomes magical for the duration. You can end this effect on your turn (no action required). If you are no longer holding or carrying this weapon, or if you fall unconscious, this effect ends.</p>
+			<p class="indent"><b><i>Warming Respite.</i></b> Your Channel Divinity can enhance the healing powers of a good rest. When you or any friendly creatures who can see you finish a short rest, you can use your Channel Divinity to grant each of those creatures a number of temporary hit points equal to your paladin level.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_TGSB_B1_ARCHETYPE_FEATURE_OOH_CHANNEL_DIVINITY_BURNING_WEAPON" />
+			<grant type="Archetype Feature" id="ID_TGSB_B1_ARCHETYPE_FEATURE_OOH_CHANNEL_DIVINITY_WARMING_RESPITE" />
+		</rules>
+	</element>
+	<element name="Channel Divinity: Burning Weapon" type="Archetype Feature" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_ARCHETYPE_FEATURE_OOH_CHANNEL_DIVINITY_BURNING_WEAPON">
+		<description>
+			<p>As a bonus action, you can ignite one weapon that you're holding with fiery energy using your Channel Divinity. For 1 minute, you deal extra fire damage with that weapon equal to your Charisma modifier (minimum 1). The weapon also emits bright light in a 20-foot radius and dim light for an additional 20 feet. If the weapon is not already magical, it becomes magical for the duration. You can end this effect on your turn (no action required). If you are no longer holding or carrying this weapon, or if you fall unconscious, this effect ends.</p>
+		</description>
+		<sheet alt="Burning Weapon" action="Bonus Action" usage="Channel Divinity">
+			<description>As a bonus action, you can ignite one weapon that you're holding with fiery energy. For 1 minute, you deal extra fire damage with that weapon equal to your CHA mod (minimum 1). The weapon also emits bright light in a 20ft radius and dim light for an additional 20ft. If the weapon is not already magical, it becomes magical for the duration. You can end this effect on your turn (no action required). If you are no longer holding or carrying this weapon, or if you fall unconscious, this effect ends.</description>
+		</sheet>
+	</element>
+	<element name="Channel Divinity: Warming Respite." type="Archetype Feature" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_ARCHETYPE_FEATURE_OOH_CHANNEL_DIVINITY_WARMING_RESPITE">
+		<description>
+			<p>Your Channel Divinity can enhance the healing powers of a good rest. When you or any friendly creatures who can see you finish a short rest, you can use your Channel Divinity to grant each of those creatures a number of temporary hit points equal to your paladin level.</p>
+		</description>
+		<sheet alt="Warming Respite" action="Action" usage="Channel Divinity">
+			<description>When you or any friendly creatures who can see you finish a short rest, you can use your Channel Divinity to grant each of those creatures {{level:paladin}} temporary hit points.</description>
+		</sheet>
+	</element>
+	<element name="Aura of Warmth" type="Archetype Feature" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_ARCHETYPE_FEATURE_OOH_AURA_OF_WARMTH">
+		<description>
+			<p>Starting at 7th level, you and friendly creatures within 10 feet of you have resistance to cold and fire damage while you are conscious.</p>
+			<p class="indent">At 18th level, the range of this aura increases to 30 feet.</p>
+		</description>
+		<sheet>
+			<description>You and friendly creatures within 10ft of you have resistance to cold and fire damage while you are conscious.</description>
+			<description level="18">You and friendly creatures within 30ft of you have resistance to cold and fire damage while you are conscious.</description>
+		</sheet>
+	</element>
+	<element name="Insulating Ward" type="Archetype Feature" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_ARCHETYPE_FEATURE_OOH_INSULATING_WARD">
+		<description>
+			<p>Beginning at 15th level, whenever you expend a spell slot, you and friendly creatures within your Aura of Warmth gain a number of temporary hit points equal to the spell slot's level + your Charisma modifier.</p>
+		</description>
+		<sheet>
+			<description>Whenever you expend a spell slot, you and friendly creatures within your Aura of Warmth gain a number of temp hp equal to the spell slot's level + {{charisma:modifier}}.</description>
+		</sheet>
+	</element>
+	<element name="Burning Spirit" type="Archetype Feature" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_ARCHETYPE_FEATURE_OOH_BURNING_SPIRIT">
+		<description>
+			<p>At 20th level, as an action, you can magically ignite yourself to embody your fiery soul for 1 minute. These flames are harmless to you and cast bright light in a 40-foot radius and dim light for an additional 40 feet. The flames invigorate you, giving you 10 temporary hit points at the start of each of your turns. While in this form, you become more lithe and fluid in your movements, increasing your speed by 10 feet and allowing you to move through and enter a hostile creature's space and stop there.</p>
+			<p class="indent">Hostile creatures are hurt by these flames as punishment for their transgressions. A hostile creature takes fire damage equal to twice your Charisma modifier (minimum of 1) whenever it touches you, hits you with a melee attack, or whenever you enter its space for the first time on your turn.</p>
+			<p class="indent">Once you use this feature, you can't use it again until you finish a long rest.</p>
+		</description>
+		<sheet action="Action" usage="1/Long Rest">
+			<description>You can magically ignite yourself for 1 minute. These flames are harmless to you and cast bright light in a 40-foot radius and dim light for an additional 40 feet. The flames give you 10 temp hp at the start of each of your turns. While in this form, your speed increase by 10ft and you can move through and enter a hostile creature's space and stop there.&#13;
+			A hostile creature takes {{burningspirit:damage}} fire damage whenever it touches you, hits you with a melee attack, or whenever you enter its space for the first time on your turn.</description>
+		</sheet>
+		<rules>
+			<stat name="burningspirit:damage" value="1" bonus="base" />
+			<stat name="burningspirit:damage" value="burningspirit" bonus="base" />
+			<stat name="burningspirit" value="charisma:modifier" bonus="burningspirit" />
+			<stat name="burningspirit" value="charisma:modifier" bonus="burningspirit" />
+		</rules>
+	</element>
+</elements>

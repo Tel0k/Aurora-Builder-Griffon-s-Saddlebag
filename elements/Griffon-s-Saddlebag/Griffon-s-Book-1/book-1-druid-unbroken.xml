@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<info>
+		<name>Book 1: Druid - The Unbroken Circle</name>
+		<description>The first published work</description>                             
+		<update version="0.0.1">
+			<file name="book-1-druid-unbroken.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag/Griffon-s-Book-1/book-1-druid-unbroken.xml" />
+		</update>
+	</info>
+	<element name="The Unbroken Circle" type="Archetype" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_ARCHETYPE_UNBROKEN_CIRCLE">
+		<supports>Druid Circle</supports>
+		<description>
+			<p>The Unbroken Circle is an order of druids who have abandoned the patient teachings of their predecessors, deciding instead to take up arms in defense of the wilderness. These combative druids form militias and harness the fury of nature itself to forcefully remove any encroaching evil that threatens their sacred lands. </p>
+			<p class="indent">While the chaotic bend of nature is found within these druids, their bodies and impulses are tamed through training and discipline. Originally from the unforgiving Festerwood, this circle's teachings are as rigorous as the forest, blending a mixture of offense and defense to stand up to all of the world's challenges.</p>
+			<div element="ID_TGSB_B1_ARCHETYPE_FEATURE_UNBROKEN_CIRCLE_IMPROVED_SHILLELAGH" />
+			<div element="ID_TGSB_B1_ARCHETYPE_FEATURE_UNBROKEN_CIRCLE_WILD_RECOVERY" />
+			<div element="ID_TGSB_B1_ARCHETYPE_FEATURE_UNBROKEN_CIRCLE_SHILLELAGH_MASTERY" />
+			<div element="ID_TGSB_B1_ARCHETYPE_FEATURE_UNBROKEN_CIRCLE_WAR_DRUID" />
+			<div element="ID_TGSB_B1_ARCHETYPE_FEATURE_UNBROKEN_CIRCLE_NATURE_ARMOR" />
+		</description>
+		<sheet display="false">
+			<description></description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_TGSB_B1_ARCHETYPE_FEATURE_UNBROKEN_CIRCLE_IMPROVED_SHILLELAGH" level="2" />
+			<grant type="Archetype Feature" id="ID_TGSB_B1_ARCHETYPE_FEATURE_UNBROKEN_CIRCLE_WILD_RECOVERY" level="2" />
+			<grant type="Archetype Feature" id="ID_TGSB_B1_ARCHETYPE_FEATURE_UNBROKEN_CIRCLE_SHILLELAGH_MASTERY" level="6" />
+			<grant type="Archetype Feature" id="ID_TGSB_B1_ARCHETYPE_FEATURE_UNBROKEN_CIRCLE_WAR_DRUID" level="10" />
+			<grant type="Archetype Feature" id="ID_TGSB_B1_ARCHETYPE_FEATURE_UNBROKEN_CIRCLE_NATURE_ARMOR" level="14" />
+		</rules>
+	</element>
+	<element name="Improved Shillelagh" type="Archetype Feature" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_ARCHETYPE_FEATURE_UNBROKEN_CIRCLE_IMPROVED_SHILLELAGH">
+		<description>
+			<p>When you choose this circle at 2nd level, you gain proficiency with martial weapons. In addition, you learn the <i>shillelagh</i> cantrip. If you already know this cantrip, you learn a different druid cantrip of your choice. The cantrip doesn't count against your number of cantrips known.</p>
+			<p class="indent">When you cast <i>shillelagh</i>, you can use it to imbue any melee weapon you're holding with nature's power. If you're holding a weapon under the effects of <i>shillelagh</i>, you can use it as a spellcasting focus for your druid spells. </p>
+		</description>
+		<sheet>
+			<description>When you cast Shillelagh, you can use it to imbue any melee weapon you're holding with nature's power. If you're holding a weapon under the effects of Shillelagh, you can use it as a spellcasting focus for your druid spells.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
+			<select type="Spell" name="Improved Shillelagh" supports="0, Druid" default="ID_PHB_SPELL_SHILLELAGH"/>
+		</rules>
+	</element>
+	<element name="Wild Recovery" type="Archetype Feature" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_ARCHETYPE_FEATURE_UNBROKEN_CIRCLE_WILD_RECOVERY">
+		<description>
+			<p>At 2nd level, you gain the ability to recover using the wild, bestial magic that courses through you. As a bonus action, you can expend a use of your Wild Shape to regain a number of hit points equal to 1d10 + your Wisdom modifier (minimum of 1). When you reach 10th level in this class, you regain 2d10 + your Wisdom modifier instead.</p>
+		</description>
+		<sheet action="Bonus Action" usage="Wild Shape">
+			<description>You regain 1d10 + {{wild-recovery:usage}} hp.</description>
+			<description level="10">You regain 2d10 + {{wild-recovery:usage}} hp.</description>
+		</sheet>
+		<rules>
+			<stat name="wild-recovery:usage" value="1" bonus="usage" />
+			<stat name="wild-recovery:usage" value="wisdom:modifier" bonus="usage" />
+		</rules>
+	</element>
+	<element name="Shillelagh Mastery" type="Archetype Feature" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_ARCHETYPE_FEATURE_UNBROKEN_CIRCLE_SHILLELAGH_MASTERY">
+		<description>
+			<p>Starting at 6th level, when you cast <i>shillelagh</i>, the weapon's damage die becomes a d10, instead of a d8. When you reach 14th level in this class, the damage die becomes a d12.</p>
+			<p class="indent">In addition, while you're wielding a weapon under the effects of <i>shillelagh</i>, you can attack twice, instead of once, whenever you take the Attack action on your turn using that weapon.</p>
+		</description>
+		<sheet>
+			<description>When you cast Shillelagh, the weapon's damage die becomes a d10, instead of a d8. In addition, while you're wielding a weapon under the effects of shillelagh, you can attack twice, instead of once, whenever you take the Attack action on your turn using that weapon.</description>
+			<description level="14">When you cast Shillelagh, the weapon's damage die becomes a d12, instead of a d8. In addition, while you're wielding a weapon under the effects of shillelagh, you can attack twice, instead of once, whenever you take the Attack action on your turn using that weapon.</description>
+		</sheet>
+	</element>
+	<element name="War Druid" type="Archetype Feature" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_ARCHETYPE_FEATURE_UNBROKEN_CIRCLE_WAR_DRUID">
+		<description>
+			<p>At 10th level, when you use your action to cast a druid cantrip, you can make one weapon attack as a bonus action.</p>
+		</description>
+		<sheet>
+			<description>When you use your action to cast a druid cantrip, you can make one weapon attack as a bonus action.</description>
+		</sheet>
+	</element>
+	<element name="Nature Armor" type="Archetype Feature" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_ARCHETYPE_FEATURE_UNBROKEN_CIRCLE_NATURE_ARMOR">
+		<description>
+			<p>By 14th level, your connection to nature helps to shield you from harm. At the start of each of your turns, you gain a number of temporary hit points equal to half your druid level.</p>
+		</description>
+		<sheet>
+			<description>At the start of each of your turns, you gain {{level:druid:half}} temp hp.</description>
+		</sheet>
+	</element>
+
+
+</elements>

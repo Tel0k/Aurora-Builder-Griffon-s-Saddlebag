@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<info>
+		<name>Book 1: Rogue - Runetagger</name>
+		<description>The first published work</description>                             
+		<update version="0.0.1">
+			<file name="book-1-rogue-runetagger.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag/Griffon-s-Book-1/book-1-rogue-runetagger.xml" />
+		</update>
+	</info>
+	<element name="Runetagger" type="Archetype" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_ARCHETYPE_RUNETAGGER">
+		<supports>Roguish Archetype</supports>
+		<description>
+			<p>You concentrate your efforts on perfecting your art, developing special marks to claim and cripple your targets. Rebel leaders, artists, spies, and other members of the political underworld might belong to this archetype. Originally a tactic for subterfuge and assassination for denizens of the Festerwood, those who employ these powerful works of art are famously difficult to pin down. The magical marks left behind become a calling card for any runetagger, and as their strength and notoriety grow from the deeds that they commit (both good and evil), so too does the renown for their art.</p>
+			<div element="ID_TGSB_B1_ARCHETYPE_FEATURE_RUNETAGGER_IMPRESSIONIST" />
+			<div element="ID_TGSB_B1_ARCHETYPE_FEATURE_RUNETAGGER_RUNES" />
+			<div element="ID_TGSB_B1_ARCHETYPE_FEATURE_RUNETAGGER_ESCAPE_ARTIST" />
+			<div element="ID_TGSB_B1_ARCHETYPE_FEATURE_RUNETAGGER_RESOURCEFUL" />
+			<div element="ID_TGSB_B1_ARCHETYPE_FEATURE_RUNETAGGER_LEAD_PAINT" />
+		</description>
+		<sheet display="false">
+			<description></description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_TGSB_B1_ARCHETYPE_FEATURE_RUNETAGGER_IMPRESSIONIST" level="3" />
+			<grant type="Archetype Feature" id="ID_TGSB_B1_ARCHETYPE_FEATURE_RUNETAGGER_RUNES" level="3" />
+			<grant type="Archetype Feature" id="ID_TGSB_B1_ARCHETYPE_FEATURE_RUNETAGGER_ESCAPE_ARTIST" level="9" />
+			<grant type="Archetype Feature" id="ID_TGSB_B1_ARCHETYPE_FEATURE_RUNETAGGER_RESOURCEFUL" level="13" />
+			<grant type="Archetype Feature" id="ID_TGSB_B1_ARCHETYPE_FEATURE_RUNETAGGER_LEAD_PAINT" level="17" />
+		</rules>
+	</element>
+	<element name="Impressionist" type="Archetype Feature" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_ARCHETYPE_FEATURE_RUNETAGGER_IMPRESSIONIST">
+		<description>
+			<p>Starting at 3rd level, you're never without your brushes. You gain proficiency in calligrapher's supplies and painter's supplies. Your proficiency bonus is doubled whenever you make an ability check that uses either of these tools.</p>
+			<p class="indent">In addition, whenever you finish making a mark or rune with ink or paint, you can imbue it with the effects of the <i>message</i> spell. When you do, the mark is visibly magical and casts dim light in a 5-foot radius. A creature that touches the glowing mark telepathically hears the message you imbued in it. Once a message is heard, the magic fades from the mark.</p>
+			<p class="indent">You always have at least one paint or calligraphy brush on your person and can either create or purchase inks and pigments as part of your downtime activities. You can improvise these tools over the course of 10 minutes, assembling them from objects in your environment.</p>
+		</description>
+		<sheet>
+			<description>Your PB is doubled whenever you make an ability check that uses either calligrapher's supplies or painter's supplies.&#13;
+			Whenever you finish making a mark or rune, you can imbue it with the effects of the Message spell. When you do, the mark is visibly magical and casts dim light in a 5ft radius. A creature that touches the glowing mark telepathically hears the message you imbued in it. Once a message is heard, the magic fades from the mark.&#13;
+			You always have at least one paint or calligraphy brush on your person and can either create or purchase inks and pigments as part of your downtime activities. You can improvise these tools over the course of 10 minutes, assembling them from objects in your environment.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_CALLIGRAPHERS_SUPPLIES" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_PAINTERS_SUPPLIES" />
+		</rules>
+	</element>
+	<element name="Runes" type="Archetype Feature" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_ARCHETYPE_FEATURE_RUNETAGGER_RUNES">
+		<description>
+			<p>When you choose this archetype at 3rd level, you gain four rune points to fuel various magical effects. When you hit a creature with a melee weapon attack, you can spend 1 rune point to mark that target with a magical rune in a flourish of paint and weaponry. These runes remain on a marked target for 1 minute, even if its magic has faded, or until a creature uses its action to wipe it off. You regain all spent rune points when you finish a short or long rest.</p>
+			<p class="indent">When you mark a creature with a rune, you can choose to leave one of the following runes:</p>
+			<p class="indent"><b>Cryos. </b>The creature can't take reactions until the start of your next turn. The rune's magic fades at the start of your next turn.</p>
+			<p class="indent"><b>Hexxus. </b>The creature is cursed with an enervating rune. While a creature is marked with this rune, you can use your reaction to activate it when the marked creature makes an attack roll or ability check, reducing the total of the attack roll or ability check by 1d6. You must be within 60 feet and be able to see the creature in order to activate the rune. You can choose to activate the rune after the creature makes its roll, but before the GM determines whether the attack roll or ability check succeeds or fails. Once the rune has been activated, its magic fades.</p>
+			<p class="indent"><b>Locus. </b>The next attack against the marked creature is made with advantage, and if that attack hits, it deals an extra 1d6 acid damage. Hit or miss, the rune's magic fades after the next attack is made against the marked creature.</p>
+		</description>
+		<sheet usage="4 Rune Points/Short||Long Rest">
+			<description>When you hit a creature with a melee weapon attack, you can mark that target with a magical rune for 1 minute or until a creature uses its Action to wipe it off. When you mark a creature with a rune, you can choose to leave one of the following runes:</description>
+		</sheet>
+		<rules>
+			<select type="Archetype Feature" name="Runes1" supports="ID_TGSB_B1_ARCHETYPE_FEATURE_RUNETAGGER_RUNES_CRYOS" />
+			<select type="Archetype Feature" name="Runes2" supports="ID_TGSB_B1_ARCHETYPE_FEATURE_RUNETAGGER_RUNES_HEXXUS" />
+			<select type="Archetype Feature" name="Runes3" supports="ID_TGSB_B1_ARCHETYPE_FEATURE_RUNETAGGER_RUNES_LOCUS" />
+		</rules>
+	</element>
+	<!-- -->
+	<element name="Cryos" type="Archetype Feature" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_ARCHETYPE_FEATURE_RUNETAGGER_RUNES_CRYOS">
+		<supports>ID_TGSB_B1_ARCHETYPE_FEATURE_RUNETAGGER_RUNES_CRYOS</supports>
+		<compendium display="false" />
+		<description>
+			<p>The creature can't take reactions until the start of your next turn. The rune's magic fades at the start of your next turn.</p>
+		</description>
+		<sheet usage="1 Rune Point">
+			<description>The creature can't take reactions until the start of your next turn. The rune's magic fades at the start of your next turn.</description>
+		</sheet>
+	</element>
+	<element name="Hexxus" type="Archetype Feature" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_ARCHETYPE_FEATURE_RUNETAGGER_RUNES_HEXXUS">
+		<supports>ID_TGSB_B1_ARCHETYPE_FEATURE_RUNETAGGER_RUNES_HEXXUS</supports>
+		<compendium display="false" />
+		<description>
+			<p>The creature is cursed with an enervating rune. While a creature is marked with this rune, you can use your reaction to activate it when the marked creature makes an attack roll or ability check, reducing the total of the attack roll or ability check by 1d6. You must be within 60 feet and be able to see the creature in order to activate the rune. You can choose to activate the rune after the creature makes its roll, but before the GM determines whether the attack roll or ability check succeeds or fails. Once the rune has been activated, its magic fades.</p>
+		</description>
+		<sheet usage="1 Rune Point">
+			<description>While target is marked with this rune, you can use your reaction to activate it when target makes an attack roll or ability check, reducing the total of the attack roll or ability check by 1d6. You must be within 60 feet and be able to see the target in order to activate the rune. You can choose to activate the rune after the target makes its roll, but before the GM determines whether the attack roll or ability check succeeds or fails. Once the rune has been activated, its magic fades.</description>
+		</sheet>
+	</element>
+	<element name="Locus" type="Archetype Feature" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_ARCHETYPE_FEATURE_RUNETAGGER_RUNES_LOCUS">
+		<supports>ID_TGSB_B1_ARCHETYPE_FEATURE_RUNETAGGER_RUNES_LOCUS</supports>
+		<compendium display="false" />
+		<description>
+			<p>The next attack against the marked creature is made with advantage, and if that attack hits, it deals an extra 1d6 acid damage. Hit or miss, the rune's magic fades after the next attack is made against the marked creature.</p>
+		</description>
+		<sheet usage="1 Rune Point">
+			<description>The next attack against the marked creature is made with advantage, and if that attack hits, it deals an extra 1d6 acid damage. Hit or miss, the rune's magic fades after the next attack is made against the marked creature.</description>
+		</sheet>
+	</element>
+	<!-- -->
+	<element name="Escape Artist" type="Archetype Feature" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_ARCHETYPE_FEATURE_RUNETAGGER_ESCAPE_ARTIST">
+		<description>
+			<p>At 9th level you become slippery and evasive, capable of worming out of even the tightest holds. You have advantage on ability checks and saving throws made to escape from and resist being grappled or restrained, and when you are grappled or restrained, you can attempt to escape as a bonus action.</p>
+			<p class="indent">In addition, you gain a new way to use your rune points. When you're next to a wall or similar surface, you can use a bonus action to spend 1 rune point to place a rune on it using ink or paint. When you do, you become invisible until you move or take an action or a reaction.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on ability checks and saving throws made to escape from and resist being grappled or restrained, and when you are grappled or restrained, you can attempt to escape as a bonus action.&#13;
+			When you're next to a wall or similar surface, you can use a Bonus Action to spend 1 rune point to place a rune on it using ink or paint. When you do, you become invisible until you move or take an action or a reaction.</description>
+		</sheet>
+	</element>
+	<element name="Resourceful" type="Archetype Feature" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_ARCHETYPE_FEATURE_RUNETAGGER_RESOURCEFUL">
+		<description>
+			<p>When you reach 13th level, your mastery over the arts is lauded by friends and feared by foes. When you have no rune points remaining, you gain 1 rune point when you score a critical hit against a creature and when you roll initiative.</p>
+		</description>
+		<sheet>
+			<description>When you have no rune points remaining, you gain 1 rune point when you score a critical hit against a creature and when you roll initiative.</description>
+		</sheet>
+	</element>
+	<element name="Lead Paint" type="Archetype Feature" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_ARCHETYPE_FEATURE_RUNETAGGER_LEAD_PAINT">
+		<description>
+			<p>By 17th level, you're able to apply more ink or paint whenever you leave a rune and use it to expose weak points in a target's defense and guide your strikes. You can use your Sneak Attack against any creature that has a rune on it. When you do, that creature takes an extra 2d6 damage from the attack.</p>
+		</description>
+		<sheet>
+			<description>You can use your Sneak Attack against any creature that has a rune on it. When you do, that creature takes an extra 2d6 damage from the attack.</description>
+		</sheet>
+	</element>
+
+</elements>

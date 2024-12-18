@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<info>
+		<name>Book 1: Monk - Way of the Celestial</name>
+		<description>The first published work</description>                             
+		<update version="0.0.1">
+			<file name="book-1-monk-celestial.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag/Griffon-s-Book-1/book-1-monk-celestial.xml" />
+		</update>
+	</info>
+	<element name="Way of the Celestial" type="Archetype" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_ARCHETYPE_WAY_OFTHE_CELESTIAL">
+		<supports>Monastic Tradition</supports>
+		<description>
+			<p>Monks of the Way of the Celestial are peacekeepers and protectors of their chosen kin. These monks meditate to achieve a greater understanding of a divine being, granting them the ability to channel celestial energies into their own. These martial defenders are pensive, patient, and understanding, but offer little mercy when evil intentions are made clear.</p>
+			<p class="indent">The Way of the Celestial originated from the lost city of Hearth as a tribute to the city's guardian couatl protectors. While these teachings are far from common knowledge, there's no telling what small, protected monasteries may still exist after the city's untimely destruction. Regardless of how you come upon this tradition, the wisdom of the celestials guides its every principle.</p>
+			<div element="ID_TGSB_B1_ARCHETYPE_FEATURE_WAY_OFTHE_CELESTIAL_CELESTIAL_CONNECTION" />
+			<div element="ID_TGSB_B1_ARCHETYPE_FEATURE_WAY_OFTHE_CELESTIAL_SOULSEARCHING_STRIKE" />
+			<div element="ID_TGSB_B1_ARCHETYPE_FEATURE_WAY_OFTHE_CELESTIAL_STABILIZING_KI" />
+			<div element="ID_TGSB_B1_ARCHETYPE_FEATURE_WAY_OFTHE_CELESTIAL_CELESTIAL_EMISSARY" />
+			<div element="ID_TGSB_B1_ARCHETYPE_FEATURE_WAY_OFTHE_CELESTIAL_HEAVENBORNE" />
+		</description>
+		<sheet display="false">
+			<description></description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_TGSB_B1_ARCHETYPE_FEATURE_WAY_OFTHE_CELESTIAL_CELESTIAL_CONNECTION" level="3" />
+			<grant type="Archetype Feature" id="ID_TGSB_B1_ARCHETYPE_FEATURE_WAY_OFTHE_CELESTIAL_SOULSEARCHING_STRIKE" level="3" />
+			<grant type="Archetype Feature" id="ID_TGSB_B1_ARCHETYPE_FEATURE_WAY_OFTHE_CELESTIAL_STABILIZING_KI" level="6" />
+			<grant type="Archetype Feature" id="ID_TGSB_B1_ARCHETYPE_FEATURE_WAY_OFTHE_CELESTIAL_CELESTIAL_EMISSARY" level="11" />
+			<grant type="Archetype Feature" id="ID_TGSB_B1_ARCHETYPE_FEATURE_WAY_OFTHE_CELESTIAL_HEAVENBORNE" level="17" />
+		</rules>
+	</element>
+	<element name="Celestial Connection" type="Archetype Feature" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_ARCHETYPE_FEATURE_WAY_OFTHE_CELESTIAL_CELESTIAL_CONNECTION">
+		<description>
+			<p>Starting when you choose this tradition at 3rd level, you can telepathically speak to any creature you can see within 30 feet of you. When you do, you don't need to share a language with the creature for it to understand you, but the creature must be able to understand at least one language.</p>
+		</description>
+		<sheet>
+			<description>You can telepathically speak to any creature you can see within 30ft of you. When you do, you don't need to share a language with the creature for it to understand you, but the creature must be able to understand at least one language.</description>
+		</sheet>
+	</element>
+	<element name="Soul-searching Strike" type="Archetype Feature" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_ARCHETYPE_FEATURE_WAY_OFTHE_CELESTIAL_SOULSEARCHING_STRIKE">
+		<description>
+			<p>At 3rd level, you can spend 1 ki point when you touch a creature to peer into its soul. Until the start of your next turn, or for 1 minute if you are not in combat, you are aware of the creature's emotional state and its most obvious desire. At the GM's option, you may also discern its current number of hit points or one piece of the creature's history. During this effect, you have advantage on any Wisdom (Insight) checks made to interact with that creature, and the next attack roll you make against that creature before the end of your turn has advantage.</p>
+			<p class="indent">If you use this feature when you hit a creature with one of the attacks granted by your Flurry of Blows, you do not need to spend a ki point to use it.</p>
+		</description>
+		<sheet usage="1 Ki point">
+			<description>You touch a creature. Until the start of your next turn, or for 1 minute if you are not in combat, you are aware of the creature's emotional state and its most obvious desire. At the GM's option, you may also discern its current number of hp or one piece of the creature's history. During this effect, you have advantage on any WIS(Insight) checks made to interact with that creature, and the next attack roll you make against that creature before the end of your turn has advantage. If you use this feature when you hit a creature with one of the attacks granted by your Flurry of Blows, you do not need to spend a ki point to use it.</description>
+		</sheet>
+	</element>
+	<element name="Stabilizing Ki" type="Archetype Feature" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_ARCHETYPE_FEATURE_WAY_OFTHE_CELESTIAL_STABILIZING_KI">
+		<description>
+			<p>At 6th level, you can harness healing celestial energy and channel it using your ki. As an action, you can touch a willing creature with less than half its hit points left and spend 1 or more ki points. That creature regains 5 hit points for each point you spend, restoring it to no more than half its hit point maximum.</p>
+			<p class="indent">In addition, you can spend 2 ki points as an action to cast <i>enhance ability</i>, <i>lesser restoration</i>, or <i>protection from evil and good</i>, requiring no material components.</p>
+		</description>
+		<sheet action="Action">
+			<description>You can touch a willing creature with less than half its hp left and spend 1 or more ki points. That creature regains 5hp for each point you spend, restoring it to no more than half its hp maximum. In addition, you can spend 2 ki points as an action to cast Enhance ability, Lesser Restoration, or Protection from Evil and Good, requiring no material components.</description>
+			<description level="17" action="Action||Bonus Action">As a BA, instead of an A, you can heal a creature up to 30ft away from you with less than half its hp left and spend 1 or more ki points. That creature regains 5hp for each point you spend, restoring it to no more than half its hp maximum. In addition, you can spend 2 ki points as an action to cast Enhance ability, Lesser Restoration, or Protection from Evil and Good, requiring no material components.</description>
+		</sheet>
+	</element>
+	<element name="Celestial Emissary" type="Archetype Feature" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_ARCHETYPE_FEATURE_WAY_OFTHE_CELESTIAL_CELESTIAL_EMISSARY">
+		<description>
+			<p>Beginning at 11th level, your connection to celestials can be used to expand your mind's reach. You can cast the <i>dream</i> or <i>scrying</i> spell, requiring no material components, using your ki save DC. When you cast <i>dream</i> using this feature, only you can act as the dream's messenger. Once you cast a spell in this way, you can't cast it again until you finish a long rest. In addition, you are immune to scrying and to any effect that would sense your emotions, read your thoughts, or detect your location.</p>
+		</description>
+		<sheet usage="1/Long Rest">
+			<description>You can cast the Dream or Scrying spell, requiring no material components, DC{{ki:dc}}. When you cast Dream using this feature, only you can act as the dream's messenger. In addition, you are immune to scrying and to any effect that would sense your emotions, read your thoughts, or detect your location.</description>
+		</sheet>
+	</element>
+	<element name="Heavenborne" type="Archetype Feature" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_ARCHETYPE_FEATURE_WAY_OFTHE_CELESTIAL_HEAVENBORNE">
+		<description>
+			<p>At 17th level, your energy is perfectly intertwined with both harmful and healing celestial magic. Your unarmed strikes deal an extra 1d4 radiant damage, and you can now use your Stabilizing Ki as a bonus action, instead of an action, to heal a creature up to 30 feet away from you.</p>
+			<p class="indent">In addition, you gain a flying speed equal to your current walking speed. This benefit only works in short bursts; you fall if you end your turn in the air and nothing else is holding you aloft.</p>
+		</description>
+		<sheet>
+			<description>Your unarmed strikes deal an extra 1d4 radiant damage. &#13;
+			You also gain a flying speed {{speed:fly}}ft. This benefit only works in short bursts; you fall if you end your turn in the air and nothing else is holding you aloft.</description>
+		</sheet>
+		<rules>
+			<stat name="speed:fly" value="speed" bonus="base" />
+		</rules>
+	</element>
+
+</elements>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<info>
+		<name>Book 1: Wizard - Material Magic</name>
+		<description>The first published work</description>                             
+		<update version="0.0.1">
+			<file name="book-1-wizard-material-magic.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag/Griffon-s-Book-1/book-1-wizard-material-magic.xml" />
+		</update>
+	</info>
+	<element name="Material Magic" type="Archetype" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_ARCHETYPE_MATERIAL_MAGIC">
+		<supports>Arcane Tradition</supports>
+		<description>
+			<p>Some wizards abandon the limitations set by magic schools and instead focus on the binding force that holds everything together. These mages spend their efforts weaving and recreating matter from thin air to create art as well as utility. They value the craftsmanship taught by artisans around the world and consider their skills and creations to be a form of magic all its own.</p>
+			<p class="indent">Some arcanists focus on altering the living, whereas wizards of material magic focus on creating and enhancing the inanimate. These mages see beauty in the possibility presented by raw materials, and are found as readily studying ancient lore as they are in the center of a bustling forge. Many followers of this tradition take great care and pride in their component pouches, and find great kinship among bards, artists, and other craftsmen.</p>
+			<div element="ID_TGSB_B1_ARCHETYPE_FEATURE_MM_ARCANE_ARTISAN" />
+			<div element="ID_TGSB_B1_ARCHETYPE_FEATURE_MM_MINOR_CREATION" />
+			<div element="ID_TGSB_B1_ARCHETYPE_FEATURE_MM_MATERIAL_ENHANCEMENT" />
+			<div element="ID_TGSB_B1_ARCHETYPE_FEATURE_MM_DEMATERIALIZE" />
+			<div element="ID_TGSB_B1_ARCHETYPE_FEATURE_MM_REMATERIALIZE" />
+		</description>
+		<sheet display="false">
+			<description></description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_TGSB_B1_ARCHETYPE_FEATURE_MM_ARCANE_ARTISAN" level="2" />
+			<grant type="Archetype Feature" id="ID_TGSB_B1_ARCHETYPE_FEATURE_MM_MINOR_CREATION" level="2" />
+			<grant type="Archetype Feature" id="ID_TGSB_B1_ARCHETYPE_FEATURE_MM_MATERIAL_ENHANCEMENT" level="6" />
+			<grant type="Archetype Feature" id="ID_TGSB_B1_ARCHETYPE_FEATURE_MM_DEMATERIALIZE" level="10" />
+			<grant type="Archetype Feature" id="ID_TGSB_B1_ARCHETYPE_FEATURE_MM_REMATERIALIZE" level="14" />
+		</rules>
+	</element>
+	<element name="Arcane Artisan" type="Archetype Feature" source="source" id="ID_TGSB_B1_ARCHETYPE_FEATURE_MM_ARCANE_ARTISAN">
+		<description>
+			<p>Beginning at 2nd level, you have dedicated your studies to creation and the magic surrounding it. You gain proficiency with three artisan’s tools of your choice and you learn the <i>mending</i> cantrip. If you already know this cantrip, you learn a different wizard cantrip of your choice. The cantrip doesn’t count against your number of cantrips known.</p>
+			<p class="indent">In addition, your exceptional wit and aptitude allow you to do more with less time. When you use a set of artisan’s tools with which you are proficient to craft an item or piece of art, you complete a full work day in a number of hours equal to 8 - your Intelligence modifier (minimum of 1).</p>
+		</description>
+		<sheet>
+			<description>When you use a set of artisan’s tools with which you are proficient to craft an item or piece of art, you complete a full work day in a number of hours equal to {{arcaneartisan:usage}}</description>
+		</sheet>
+		<rules>
+			<select type="Proficiency" name="Tool Proficiency 1 (Minor Creation)" supports="Tool, Artisan tools" />
+			<select type="Proficiency" name="Tool Proficiency 2 (Minor Creation)" supports="Tool, Artisan tools" />
+			<select type="Proficiency" name="Tool Proficiency 3 (Minor Creation)" supports="Tool, Artisan tools" />
+			<grant type="Spell" id="ID_PHB_SPELL_MENDING" requirements="!ID_PHB_SPELL_MENDING"/>
+			<select type="Spell" name="Arcane Artisan Alternative" supports="0, Wizard" requirements="ID_PHB_SPELL_MENDING"/>
+			<stat name="arcaneartisan:usage" value="8" />
+			<stat name="arcaneartisan:usage" value="arcaneartisan:usage:misc" />
+			<stat name="arcaneartisan:usage:misc" value="1" bonus="creation" />
+			<stat name="arcaneartisan:usage:misc" value="intelligence:modifier" bonus="creation" />
+		</rules>
+	</element>
+	<element name="Minor Creation" type="Archetype Feature" source="source" id="ID_TGSB_B1_ARCHETYPE_FEATURE_MM_MINOR_CREATION">
+		<description>
+			<p>Also at 2nd level, you can temporarily bend some of the laws of reality in your favor. When you cast a spell of 1st level or higher, you can create a cube of material measuring up to 5 feet large on a side on the ground in an unoccupied space you can see within 10 feet of you. You choose the material it’s made out of. A cube weighs a number of pounds equal to 5 times its size on a side, regardless of its material, and can support up to 10 times its weight.</p>
+			<p class="indent">You can have a total number of these cubes in existence at any time equal to your Intelligence modifier (minimum of 1). You can dismiss any number of these cubes as a bonus action. Otherwise, a cube disappears after 1 hour or if it takes any damage.</p>
+		</description>
+		<sheet>
+			<description>When you cast a spell of 1st Lv or higher, you can create a cube of material up to 5ft large in an unoccupied space on the ground you can see within 10ft of you. You choose the material it’s made out of. A cube weighs (5 times its size on a side)lbs, regardless of its material, and can support up to 10 times its weight.&#13;
+			You can have up to {{cube}} of these cubes in existence at any time equal . You can dismiss any number of these cubes as a bonus action. Otherwise, a cube disappears after 1hr or if it takes any damage.</description>
+		</sheet>
+		<rules>
+			<stat name="cube" value="1" bonus="creation" />
+			<stat name="cube" value="intelligence:modifier" bonus="creation" />
+		</rules>
+	</element>
+	<element name="Material Enhancement" type="Archetype Feature" source="source" id="ID_TGSB_B1_ARCHETYPE_FEATURE_MM_MATERIAL_ENHANCEMENT">
+		<description>
+			<p>At 6th level, your attention to both magic and mundane detail gives you a heightened understanding and control over them. As an action, you can touch an object, weapon, or piece of armor. Until the end of your next short or long rest, the item becomes magical if it isn’t already, and gains your choice of up to two of the following benefits:</p>
+			<ul>
+				<li>It emits bright light in a 10-foot radius and dim light for an additional 10 feet.</li>
+				<li>Its weight is halved.</li>
+				<li>When you throw it, immediately after it hits a creature or a solid object, it flies back to your hand.</li>
+				<li>You change any of its colors, smells, and textures</li>
+				<li>(Weapon only) The wielder of it gains a +1 bonus to attack and damage rolls made with this weapon. If the weapon already granted a bonus to attack and damage rolls, this property has no effect.</li>
+				<li>y (Armor only) The wearer gains a +1 bonus to AC. If the armor already granted a bonus to AC, this property has no effect.</li>
+				<li>(Armor only) If the armor would normally impose disadvantage on Dexterity (Stealth) checks, it does not.</li>
+			</ul>
+			<p>You have 2 uses of this feature, and you expend 1 of its uses for each benefit you give an object. You regain all expended uses of this feature when you finish a short or long rest.</p>
+		</description>
+		<sheet action="Action" usage="2/Short||Long Rest">
+			<description>You can touch an object, weapon, or piece of armor. Until the end of your next short or long rest, the item becomes magical if it isn’t already, and gains your choice of up to two benefits</description>
+		</sheet>
+	</element>
+	<element name="Dematerialize" type="Archetype Feature" source="source" id="ID_TGSB_B1_ARCHETYPE_FEATURE_MM_DEMATERIALIZE">
+		<description>
+			<p></p>
+		</description>
+		<sheet>
+			<description></description>
+		</sheet>
+	</element>
+	<element name="Rematerialize" type="Archetype Feature" source="source" id="ID_TGSB_B1_ARCHETYPE_FEATURE_MM_REMATERIALIZE">
+		<description>
+			<p></p>
+		</description>
+		<sheet>
+			<description></description>
+		</sheet>
+	</element>
+
+</elements>

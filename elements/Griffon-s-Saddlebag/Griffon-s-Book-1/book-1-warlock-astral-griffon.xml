@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<info>
+		<name>Book 1: Warlock - The Astral Griffon</name>
+		<description>The first published work</description>                             
+		<update version="0.0.1">
+			<file name="book-1-warlock-astral-griffon.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag/Griffon-s-Book-1/book-1-warlock-astral-griffon.xml" />
+		</update>
+	</info>
+	<element name="The Astral Griffon" type="Archetype" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_ARCHETYPE_ASTRAL_GRIFFON">
+		<supports>Otherworldly Patron</supports>
+		<description>
+			<p>You have made a pact with a powerful demigod of the Astral Plane: a Griffon whose control over space, creation, and pocket dimensions extends throughout the multiverse. It aims to expand its eclectic collection of treasures, both magical and mundane. These treasures may be worth very little in the average shop, but to the Griffon it holds a special place in history or the fabric of existence. Your binding may lead you far and wide in search of foreign artifacts as quickly as it would a nearby pub for a tarnished locket. Regardless of the task, the Griffon’s aims are rarely subject to distinctly good or evil motives.</p>
+			<div element="ID_TGSB_B1_ARCHETYPE_FEATURE_AG_EXPANDED_SPELL_LIST" />
+			<div element="ID_TGSB_B1_ARCHETYPE_FEATURE_AG_EXTRADIMENSIONAL_ACUITY" />
+			<div element="ID_TGSB_B1_ARCHETYPE_FEATURE_AG_PLANAR_ESCAPE" />
+			<div element="ID_TGSB_B1_ARCHETYPE_FEATURE_AG_EXTRADIMENSIONAL_MASTERY" />
+			<div element="ID_TGSB_B1_ARCHETYPE_FEATURE_AG_POCKETEER" />
+		</description>
+		<sheet display="false">
+			<description></description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_TGSB_B1_ARCHETYPE_FEATURE_AG_EXPANDED_SPELL_LIST" level="1" />
+			<grant type="Archetype Feature" id="ID_TGSB_B1_ARCHETYPE_FEATURE_AG_EXTRADIMENSIONAL_ACUITY" level="1" />
+			<grant type="Archetype Feature" id="ID_TGSB_B1_ARCHETYPE_FEATURE_AG_PLANAR_ESCAPE" level="6" />
+			<grant type="Archetype Feature" id="ID_TGSB_B1_ARCHETYPE_FEATURE_AG_EXTRADIMENSIONAL_MASTERY" level="10" />
+			<grant type="Archetype Feature" id="ID_TGSB_B1_ARCHETYPE_FEATURE_AG_POCKETEER" level="14" />
+		</rules>
+	</element>
+	<element name="Expanded Spell List" type="Archetype Feature" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_ARCHETYPE_FEATURE_AG_EXPANDED_SPELL_LIST">
+		<description>
+			<p>The Astral Griffon lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.</p>
+			<h5 class="caption">Astral Griffon Expanded Spells</h5>
+			<table>
+				<thead>
+					<tr><td>Spell Level</td><td>Spells</td></tr>
+				</thead>
+				<tr><td>1st</td><td><em>identify, magic missile</em></td></tr>
+				<tr><td>2nd</td><td><em>locate object, rope trick</em></td></tr>
+				<tr><td>3rd</td><td><em>blink, clairvoyance</em></td></tr>
+				<tr><td>4th</td><td><em>private sanctum, secret chest</em></td></tr>
+				<tr><td>5th</td><td><em>legend lore, passwall</em></td></tr>
+			</table>
+		</description>
+		<sheet display="false">
+			<description>The Astral Griffon lets you choose from an expanded list of spells when you learn a warlock spell.</description>
+		</sheet>
+		<spellcasting name="Warlock" extend="true">
+			<extend>ID_PHB_SPELL_IDENTIFY</extend>
+			<extend>ID_PHB_SPELL_MAGIC_MISSILE</extend>
+			<extend>ID_PHB_SPELL_LOCATE_OBJECT</extend>
+			<extend>ID_PHB_SPELL_ROPE_TRICK</extend>
+			<extend>ID_PHB_SPELL_BLINK</extend>
+			<extend>ID_PHB_SPELL_CLAIRVOYANCE</extend>
+			<extend>ID_PHB_SPELL_MORDENKAINENS_PRIVATE_SANCTUM</extend>
+			<extend>ID_PHB_SPELL_LEOMUNDS_SECRET_CHEST</extend>
+			<extend>ID_PHB_SPELL_LEGEND_LORE</extend>
+			<extend>ID_PHB_SPELL_PASSWALL</extend>
+		</spellcasting>
+	</element>
+	<element name="Extradimensional Acuity" type="Archetype Feature" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_ARCHETYPE_FEATURE_AG_EXTRADIMENSIONAL_ACUITY">
+		<description>
+			<p>At 1st level, your patron grants you the ability to maintain a small pocket dimension. The extradimensional space is always accessible to you and can hold up to 50 pounds of inanimate material, not exceeding 1 cubic foot. You can access and interact with this space using your hands the same way you would with a normal container. Your hands disappear within the space while they’re accessing it.</p>
+			<p class="indent">Placing a bag of holding, handy haversack, portable hole, or similar item inside your pocket dimension instantly destroys both the item and anything else within the two extradimensional spaces. When this happens, you are unable to access your pocket dimension again until 7 days have passed.</p>
+			<p class="indent">In addition, you can sense whether pocket dimensions are present within 60 feet of you. This feature doesn’t reveal their location or number.</p>
+		</description>
+		<sheet>
+			<description>You gain the ability to maintain a small pocket dimension. This space is always accessible to you and can hold up to 50lbs of inanimate material, not exceeding 1 cubic foot. You can access and interact with this space using your hands the same way you would with a normal container. Your hands disappear within the space while they’re accessing it.&#13;
+			Placing a bag of holding, handy haversack, portable hole, or similar item inside your pocket dimension instantly destroys both the item and anything else within the two extradimensional spaces. When this happens, you are unable to access your pocket dimension again until 7 days have passed.&#13;
+			In addition, you can sense whether pocket dimensions are present within 60 feet of you. This feature doesn’t reveal their location or number.</description>
+		</sheet>
+	</element>
+	<element name="Planar Escape" type="Archetype Feature" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_ARCHETYPE_FEATURE_AG_PLANAR_ESCAPE">
+		<description>
+			<p>By 6th level, you can hide yourself in a temporary extradimensional space to avoid harm. When you take damage from a hostile creature you can see within 30 feet of you, you can use your reaction to disappear into a harmless pocket dimension. You can see into your original plane of existence and move normally while in this extradimensional space, but other creatures can neither see nor harm you while you remain there. You remain in this pocket dimension until the end of your next turn or until you attack or cast a spell. Once you use this feature, you can’t do so again until you finish a short or long rest.</p>
+		</description>
+		<sheet action="Reaction" usage="1/Short||Long Rest">
+			<description>When you take damage from a hostile creature you can see within 30 feet of you, you can disappear into a harmless pocket dimension. You can see into your original plane of existence and move normally while in this extradimensional space, but other creatures can neither see nor harm you while you remain there. You remain in this pocket dimension until the end of your next turn or until you attack or cast a spell. </description>
+		</sheet>
+	</element>
+	<element name="Extradimensional Mastery" type="Archetype Feature" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_ARCHETYPE_FEATURE_AG_EXTRADIMENSIONAL_MASTERY">
+		<description>
+			<p>Starting at 10th level, the fabric of existence is clear to you. You have resistance to force damage, and whenever you discover an extradimensional space, you can perceive what items are stored within it.</p>
+			<p class="indent">In addition, you can use an action to enhance your perception of reality. For 10 minutes, you have advantage on Wisdom (Perception) checks that rely on sight, and you gain truesight out to 30 feet. You can use this feature a number of times equal to your Charisma modifier (minimum of 1). You regain all expended uses when you finish a long rest.</p>
+		</description>
+		<sheet action="(2)Action" usage="(2) {{reality:enhancement}}/Long Rest">
+			<description>(1)Whenever you discover an extradimensional space, you can perceive what items are stored within it.&#13;
+			(2)You can enhance your perception of reality. For 10 minutes, you have advantage on Wisdom (Perception) checks that rely on sight, and you gain truesight out to 30 feet.</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FORCE" />
+			<stat name="reality:enhancement" value="1" bonus="reality" />
+			<stat name="reality:enhancement" value="charisma:modifier" bonus="reality" />
+		</rules>
+	</element>
+	<element name="Pocketeer" type="Archetype Feature" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_ARCHETYPE_FEATURE_AG_POCKETEER">
+		<description>
+			<p>At 14th level, you’ve learned how to mold extradimensional spaces beyond their normal limits. Your pocket dimension expands to hold up to 250 pounds, or 10 cubic feet.</p>
+			<p class="indent">In addition, you can use an action to shunt an object that isn’t being worn that you can see within 30 feet of you into your pocket dimension, provided that there’s enough space. If the object is being carried, the holder must succeed on a Wisdom saving throw against your warlock spell save DC. The object remains in the extradimensional space until the end of your next turn or until you retrieve it. When the effect ends, the object reappears in an unoccupied space within 5 feet of you or in your hands, if you have any free (your choice). Once you use this feature, you can’t use it again until you finish a short or long rest.</p>
+		</description>
+		<sheet action="(2)Action" usage="1/Short||Long Rest">
+			<description>(1)Your pocket dimension expands to hold up to 250 pounds, or 10 cubic feet.&#13;
+			You can shunt an object that isn’t being worn that you can see within 30ft of you into your pocket dimension, provided that there’s enough space. If the object is being carried, the holder must succeed on a DC{{spellcasting:dc:cha}} WIS saving throw. The object remains in the extradimensional space until the end of your next turn or until you retrieve it. When the effect ends, the object reappears in an unoccupied space within 5ft of you or in your hands, if you have any free (your choice).</description>
+		</sheet>
+	</element>
+
+</elements>

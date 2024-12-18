@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<info>
+		<name>Book 1: Bard - College of Dance</name>
+		<description>The first published work</description>                             
+		<update version="0.0.1">
+			<file name="book-1-bard-dance.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag/Griffon-s-Book-1/book-1-bard-dance.xml" />
+		</update>
+	</info>
+	<element name="College of Dance" type="Archetype" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_ARCHETYPE_COLLEGE_OF_DANCE">
+		<supports>Bard College</supports>
+		<description>
+			<p>Bards of the College of Dance tell stories and perform music without making a sound, choosing to instead move with feylike grace and magic to evade harm and inspire others. These dances originate from the Festerwood, whose radiant spores and light made for miraculous performances and deadly hazards. These bards can be found anywhere from the local tavern to the highest levels of theater moving crowds to tears as quickly as rebellion. At every turn, they inspire others to be brave, move, and join in.</p>
+			<div element="ID_TGSB_B1_ARCHETYPE_FEATURE_COLLEGE_OF_DANCE_FAST_MOVEMENT" />
+			<div element="ID_TGSB_B1_ARCHETYPE_FEATURE_COLLEGE_OF_DANCE_INSPIRATIONAL_DANCE" />
+			<div element="ID_TGSB_B1_ARCHETYPE_FEATURE_COLLEGE_OF_DANCE_ENTRANCING_MOVEMENT" />
+			<div element="ID_TGSB_B1_ARCHETYPE_FEATURE_COLLEGE_OF_DANCE_ENDLESS_DANCE" />
+		</description>
+		<sheet display="false">
+			<description></description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_TGSB_B1_ARCHETYPE_FEATURE_COLLEGE_OF_DANCE_FAST_MOVEMENT" level="3" />
+			<grant type="Archetype Feature" id="ID_TGSB_B1_ARCHETYPE_FEATURE_COLLEGE_OF_DANCE_INSPIRATIONAL_DANCE" level="3" />
+			<grant type="Archetype Feature" id="ID_TGSB_B1_ARCHETYPE_FEATURE_COLLEGE_OF_DANCE_ENTRANCING_MOVEMENT" level="6" />
+			<grant type="Archetype Feature" id="ID_TGSB_B1_ARCHETYPE_FEATURE_COLLEGE_OF_DANCE_ENDLESS_DANCE" level="14" />
+		</rules>
+	</element>
+	<element name="Fast Movement" type="Archetype Feature" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_ARCHETYPE_FEATURE_COLLEGE_OF_DANCE_FAST_MOVEMENT">
+		<description>
+			<p>When you join the College of Dance at 3rd level, your walking speed increases by 10 feet. When you reach 6th and 14th level in this class, your walking speed increases by an extra 5 feet</p>
+		</description>
+		<sheet>
+			<description>Your walking speed increases by {{bard:fast movement}} feet.</description>
+		</sheet>
+		<rules>
+			<stat name="bard:fast movement" value="10" bonus="fast movement" level="3" />
+			<stat name="bard:fast movement" value="15" bonus="fast movement" level="6" />
+			<stat name="bard:fast movement" value="20" bonus="fast movement" level="14" />	
+
+			<stat name="speed:misc" value="bard:fast movement" bonus="fast movement" />
+		</rules>
+		</element>
+	<element name="Inspirational Dance" type="Archetype Feature" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_ARCHETYPE_FEATURE_COLLEGE_OF_DANCE_INSPIRATIONAL_DANCE">
+		<description>
+			<p>Also at 3rd level, you learn how to use the universal language of dance. As a bonus action, you can expend one of your uses of Bardic Inspiration to dance and reinvigorate a creature other than you who can see you. When you do, roll a Bardic Inspiration die. That creature gains temporary hit points equal to the number rolled plus your Charisma modifier (minimum of 1). When a creature gains temporary hit points in this way, it can immediately use its reaction to move up to its speed without provoking opportunity attacks or take the Dodge action.</p>
+		</description>
+		<sheet action="Bonus Action">
+			<description>You can expend one of your uses of Bardic Inspiration to dance and reinvigorate a creature other than you who can see you. When you do, roll a Bardic Inspiration die. That creature gains temp hp equal to the number rolled + {{dance:inspiration}}. When a creature gains temp hp in this way, it can immediately use its reaction to move up to its speed without provoking opportunity attacks or take the Dodge action.</description>
+		</sheet>
+		<rules>
+			<stat name="dance:inspiration" value="1" bonus="dance" />
+			<stat name="dance:inspiration" value="charisma:modifier" bonus="dance" />
+		</rules>
+	</element>
+	<element name="Entrancing Movement" type="Archetype Feature" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_ARCHETYPE_FEATURE_COLLEGE_OF_DANCE_ENTRANCING_MOVEMENT">
+		<description>
+			<p>At 6th level, your movements become so graceful that even the most cold-hearted enemies are filled with remorse for having stopped your dance. Whenever a creature hits you with an opportunity attack, that creature takes psychic damage equal to your Charisma modifier + half your bard level.</p>
+			<p class="indent">In addition, you can use your dance to cast the <i>charm person</i> spell, without expending a spell slot. When cast in this way, the target doesn't have advantage on the saving throw if you're currently fighting it. When you reach 14th level in this class, you can cast the <i>irresistible dance</i> spell in this way as well. A spell cast with this feature requires only somatic components. After you cast a spell in this way, you can't use this feature to cast it again until you finish a long rest.</p>
+		</description>
+		<sheet usage="2] 1/Long Rest">
+			<description>1] Whenever a creature hits you with an opportunity attack, that creature takes {{damage:entrancing movement}} psychic damage. &#13;
+			2] You can use your dance to cast the Charm Person spell, without expending a spell slot. When cast in this way, the target doesn't have advantage on the saving throw if you're currently fighting it. A spell cast with this feature requires only somatic components.</description>
+			<description level="14">1] Whenever a creature hits you with an opportunity attack, that creature takes {{damage:entrancing movement}} psychic damage. &#13;
+			2] You can use your dance to cast the Charm Person and Irresistible Dance spells, without expending a spell slot. When cast in this way, the target doesn't have advantage on the saving throw if you're currently fighting it. A spell cast with this feature requires only somatic components.</description>
+		</sheet>
+		<rules>
+			<stat name="damage:entrancing movement" value="level:bard:half" bonus="dance" />
+			<stat name="damage:entrancing movement" value="charisma:modifier" bonus="dance" />
+		</rules>
+	</element>
+	<element name="Endless Dance" type="Archetype Feature" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_ARCHETYPE_FEATURE_COLLEGE_OF_DANCE_ENDLESS_DANCE">
+		<description>
+			<p>By 14th level, your dance has become so invigorating that it can inspire an ally to attack. A creature that gains temporary hit points from your Inspirational Dance can choose to use its reaction to make one weapon attack.</p>
+			<p class="indent">In addition, your endless dancing allows you to more easily avoid being hit. You can use a bonus action to take the Dodge action, and whenever you use a bonus action to expend a Bardic Inspiration die, you can take the Dodge action as part of that bonus action.</p>
+		</description>
+		<sheet>
+			<description>A creature that gains temporary hit points from your Inspirational Dance can choose to use its reaction to make one weapon attack. &#13;
+			You can use a bonus action to take the Dodge action, and whenever you use a bonus action to expend a Bardic Inspiration die, you can take the Dodge action as part of that bonus action.</description>
+		</sheet>
+	</element>
+
+</elements>

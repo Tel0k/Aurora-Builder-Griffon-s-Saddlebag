@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<info>
+		<name>Book 1: Ranger - Winter Trapper</name>
+		<description>The first published work</description>                             
+		<update version="0.0.1">
+			<file name="book-1-ranger-winter-trapper.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag/Griffon-s-Book-1/book-1-ranger-winter-trapper.xml" />
+		</update>
+	</info>
+	<element name="Winter Trapper" type="Archetype" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_ARCHETYPE_WINTER_TRAPPER">
+		<supports>Ranger Archetype</supports>
+		<description>
+			<p>Winter Trappers are masters of control and keep both their adversaries and quarries helpless and at bay. Originating from the Everglacier, these trained hunters are experts at staying upright when others would surely fall, and have learned how to use magic and acrobatics to keep both themselves and their allies out of harm's reach.</p>
+			<div element="ID_TGSB_B1_ARCHETYPE_FEATURE_WT_WINTER_TRAPPER_MAGIC" />
+			<div element="ID_TGSB_B1_ARCHETYPE_FEATURE_WT_PIN_DOWN" />
+			<div element="ID_TGSB_B1_ARCHETYPE_FEATURE_WT_SUREFOOTED" />
+			<div element="ID_TGSB_B1_ARCHETYPE_FEATURE_WT_HELPLESS_PREY" />
+			<div element="ID_TGSB_B1_ARCHETYPE_FEATURE_WT_MAGIC_SNARE" />
+			<div element="ID_TGSB_B1_ARCHETYPE_FEATURE_WT_TRIPPED_DEFENSES" />
+		</description>
+		<sheet display="false">
+			<description></description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_TGSB_B1_ARCHETYPE_FEATURE_WT_WINTER_TRAPPER_MAGIC" level="3" />
+			<grant type="Archetype Feature" id="ID_TGSB_B1_ARCHETYPE_FEATURE_WT_PIN_DOWN" level="3" />
+			<grant type="Archetype Feature" id="ID_TGSB_B1_ARCHETYPE_FEATURE_WT_SUREFOOTED" level="7" />
+			<grant type="Archetype Feature" id="ID_TGSB_B1_ARCHETYPE_FEATURE_WT_HELPLESS_PREY" level="7" />
+			<grant type="Archetype Feature" id="ID_TGSB_B1_ARCHETYPE_FEATURE_WT_MAGIC_SNARE" level="11" />
+			<grant type="Archetype Feature" id="ID_TGSB_B1_ARCHETYPE_FEATURE_WT_TRIPPED_DEFENSES" level="15" />
+		</rules>
+	</element>
+	<element name="Winter Trapper Magic" type="Archetype Feature" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_ARCHETYPE_FEATURE_WT_WINTER_TRAPPER_MAGIC">
+		<description>
+			<p>Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Winter Trapper Spells table. The spell counts as a ranger spell for you, but it doesn't count against the number of ranger spells you know.</p>
+			<h5>WINTER TRAPPER MAGIC</h5>
+			<table>
+				<thead>
+					<tr><td>Ranger Level</td><td>Spells</td></tr>
+				</thead>
+				<tr><td>3rd</td><td>expeditious retreat</td></tr>
+				<tr><td>5th</td><td>mirror image</td></tr>
+				<tr><td>9th</td><td>sleet storm</td></tr>
+				<tr><td>13th</td><td>hallucinatory terrain</td></tr>
+				<tr><td>17th</td><td>mislead</td></tr>
+			</table>
+		</description>
+		<sheet display="false" />
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_EXPEDITIOUS_RETREAT" level="3" spellcasting="Ranger"/>
+            <grant type="Spell" id="ID_PHB_SPELL_MIRROR_IMAGE" level="5" spellcasting="Ranger" />
+            <grant type="Spell" id="ID_PHB_SPELL_SLEET_STORM" level="9" spellcasting="Ranger" />
+            <grant type="Spell" id="ID_PHB_SPELL_HALLUCINATORY_TERRAIN" level="13" spellcasting="Ranger" />
+            <grant type="Spell" id="ID_PHB_SPELL_MISLEAD" level="17" spellcasting="Ranger" />
+        </rules>
+	</element>
+	<element name="Pin Down" type="Archetype Feature" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_ARCHETYPE_FEATURE_WT_PIN_DOWN">
+		<description>
+			<p>At 3rd level, you learn how to keep your prey exactly where you want them. Once on each of your turns when you make a weapon attack, you can attempt to pin down that target. You make this choice before rolling the attack. If it hits, the target takes an extra 1d8 damage of the weapon's type and its speed is reduced by 10 feet until the start of your next turn.</p>
+			<p class="indent">When you reach 11th level in this class, the extra damage increases to 2d8, and if the attack hits, the target also can't take reactions until the start of your next turn.</p>
+		</description>
+		<sheet usage="1/Turn">
+			<description>When you make a weapon attack, you can attempt to pin down that target. You make this choice before rolling the attack. If it hits, the target takes an extra 1d8 damage of the weapon's type and its speed is reduced by 10 feet until the start of your next turn.</description>
+			<description>When you make a weapon attack, you can attempt to pin down that target. You make this choice before rolling the attack. If it hits, the target takes an extra 2d8 damage of the weapon's type, its speed is reduced by 10 feet and can't take reactions until the start of your next turn.</description>
+		</sheet>
+	</element>
+	<element name="Sure-footed" type="Archetype Feature" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_ARCHETYPE_FEATURE_WT_SUREFOOTED">
+		<description>
+			<p>By 7th level, you know how best to keep your footing. While you're not incapacitated, you can't be knocked prone.</p>
+			<p class="indent">In addition, your archetype's wintry history grants you additional benefits. You ignore difficult terrain created by ice or snow, and you have advantage on Dexterity (Stealth) checks while in icy or snowy terrain.</p>
+		</description>
+		<sheet>
+			<description>While you're not incapacitated, you can't be knocked prone. In addition, you ignore difficult terrain created by ice or snow, and you have advantage on DEX(Stealth) checks while in icy or snowy terrain.</description>
+		</sheet>
+	</element>
+	<element name="Helpless Prey" type="Archetype Feature" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_ARCHETYPE_FEATURE_WT_HELPLESS_PREY">
+		<description>
+			<p>Also at 7th level, attacking a prone creature doesn't impose disadvantage on your ranged attack rolls.</p>
+		</description>
+		<sheet>
+			<description>Attacking a prone creature doesn't impose disadvantage on your ranged attack rolls.</description>
+		</sheet>
+	</element>
+	<element name="Magic Snare" type="Archetype Feature" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_ARCHETYPE_FEATURE_WT_MAGIC_SNARE">
+		<description>
+			<p>At 11th level, you've learned how to quickly set undetectable magical traps. You can imperceptibly create one of these magical snares in the ground at your feet as a bonus action on your turn. The first Large or smaller creature other than you that steps in that space within 1 minute must make a Dexterity saving throw against your spell save DC. On a failed save, a creature takes 2d8 piercing damage and has its speed reduced to 0 until the end of its current turn, as the ground opens up and clamps down on it. On a successful save, a creature takes half as much piercing damage, and its speed is unaffected.</p>
+			<p class="indent">When you create a snare, you can designate any creatures you choose, and the trap ignores them. A creature that can see invisible creatures and objects (such as one benefiting from see invisibility or truesight) can see these traps. You can use this feature a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a long rest.</p>
+		</description>
+		<sheet action="Bonus Action" usage="{{magic snare:usage}}/Long Rest">
+			<description>You can create one a magical snare in the ground at your feet as a bonus action on your turn. The first Large or smaller creature other than you that steps in that space within 1 minute must make a DC{{spellcasting:dc:wis}} DEX saving throw. On a failed save, a creature takes 2d8 piercing damage and has its speed reduced to 0 until the end of its current turn. On a successful save, a creature takes half as much piercing damage, and its speed is unaffected.&#13;
+			When you create a snare, you can designate any creatures you choose, and the trap ignores them. A creature that can see invisible creatures and objects (such as one benefiting from see invisibility or truesight) can see these traps.</description>
+		</sheet>
+		<rules>
+			<stat name="magic snare:usage" value="1" bonus="magic snare" />
+			<stat name="magic snare:usage" value="wisdom:modifier" bonus="magic snare" />
+		</rules>
+	</element>
+	<element name="Tripped Defenses" type="Archetype Feature" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_ARCHETYPE_FEATURE_WT_TRIPPED_DEFENSES">
+		<description>
+			<p>At 15th level, you have learned to use a creature's mistakes against them. When a Large or smaller creature within 5 feet of you that you can see misses you with an attack, you can use your reaction to knock that creature prone. When you do, you can make either one weapon attack against that creature or move up to half your speed immediately after its attack.</p>
+		</description>
+		<sheet action="Reaction">
+			<description>When a Large or smaller creature within 5 feet of you that you can see misses you with an attack, you can knock that creature prone. When you do, you can make either one weapon attack against that creature or move up to half your speed immediately after its attack.</description>
+		</sheet>
+	</element>
+
+</elements>
