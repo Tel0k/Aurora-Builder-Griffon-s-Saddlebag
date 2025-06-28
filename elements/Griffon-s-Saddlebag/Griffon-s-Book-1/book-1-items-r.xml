@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Book 1: Magic Items R</name>
-		<description>The first published work</description>                             
+		<description>The first published work</description>
 		<update version="0.0.2">
 			<file name="book-1-items-r.xml" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag/Griffon-s-Book-1/book-1-items-r.xml" />
 		</update>
@@ -19,7 +19,7 @@
 			<set name="attunement">true</set>
 			<set name="rarity">Rare</set>
 		</setters>
-    </element>
+	</element>
 	<element name="Reap and Sew" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_REAP_AND_SEW" >
 		<description>
 			<p>You gain a +2 bonus to attack and damage rolls made with this magic weapon. While attuned to the weapon, you can cast the <i>mending</i> cantrip at will. A special, needle-like bolt is magically bound to the crossbow. When fired, the bolt leaves a faint thread of arcane energy behind it and deals force damage instead of piercing. The bolt returns to the crossbow and loads itself after each attack, ignoring the crossbow's normal loading property.</p>
@@ -59,7 +59,7 @@
 			<stat name="constitution" value="2"/>
 			<stat name="constitution:max" value="22"/>
 		</rules>
-    </element>
+	</element>
 	<element name="Relentless Bulwark" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_RELENTLESS_BULWARK" >
 		<description>
 			<p>This hefty metal shield is virtually impenetrable. The shield has 6 charges and regains 1d4 + 2 expended charges daily at dawn. While holding the shield, you can use an action to expend 1 of its charges to cast the <i>shield of faith</i> spell from it. Whenever you would fail a Constitution saving throw to maintain concentration on this spell, you can use your reaction to expend another charge from the shield to succeed on the saving throw instead. You can only use your reaction in this way if you're holding the shield.</p>
@@ -249,7 +249,7 @@
 			<set name="attunement">true</set>
 			<set name="rarity">Very Rare</set>
 		</setters>
-    </element>
+	</element>
 	<element name="Rocborne Robe" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_ROCBORNE_ROBE" >
 		<description>
 			<p>This warm canvas robe is lined with roc down. While wearing it, you can withstand temperatures as low as -50 degrees Fahrenheit. In addition, the cloak has 5 charges and regains 1d4 + 1 expended charges daily at dawn. While wearing the cloak, you can use an action to expend 1 of its charges and unfurl the robe. The robe opens into two large, stylized wings before flapping back down, buffeting the area in front of you and refolding into the robe. The wings create a line of wind 15 feet wide and 10 feet long in front of you, forcing any affected Medium or smaller creature within the area to make a DC 13 Strength saving throw. On a failure, a creature is pushed 10 feet away from you. At the same time, you are flung away, flying 10 feet backwards without provoking opportunity attacks.</p>
@@ -260,7 +260,7 @@
 			<set name="attunement">true</set>
 			<set name="rarity">Uncommon</set>
 		</setters>
-    </element>
+	</element>
 	<element name="Rocborne Rod" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_ROCBORNE_ROD" >
 		<description>
 			<p>This wooden rod is carved in the representation of five ancient rocs. Motes of their spirits flow through it and allow you to channel some of their lingering power</p>
