@@ -36,10 +36,10 @@
 		</description>	
 		<setters>
 			<set name="category">Wondrous Items</set>
-			<set name="type">Wondrous Item</set>.
+			<set name="type">Wondrous Item</set>
 			<set name="attunement">true</set>
 			<set name="rarity">Rare</set>
-		</setters>
+		</setters> 
     </element>
 	<element name="Pendant of the Tempered Fury" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_PENDANT_OFTHE_TEMPERED_FURY" >
 		<description>
@@ -114,7 +114,7 @@
 		</description>	
 		<setters>
 			<set name="category">Wondrous Items</set>
-			<set name="type">Wondrous Item</set>.
+			<set name="type">Wondrous Item</set>
 			<set name="slot">shoulders</set>
 			<set name="attunement">true</set>
 			<set name="rarity">Uncommon</set>
@@ -170,7 +170,7 @@
 		</description>	
 		<setters>
 			<set name="category">Wondrous Items</set>
-			<set name="type">Wondrous Item</set>.
+			<set name="type">Wondrous Item</set>
 			<set name="slot">head</set>
 			<set name="rarity">Rare</set>
 		</setters>
@@ -189,7 +189,7 @@
 			<set name="attunement">true</set>
 			<set name="rarity">Very Rare</set>
 		</setters>
-    </element>
+    </element> 
 	<element name="Pomade of Ten Thousand Styles" type="Magic Item" source="The Griffon's Saddlebag Book 1" id="ID_TGSB_B1_MAGIC_ITEM_POMADE_OF_TEN_THOUSAND_STYLES" >
 		<description>
 			<p>This canister of waxy pomade has magical properties, allowing you to change your hair's color, style, thickness, and length (up to 1 foot longer or shorter per use). The canister steadily replenishes its pomade over time. It can hold up to 4 uses at a time and regains 1d4 expended uses each day at dawn. Using 1 use of the pomade takes 1 minute.</p>
@@ -197,7 +197,7 @@
 		</description>	
 		<setters>
 			<set name="category">Wondrous Items</set>
-			<set name="type">Wondrous Item</set>.
+			<set name="type">Wondrous Item</set>
 			<set name="rarity">Rare</set>
 		</setters>
     </element>
@@ -283,7 +283,7 @@
 		</description>	
 		<setters>
 			<set name="category">Wondrous Items</set>
-			<set name="type">Wondrous Item</set>.
+			<set name="type">Wondrous Item</set>
 			<set name="rarity">Common</set>
 		</setters>
     </element>
@@ -330,7 +330,7 @@
 		</description>	
 		<setters>
 			<set name="category">Wondrous Items</set>
-			<set name="type">Wondrous Item</set>.
+			<set name="type">Wondrous Item</set>
 			<set name="rarity">Rare</set>
 		</setters>
     </element>

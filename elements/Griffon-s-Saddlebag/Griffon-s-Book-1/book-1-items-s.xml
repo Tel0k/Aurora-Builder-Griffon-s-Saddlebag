@@ -175,7 +175,7 @@
 			<set name="slot">misc</set>
 		</setters>
 		<rules>
-			<element name="Capacity Count As Larger Size" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_WEIGHT_CAPACITY_COUNTS_AS_LARGER" />
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_WEIGHT_CAPACITY_COUNTS_AS_LARGER" />
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE"/>
 			<stat name="strength" value="2"/>
 			<stat name="strength:max" value="22"/>
